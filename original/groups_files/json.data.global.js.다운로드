@@ -1,0 +1,2991 @@
+var propertyData = {};
+propertyData.global = {};
+propertyData.footer = {};
+
+propertyData.global.skip = '본문 바로가기';
+
+/* !layout */
+propertyData.global.hide_txt1 = 'PARADISE CITY';
+propertyData.global.hide_txt2 = '메인 메뉴 영역';
+propertyData.global.hide_txt3 = '본문 영역';
+propertyData.global.hide_txt4 = '하단 영역';
+// propertyData.global.hide_txt5 = '현재 파일 위치';
+
+// /* !location path */
+// propertyData.global.path_location1 = 'home';
+// propertyData.global.path_location2 = '여기다';
+// propertyData.global.path_location3 = '텍스트';
+// propertyData.global.path_location4 = '넣으면';
+// propertyData.global.path_location5 = '됩니다';
+
+propertyData.global.accessibility_current = '선택됨';
+propertyData.global.vital_txt = '필수 입력 항목';
+propertyData.global.calender_txt = '달력보기';
+propertyData.global.prev_txt = '이전글';
+propertyData.global.next_txt = '다음글';
+propertyData.global.accessibility_step = '현재 진행 단계';
+propertyData.global.won = '원';
+propertyData.global.day = '박';
+propertyData.global.peo = '명';
+propertyData.global.calendar = '일자별 최저가 알림 달력';
+propertyData.global.open_map = 'MAP 팝업 열림';
+propertyData.global.more_view = '더 보기';
+propertyData.global.total = '합계';
+propertyData.global.quantity = '수량';
+propertyData.global.count = '개';
+propertyData.global.exp_date = '유효 기간';
+
+
+propertyData.global.sch = '검색';
+propertyData.global.sch_txt = '검색어를 입력하세요';
+
+propertyData.global.paging01 = '처음 페이지로 이동';
+propertyData.global.paging02 = '이전 페이지로 이동';
+propertyData.global.paging03 = '다음 페이지로 이동';
+propertyData.global.paging04 = '마지막 페이지로 이동';
+
+/* !Buttons */
+propertyData.global.btn_confirm = '확인';
+// propertyData.global.btn_prev = '이전';
+propertyData.global.btn_close = '닫기';
+propertyData.global.btn_login = '로그인';
+propertyData.global.btn_more = 'MORE';
+propertyData.global.btn_overlap = '중복확인';
+propertyData.global.btn_prev = '이전';
+propertyData.global.btn_next = '다음';
+propertyData.global.btn_join = '회원가입';
+propertyData.global.btn_sch_id = '아이디/비밀번호 찾기';
+propertyData.global.btn_cancel = '취소';
+propertyData.global.btn_regis = '등록';
+propertyData.global.btn_drawing = '도면보기';
+propertyData.global.btn_img_down = '사진 다운로드';
+propertyData.global.btn_img_down02 = '다운로드';
+propertyData.global.btn_reserve = '예약문의';
+propertyData.global.btn_booking = '예약하기';
+propertyData.global.btn_menu = '메뉴 다운로드';
+propertyData.global.btn_detail_view = '자세히보기';
+propertyData.global.btn_question = '문의하기';
+propertyData.global.btn_sch = '검색';
+propertyData.global.btn_option = '옵션변경';
+propertyData.global.btn_res_cancel = '예약취소';
+propertyData.global.btn_list = '목록';
+propertyData.global.btn_buy_cancel = '구매취소';
+propertyData.global.btn_pay = '결제';
+propertyData.global.btn_modify = '수정';
+propertyData.global.btn_drop01 = '회원탈퇴신청';
+propertyData.global.btn_drop02 = '탈퇴신청';
+propertyData.global.btn_pw = '비밀번호변경';
+propertyData.global.btn_pw_edit = '비밀번호 수정';
+propertyData.global.btn_excel = '엑셀다운로드';
+propertyData.global.btn_print = '인쇄';
+propertyData.global.btn_rsv01 = '비회원예약';
+propertyData.global.btn_rsv02 = '회원예약';
+propertyData.global.btn_submit = 'SUBMIT';
+propertyData.global.btn_more02 = '추가';
+propertyData.global.btn_send = '발송';
+propertyData.global.btn_main = '메인';
+propertyData.global.btn_map = 'MAP 보기';
+propertyData.global.btn_detail_location = '자세히보기';
+propertyData.global.btn_select_option = '옵션 선택';
+propertyData.global.btn_save = '저장';
+propertyData.global.btn_rsv_request = '예약신청';
+
+/* !Slide */
+propertyData.global.slide_prev = '이전 이미지 보기';
+propertyData.global.slide_next = '다음 이미지 보기';
+propertyData.global.btn_slide01 = '첫번째 페이지';
+propertyData.global.btn_slide02 = '두번째 페이지';
+propertyData.global.btn_slide03 = '세번째 페이지';
+propertyData.global.btn_slide04 = '네번째 페이지';
+propertyData.global.btn_slide05 = '다섯번째 페이지';
+propertyData.global.btn_slide06 = '여섯번째 페이지';
+propertyData.global.btn_slide07 = '일곱번째 페이지';
+propertyData.global.btn_slide08 = '여덟번째 페이지';
+
+/* !title */
+propertyData.title = {};
+propertyData.title.news = 'NEWS';
+propertyData.title.news_desc = '파라다이스시티의 새로운 소식을 만나보세요';
+
+propertyData.title.login = '로그인';
+propertyData.title.login_desc = '파라다이스시티에 오신 것을 환영합니다.';
+
+propertyData.title.find_id = '아이디 / 비밀번호 찾기';
+propertyData.title.find_id_desc = '인증을 통해 아이디, 비밀번호를 찾을 수 있습니다.';
+
+propertyData.title.join = '회원가입';
+propertyData.title.join_desc = '파라다이스시티 회원에 가입하시면 호텔&amp;리조트 멤버십 회원만을 위한 다양한 혜택과 서비스를 누리실 수 있습니다.';
+
+propertyData.title.faq = 'FAQ';
+propertyData.title.faq_desc = '자주 문의하는 질문에 대한 답변을 확인하실 수 있습니다.';
+
+propertyData.title.contact = 'Contact Us';
+propertyData.title.contact_desc = '대표 전화번호 안내로 보다 빠른 서비스를 제공해 드립니다.';
+
+propertyData.title.aco_main_desc = '파라다이스시티만의 예술적 품격을 갖춘 객실에서 격이 다른 휴식과 여유를 경험해 보세요.';
+
+propertyData.title.inquiry = '1:1 문의';
+propertyData.title.inquiry_desc = '궁금한 사항을 문의주시면 빠른 시간내에 답변드립니다.';
+
+propertyData.title.tip = '월별 여행 TIP';
+propertyData.title.tip_desc = '파라다이스시티로의 즐거운 여행을 위한 시작, 월별 여행 정보입니다.';
+
+propertyData.title.membership = 'MY MEMBERSHIP';
+propertyData.title.membership_desc = 'PARADISE CITY 멤버십 정보 및 포인트를 확인할 수 있습니다.';
+
+propertyData.title.reservation = '예약내역';
+propertyData.title.reservation_desc = '예약내역을 확인해보실 수 있습니다.';
+
+propertyData.title.eshop = 'e-Shop 구매 내역';
+propertyData.title.eshop_desc = '파라다이스 시티 온라인 이용권 구매내역을 확인해보세요.';
+
+propertyData.title.benefit = 'BENEFIT';
+propertyData.title.benefit_desc = '파라다이스 시티의 Benefit 내역 입니다.';
+
+propertyData.title.qna = '문의내역';
+propertyData.title.qna_desc = '고객님께서 문의 하신 내역을 확인하세요.';
+
+propertyData.title.pw = '비밀번호확인';
+propertyData.title.pw_desc = '회원정보수정을 위해 비밀번호를 입력해주세요.';
+
+propertyData.title.member01 = '회원정보수정';
+propertyData.title.member01_desc = '회원정보수정을 하실 수 있습니다.';
+
+propertyData.title.member02 = '회원탈퇴신청';
+propertyData.title.member02_desc = 'PARADISE CITY 회원을 탈퇴하시겠습니까?';
+
+propertyData.title.fee01 = '가이드 회원 수수료 조회';
+propertyData.title.fee01_desc = '가이드님의 실적조회 입니다.';
+
+propertyData.title.fee02 = '여행사 수수료 조회';
+propertyData.title.fee02_desc = '가이드님의 실적조회 입니다.';
+
+propertyData.title.ticket = '이용권';
+propertyData.title.ticket_desc = '소중한 지인에게 전하는 격이 다른 선물, 파라다이스시티 e-Shop에서 구매하실 수 있습니다.';
+
+propertyData.title.gift = 'GIFT';
+propertyData.title.gift_desc = '소중한 지인에게 전하는 격이 다른 선물, 파라다이스시티 e-Shop에서 구매하실 수 있습니다.';
+
+propertyData.title.leo = 'LEO 프로그램';
+propertyData.title.leo_desc = '파라다이스시티와 함께 하는 체험형 프로그램';
+
+propertyData.title.course = '코스 관광';
+propertyData.title.course_desc = '파라다이스시티에서 엄선하여 추천하는 주요관광코스입니다.';
+
+propertyData.title.city_gallery_desc = '사계절 다채롭고 아름다운 파라다이스시티의 모습을 만나보세요.';
+
+propertyData.title.floor_map_desc = '파라다이스 시티의 층별 정보를 안내해 드립니다.';
+
+propertyData.title.art_collection_desc = '아트테인먼트 복합리조트, 파라다이스시티에서 격이 다른 예술 작품을 만나보세요.';
+
+propertyData.title.reservation02 = '예약';
+propertyData.title.reservation02_desc = '파라다이스 시티에서 이제껏 경험해보지 못한 여행의 새로운 품격을 경험해보세요';
+
+propertyData.title.travel = 'TRAVEL KOREA';
+propertyData.title.travel_desc = '한국관광공사에서 제공하는 대한민국 구석구석 관광지 정보 입니다.';
+
+propertyData.title.thema = '테마 관광';
+propertyData.title.thema_desc = '파라다이스시티에서 엄선하여 추천하는 주요관광지입니다.';
+
+propertyData.title.policy01 = '개인정보취급방침';
+propertyData.title.policy01_desc = '';
+
+propertyData.title.policy02 = '영상정보처리기기 설치 운영방침';
+propertyData.title.policy02_desc = '';
+
+propertyData.title.policy03 = '이용약관';
+propertyData.title.policy03_desc = '';
+
+propertyData.title.location = '찾아 오시는 길';
+propertyData.title.location_desc = '언제나 설레는 공항 가는 길, 인천공항 바로 옆에 파라다이스 시티가 있습니다.';
+
+propertyData.title.company = 'PARADISE SEGASAMMY';
+propertyData.title.company_desc = '관광 산업을 통해 국가경제에 기여하는 파라다이스';
+
+propertyData.title.event_desc = '격이 다른 파라다이스시티 상품을 만나보세요';
+
+propertyData.title.cas01 = '이용안내';
+propertyData.title.cas01_desc = '파라다이스시티 카지노는 연중 무휴 24시간 운영됩니다.';
+
+propertyData.title.cas02 = '운영게임';
+propertyData.title.cas02_desc = '파라다이스시티에서 즐길 수 있는 게임입니다.';
+
+propertyData.title.cas03 = '시설안내';
+propertyData.title.cas03_desc = '파라다이스 시티에서 즐길 수 있는 시설을 소개합니다.';
+
+propertyData.title.cas04 = '서비스 안내도';
+propertyData.title.cas04_desc = '파라다이스 시티 카지노의 안내도를 확인하세요.';
+
+propertyData.title.hotel_mem_desc = '파라다이스 로텔&amp;리조트 멤버십으로 품격 있는 라이프스타일을 경험하세요.';
+propertyData.title.cas_mem_desc = 'K-Style 프리미엄 외국인 전용 카지노에서 다양한 혜택을 담은 카지노 멤버십을 제안합니다';
+
+propertyData.title.wedding_desc = '인생의 가장 행복한 순간, 파라다이스시티와 함께하세요';
+
+propertyData.title.family_evt_desc = '품격 있는 공간에서 소중한 사람들과 함께하는 특별한 순간';
+
+propertyData.title.pcity_desc = '동양과 서양, 과거∙현재∙미래가 소통하는 곳. <br>휴식과 여유의 시간, 예술적 충전, 다이나믹한 엔터테인먼트까지 <br>다양한 시설이 조각보처럼 어우러져 한번에 모든 것을 누릴 수 있는 창조적 공간. <br>여행의 품격이 다른 최초의 아트테인먼트 복합 리조트, 파라다이스시티로 여러분을 초대합니다.';
+propertyData.title.pcity_hotel_desc = '고급스럽고 넓은 공간의 객실과 트렌디한 레스토랑, 클럽 라운지를 보유한<br>세계 정상급 호텔에서 느낄 수 있는 예술적 품격과 여유를 느낄 수 있는 컨템포러리 라이프 스타일의 럭셔리 호텔입니다. ';
+propertyData.title.pcity_cas_desc = '품격 높은 시설과 서비스를 바탕으로 한국을 방문하는 관광객들에게 잊지 못할 추억을 제공해 온 <br>파라다이스 그룹이 만든 대한민국 최고, 최대 규모의 외국인 전용 카지노입니다';
+propertyData.title.pcity_cov_desc = '국내 특급호텔 기준 최대 규모의 최신식 컨벤션으로, 국제회의, 기업행사, 전시, 이벤트, 웨딩 등 <br>다양한 행사를 개최할 수 있는 최적의 MICE 공간입니다.';
+
+propertyData.title.plaza_desc = '문화∙예술, 쇼퍼테인먼트, 미디어아트가 어우러진 르네상스 스페이스';
+propertyData.title.boutique_hotel_desc = '세련된 컨템퍼러리 라이프 스타일을 경험할 수 있는 예술 공간, 럭셔리 부티크 호텔';
+propertyData.title.spa_desc = '럭셔리한 스파와 한국만의 휴식문화가 융합된 신개념 힐링 스팟';
+propertyData.title.art_gallery_desc = '해외 유명 작가의 작품과 K-ART를 모두 경험할 수 있는 ART-TAINMENT CITY GALLERY';
+propertyData.title.club_desc = '다양한 장르의 클러빙을 즐길 수 있는 아시아의 HOT DESTINATION';
+propertyData.title.sandbox_desc = '상상을 자극하는 초현실적인 공간에서 즐기는 색다른 경험';
+propertyData.title.culture_zone_desc = '한류 문화를 직접 체험하는 복합 문화 시설이자 신진 아티스트 육성 공간';
+
+propertyData.title.ir = 'IR 게시판';
+propertyData.title.ir_desc = '파라다이스 시티는 투자자 여러분께 최대의 가치를 제공하겠습니다';
+
+propertyData.title.jackpot = 'Jackpot Story';
+propertyData.title.jackpot_desc = '파라다이스 시티 카지노의 슬롯머신 메가 잭팟 당첨 내역을 알려드립니다';
+
+propertyData.title.sitemap = 'SITE MAP';
+propertyData.title.sitemap_desc = '파라다이스 시티 전체 메뉴를 보여드립니다.';
+
+
+/*! 약관*/
+propertyData.global.policy_select = '날짜 선택';
+
+
+/*! 시설 */
+propertyData.global.open_drawing = '도면 팝업 열림';
+propertyData.global.open_channel = '위성채널정보 팝업 열림';
+propertyData.global.view_large = '이미지 크게보기';
+propertyData.global.fac_tit01 = '상세정보';
+propertyData.global.fac_tit02 = '서비스 정보';
+propertyData.global.fac_tit03 = '제공업체';
+propertyData.global.fac_tit04 = '시설규격';
+propertyData.global.fac_tit05 = '객실 서비스';
+propertyData.global.fac_tit06 = '어메니티';
+propertyData.global.fac_tit07 = '정상가';
+propertyData.global.fac_tit08 = '체크인/체크아웃';
+propertyData.global.fac_tit09 = '영업시간';
+propertyData.global.fac_tit10 = '규모';
+propertyData.global.fac_tit11 = '위치';
+propertyData.global.fac_tit12 = '요금';
+propertyData.global.fac_tit13 = '영업안내';
+propertyData.global.fac_tit14 = '보유장비';
+propertyData.global.fac_tit15 = '세부시설';
+propertyData.global.btn_room_slide01 = '첫 번째 객실 사진보기';
+propertyData.global.btn_room_slide02 = '두 번째 객실 사진보기';
+propertyData.global.btn_room_slide03 = '세 번째 객실 사진보기';
+propertyData.global.btn_room_slide04 = '네 번째 객실 사진보기';
+propertyData.global.btn_room_slide05 = '다섯 번째 객실 사진보기';
+propertyData.global.btn_room_slide06 = '여섯 번째 객실 사진보기';
+propertyData.global.btn_room_slide07 = '일곱 번째 객실 사진보기';
+propertyData.global.btn_room_slide08 = '여덟 번째 객실 사진보기';
+propertyData.global.btn_room_slide09 = '아홉 번째 객실 사진보기';
+propertyData.global.btn_room_slide10 = '열 번째 객실 사진보기';
+propertyData.global.btn_satellite_channel = '위성채널정보';
+propertyData.global.btn_room_service = '룸서비스메뉴';
+propertyData.global.room_prev = '이전 객실 보기';
+propertyData.global.room_next = '다음 객실 보기';
+propertyData.global.provider_title = '임페리얼 트레저';
+propertyData.global.provider_alt = '임페리얼 트레저 로고 이미지';
+// propertyData.global.provider_txt = '뛰어난 서비스와 명품 요리로 유명한 Imperial Treasure의 명성은 아시아 전체에 알려져 있습니다. <br>품격 있는 고객에게 아시아 최고의 요리를 선사합니다.';
+propertyData.global.provider_txt = 'Imperial Treasure는 2004년 싱가폴에서 시작하여 업계 최고의 쉐프와 베테랑 스태프들로 구성된 최고급 Fine Dining Cuisine입니다. <br>뛰어난 서비스와 명품 요리로 품격을 갖춘 고객에게 아시아 최고의 정통 중국 요리를 선사합니다.';
+
+/*! 객실 */
+propertyData.global.aco_tit01 = 'DELUXE';
+propertyData.global.aco_tit02 = 'SUITE';
+propertyData.global.aco_tit03 = 'POOL VILLA';
+propertyData.global.aco_reserve = '예약하기';
+propertyData.global.aco_link = '상세보기';
+/*! Wedding */
+propertyData.global.cov_th01 = '구분';
+propertyData.global.cov_th02 = '가로 x 세로 x 높이';
+propertyData.global.cov_th03 = '면적(㎡)';
+propertyData.global.cov_th04 = 'Capacity';
+propertyData.global.cov_th05 = 'ROUND';
+propertyData.global.cov_th06 = 'CLASS';
+propertyData.global.cov_th07 = 'U SHAPE';
+propertyData.global.cov_th08 = 'I SHAPE';
+propertyData.global.cov_th09 = 'HOLLOW';
+propertyData.global.cov_th10 = 'THEATRE';
+propertyData.global.cov_th11 = '그랜드 볼룸 전체';
+propertyData.global.cov_th12 = '섹션 A';
+propertyData.global.cov_th13 = '섹션 B';
+propertyData.global.cov_th14 = '섹션 C';
+propertyData.global.cov_th15 = 'Foyer';
+propertyData.global.cov_th16 = '메인스테이지';
+propertyData.global.cov_caption = '구분, 가로/세로/높이, 면적(㎡), Capacity(ROUND, CLASS, U SHAPE, I SHAPE, HOLLOW, THEATRE)';
+
+
+propertyData.etc = {};
+/* ! FAQ */
+propertyData.etc.faq_sch = '검색';
+propertyData.etc.faq_sch02 = '검색어를 입력하세요';
+propertyData.etc.faq_sch03 = 'Search';
+propertyData.etc.faq_txt01 = '질문';
+propertyData.etc.faq_txt02 = '답변';
+propertyData.etc.faq_txt03 = '에 대한 검색결과가 없습니다.';
+propertyData.etc.faq_txt04 = '단어의 철자가 정확한지 확인해 보세요.<br> 한글을 영어로 혹은 영어를 한글로 입력했는지 확인해 보세요.<br>검색어의 단어 수를 줄이거나, 보다 일반적인 검색어로 다시 검색해 보세요.';
+propertyData.etc.faq_nav01 = 'Total';
+propertyData.etc.faq_nav02 = 'Accommodations';
+propertyData.etc.faq_nav03 = 'Dining';
+propertyData.etc.faq_nav04 = 'Convention';
+propertyData.etc.faq_nav05 = 'Casino';
+propertyData.etc.faq_nav06 = 'Membership';
+propertyData.etc.faq_nav07 = 'Etc.';
+
+/* ! Contact Us */
+propertyData.etc.contact_th01 = '대표 전화번호 안내 : 구분, 상세구분, 연락처';
+propertyData.etc.contact_th02 = '구분';
+propertyData.etc.contact_th03 = '상세구분';
+propertyData.etc.contact_th04 = '연락처';
+propertyData.etc.contact_th05 = '대표 콜센터';
+propertyData.etc.contact_th06 = '호텔';
+propertyData.etc.contact_th07 = '레스토랑';
+propertyData.etc.contact_th08 = '카지노';
+propertyData.etc.contact_th09 = '컨벤션';
+
+/* ! 1:1 문의 */
+propertyData.etc.inquiry_txt01 = '필수 입력 항목입니다.';
+propertyData.etc.inquiry_txt02 = '1:1 문의 입력 폼 : 이름, 이메일, 휴대폰번호, 질문유형, 제목, 내용';
+propertyData.etc.inquiry_txt03_01= '이름';
+propertyData.etc.inquiry_txt03_02 = '이름 입력';
+propertyData.etc.inquiry_txt04_01 = '이메일';
+propertyData.etc.inquiry_txt04_02 = '이메일 입력';
+propertyData.etc.inquiry_txt05_01 = '휴대폰 번호';
+propertyData.etc.inquiry_txt05_02 = '휴대 전화 앞자리 선택';
+propertyData.etc.inquiry_txt05_03 = '휴대 전화';
+propertyData.etc.inquiry_txt06_01 = '질문유형';
+propertyData.etc.inquiry_txt06_02 = '질문유형 선택';
+propertyData.etc.inquiry_txt07_01 = '제목';
+propertyData.etc.inquiry_txt07_02 = '제목 입력';
+propertyData.etc.inquiry_txt08_01 = '내용';
+propertyData.etc.inquiry_txt08_02 = '내용 입력';
+propertyData.etc.inquiry_txt09 = '필수적 개인정보 수집 및 이용에 대한 동의';
+propertyData.etc.inquiry_txt10_01 = '동의하지 않음';
+propertyData.etc.inquiry_txt10_02 = '동의함';
+
+propertyData.etc.inquiry_sel01 = '고객의견(칭찬·불만)접수';
+propertyData.etc.inquiry_sel02 = '이용문의관련';
+propertyData.etc.inquiry_sel03 = '기타관련';
+
+propertyData.evt = {};
+
+/*! EVENT & OFFERS */
+propertyData.evt.special_offers01 = '[35주년 기념]';
+propertyData.evt.special_offers02 = '가을의 어느 멋진 주말';
+propertyData.evt.special_offers_txt01 = '상기 패키지는 홈페이지 / 전화 예약에 한하여 이용가능 합니다.';
+propertyData.evt.special_offers_txt02 = '예약문의';
+propertyData.evt.special_offers_txt03 = '문의 및 예약 : ';
+
+propertyData.evt.evt_tab01 = '진행 중';
+propertyData.evt.evt_tab02 = '종료';
+propertyData.evt.evt_txt01 = '상시';
+propertyData.evt.evt_txt02 = '선택하신 조건에 맞는';
+propertyData.evt.evt_txt03 = '가 없습니다';
+propertyData.evt.evt_txt04 = '상담을 원하시는 경우 고객센터로 연락해주시기 바랍니다.';
+propertyData.evt.evt_txt05 = '고객센터 : 1833-8855';
+
+
+
+
+
+propertyData.utl = {};
+
+/* !아이디찾기 */
+propertyData.utl.find_id = '아이디 찾기';
+propertyData.utl.find_id01 = '회원님의 아이디는';
+propertyData.utl.find_id02 = '입니다';
+
+/* !회원가입 완료 */
+propertyData.utl.complete_membership01 = '님';
+propertyData.utl.complete_membership02 = '파라다이스시티 호텔&amp;리조트 멤버십 회원이 되신 것을 축하드립니다.';
+propertyData.utl.complete_membership03 = '회원번호 : ';
+propertyData.utl.complete_membership04 = '지금부터 파라다이스시티 호텔&리조트 멤버십 회원으로서 아래와 같은 서비스를 이용하실 수 있습니다.';
+propertyData.utl.complete_membership05 = '파라다이스시티의 각종 이벤트 소식과 e-Newsletter 수신';
+propertyData.utl.complete_membership06 = '편리한 ONE-STOP 온라인 예약내역 관리';
+propertyData.utl.complete_membership07 = '다양한 온라인 이벤트 참여';
+propertyData.utl.complete_membership08 = '회원가입에 감사드리며, 회원님께 격이 다른 서비스로 보답하겠습니다.';
+
+/* !아이디/비밀번호 찾기 */
+propertyData.utl.sch_id = '아이디 찾기';
+propertyData.utl.sch_pw = '비밀번호 찾기';
+propertyData.utl.rad_mail = '이메일 수신';
+propertyData.utl.rad_phone = '휴대폰 수신';
+propertyData.utl.txt_sch01_01 = '이름';
+propertyData.utl.txt_sch01_02 = '휴대 전화 앞자리 선택';
+propertyData.utl.txt_sch01_03 = '휴대 전화';
+propertyData.utl.txt_sch02_01 = '아이디';
+propertyData.utl.txt_sch02_02 = '이메일';
+
+/* !로그인 */
+propertyData.utl.txt_login01 = '아직 회원이 아니신가요?';
+propertyData.utl.txt_login02 = '회원이 되시면 파라다이스시티 호텔&amp;리조트 멤버쉽 <br>회원으로서 더 큰 혜택과 편리함을 누리실 수 있습니다.';
+propertyData.utl.txt_login02_02 = '온라인 회원으로서 더 큰 혜택과 편리함을 <br>누리실 수 있습니다.';
+propertyData.utl.txt_login03 = '아이디와 비밀번호를 잊으셨나요?';
+propertyData.utl.txt_login04 = 'e-mail 인증 또는 휴대폰 SMS 인증을 통하여 <br>아이디/비밀번호를 확인하실 수 있습니다.';
+propertyData.utl.txt_login05_01 = '아이디';
+propertyData.utl.txt_login05_02 = '비밀번호';
+propertyData.utl.txt_login_rad01 = '회원';
+propertyData.utl.txt_login_rad02 = '비회원(예약확인)';
+
+propertyData.utl.txt_login06_01 = '예약번호';
+propertyData.utl.txt_login06_02 = '이름';
+propertyData.utl.txt_login06_03 = '휴대전화 통신사 선택';
+propertyData.utl.txt_login06_04 = '휴대전화 가운데 번호';
+propertyData.utl.txt_login06_05 = '휴대전화 마지막 번호';
+
+/* !회원가입 - 탭 */
+propertyData.utl.txt_tab01 = '약관동의';
+propertyData.utl.txt_tab02 = '본인인증';
+propertyData.utl.txt_tab03 = '정보입력';
+propertyData.utl.txt_tab04 = '가입완료';
+
+/* !회원가입 - step01 */
+propertyData.utl.txt_step01 = '홈페이지 회원 이용약관 (필수)';
+propertyData.utl.txt_step02 = '필수 개인정보수집 및 이용에 대한 동의 (필수)';
+propertyData.utl.txt_step03 = '선택적 개인정보수집 및 이용에 대한 동의 (선택)';
+propertyData.utl.txt_step04 = '개인정보 취급 위탁 동의';
+propertyData.utl.txt_step05 = '개인정보의 마케팅 활용에 관한 사항 동의 (선택)';
+propertyData.utl.txt_step01_rad01 = '동의하지 않음';
+propertyData.utl.txt_step01_rad02 = '동의함';
+
+propertyData.utl.txt_step01_01 = '전체약관 동의';
+propertyData.utl.txt_step01_02 = '홈페이지 회원 이용약관 및 개인정보 수집 및 이용에 대한 동의를 읽었으며, 아래 내용에 모두 동의합니다.';
+propertyData.utl.txt_step01_03 = '전체 동의';
+
+/* !회원가입 - step02 */
+propertyData.utl.txt_step02_01 = '이메일 인증';
+propertyData.utl.txt_step02_02 = '이메일 인증';
+propertyData.utl.txt_step02_03 = '이메일 인증이란?';
+propertyData.utl.txt_step02_04 = '입력하신 이메일로 보내드린 인증 링크를 통해 회원가입을 진행할 수 있습니다.<br>인증 링크는 최대 1일(24시간) 유효하며, 유효시간이 경과된 경우 이메일 인증을 재시도해 주시기 바랍니다.';
+propertyData.utl.txt_step02_05 = '휴대폰 인증';
+propertyData.utl.txt_step02_06 = '인증번호 재요청';
+propertyData.utl.txt_step02_07 = '인증번호 확인';
+propertyData.utl.txt_step02_08 = '남은 시간';
+propertyData.utl.txt_step02_09 = '초';
+propertyData.utl.txt_step02_10 = '휴대폰 인증이란?';
+propertyData.utl.txt_step02_11 = '입력하신 휴대폰으로 인증 코드가 발송됩니다. 발송된 인증 코드를 입력하여 <br>회원가입을 진행할 수 있습니다.<br>인증 코드의 유효기간은 5분이며, 유효시간이 경과된 경우 휴대폰 인증을 <br>재시도해 주시기 바랍니다.';
+propertyData.utl.txt_step02_12 = '휴대 전화 앞자리 선택';
+propertyData.utl.txt_step02_13 = '휴대 전화';
+propertyData.utl.txt_step02_14 = '국가 선택';
+propertyData.utl.txt_step02_15 = '인증번호 입력';
+propertyData.utl.txt_step02_16 = '인증번호 요청';
+
+/* !회원가입 - step03 */
+propertyData.utl.txt_step03_01 = '아이디 및 비밀번호';
+propertyData.utl.txt_step03_02 = '필수 입력 항목입니다.';
+propertyData.utl.txt_step03_03 = '아이디 및 비밀번호 입력 폼 : 아이디, 비밀번호, 비밀번호 확인';
+propertyData.utl.txt_step03_04 = '아이디';
+propertyData.utl.txt_step03_05 = '아이디';
+propertyData.utl.txt_step03_06 = 'PARADISE CITY에서는 이메일을 ID로 사용합니다.';
+propertyData.utl.txt_step03_07 = '비밀번호';
+propertyData.utl.txt_step03_08 = '비밀번호';
+propertyData.utl.txt_step03_09 = '영문, 숫자, 특수 기호 조합으로 8~16자 이내로 입력해주세요.';
+propertyData.utl.txt_step03_10 = '비밀번호 확인';
+propertyData.utl.txt_step03_11 = '비밀번호 확인';
+propertyData.utl.txt_step03_12 = '기본 정보';
+propertyData.utl.txt_step03_13 = '기본 정보 입력 폼 : 이름(한글), 이름(영문), 생년월일, 휴대폰 번호, 주소, 이메일';
+propertyData.utl.txt_step03_14 = '이름(한글)';
+propertyData.utl.txt_step03_15 = '이름(한글)';
+propertyData.utl.txt_step03_16 = '이름(영문)';
+propertyData.utl.txt_step03_17 = '성별 선택';
+propertyData.utl.txt_step03_18 = 'First Name(이름)';
+propertyData.utl.txt_step03_19 = 'Last Name(성)';
+propertyData.utl.txt_step03_20 = '생년월일';
+propertyData.utl.txt_step03_21 = '년도 선택';
+propertyData.utl.txt_step03_22 = '월 선택';
+propertyData.utl.txt_step03_23 = '일 선택';
+propertyData.utl.txt_step03_24 = '휴대폰 번호';
+propertyData.utl.txt_step03_25 = '휴대 전화 앞자리 선택';
+propertyData.utl.txt_step03_26 = '휴대 전화';
+propertyData.utl.txt_step03_27 = '주소';
+propertyData.utl.txt_step03_28 = '우편번호';
+propertyData.utl.txt_step03_29 = '우편번호 검색';
+propertyData.utl.txt_step03_30 = '상세주소';
+propertyData.utl.txt_step03_31 = '이메일';
+propertyData.utl.txt_step03_32 = '이메일';
+propertyData.utl.txt_step03_33 = '@daum.net, @hanmail.net 수신에 제한이 있을 수 있으니, 다른 이메일을 사용 바랍니다.';
+propertyData.utl.txt_step03_34 = '마케팅 정보 수신 동의';
+propertyData.utl.txt_step03_35 = '마케팅 정보 수신 동의 입력 폼 : 전체동의, 이메일, SMS, 휴대전화, PUSH';
+propertyData.utl.txt_step03_36 = '수신 동의';
+propertyData.utl.txt_step03_37 = '전체 동의';
+propertyData.utl.txt_step03_38 = '이메일';
+propertyData.utl.txt_step03_39 = 'SMS';
+propertyData.utl.txt_step03_40 = '휴대전화';
+propertyData.utl.txt_step03_41 = 'PUSH';
+propertyData.utl.txt_step03_42 = '포인트/이벤트 소식을 전해드립니다. (예약 및 구매 관련 발송 내역은 제외)';
+propertyData.utl.txt_step03_43 = '선택 정보';
+propertyData.utl.txt_step03_44 = '선택 정보 입력 폼 : 결혼 기념일, 직업, 관심분야';
+propertyData.utl.txt_step03_45 = '결혼 기념일';
+propertyData.utl.txt_step03_46 = '년도 선택';
+propertyData.utl.txt_step03_47 = '월 선택';
+propertyData.utl.txt_step03_48 = '일 선택';
+propertyData.utl.txt_step03_49 = '직업';
+propertyData.utl.txt_step03_50 = '직업선택';
+propertyData.utl.txt_step03_51 = '관심분야';
+propertyData.utl.txt_step03_52 = '휴양';
+propertyData.utl.txt_step03_53 = '레저';
+propertyData.utl.txt_step03_54 = '쇼핑';
+propertyData.utl.txt_step03_55 = '다이닝';
+propertyData.utl.txt_step03_56 = '스포츠';
+propertyData.utl.txt_step03_57 = '엔터테인먼트';
+propertyData.utl.txt_step03_58 = '인테리어';
+propertyData.utl.txt_step03_59 = '웨딩';
+propertyData.utl.txt_step03_60 = '육아';
+propertyData.utl.txt_step03_61 = '스파';
+propertyData.utl.txt_step03_62 = '음악';
+propertyData.utl.txt_step03_63 = '도서';
+propertyData.utl.txt_step03_64 = '패션';
+
+//영문추가
+propertyData.global.vital_en_txt = '필수 입력 항목';
+propertyData.utl.en_txt_step03_65 = '기본 정보 입력 폼 : 이름, 생년월일, 휴대폰 번호, Country, Address, City/Town, State/Province, Zip, Email';
+propertyData.utl.en_txt_step03_66 = '이름';
+propertyData.utl.en_txt_step03_67 = '성별 선택';
+propertyData.utl.en_txt_step03_68 = 'First Name(이름)';
+propertyData.utl.en_txt_step03_69 = 'Last Name(성)';
+propertyData.utl.en_txt_step03_70 = '생년월일';
+propertyData.utl.en_txt_step03_71 = '년도';
+propertyData.utl.en_txt_step03_72 = '월';
+propertyData.utl.en_txt_step03_73 = '일';
+propertyData.utl.en_txt_step03_74 = '휴대폰 번호';
+propertyData.utl.en_txt_step03_75 = '국가선택';
+propertyData.utl.en_txt_step03_76 = '휴대 전화';
+propertyData.utl.en_txt_step03_77 = 'USA 1, CHINA 86, JAPAN 81';
+propertyData.utl.en_txt_step03_78 = 'Country';
+propertyData.utl.en_txt_step03_79 = 'Address';
+propertyData.utl.en_txt_step03_80 = 'Address Line1';
+propertyData.utl.en_txt_step03_81 = 'Address Line2';
+propertyData.utl.en_txt_step03_82 = 'City/Town';
+propertyData.utl.en_txt_step03_83 = 'State/Province';
+propertyData.utl.en_txt_step03_84 = 'Zip';
+propertyData.utl.en_txt_step03_85 = 'Email';
+propertyData.utl.en_txt_step03_86 = '@daum.net, @hanmail.net 수신에 제한이 있을 수 있으니, 다른 이메일을 사용 바랍니다.';
+propertyData.utl.en_txt_step03_87 = '';
+propertyData.utl.en_txt_step03_88 = '';
+propertyData.utl.en_txt_step03_89 = '';
+
+
+
+/* !예약문의 팝업 */
+propertyData.pop = {};
+propertyData.pop.title_inq = '예약문의';
+propertyData.pop.txt_inq01 = '문의하신 내용 답변은 접수하신 이메일과 My PARADISE에서 확인 가능합니다.';
+propertyData.pop.txt_inq02 = '필수 입력';
+propertyData.pop.txt_inq03 = '1:1 문의 입력 폼 : 이름, 이메일, 휴대폰번호, 질문유형, 제목, 내용';
+propertyData.pop.txt_inq04_01 = '이름';
+propertyData.pop.txt_inq04_02 = '이름 입력';
+propertyData.pop.txt_inq_hide = '필수 입력 항목';
+propertyData.pop.txt_inq05_01 = '이메일';
+propertyData.pop.txt_inq05_02 = '이메일 입력';
+propertyData.pop.txt_inq06_01 = '휴대폰 번호';
+propertyData.pop.txt_inq06_02 = '휴대 전화 앞자리 선택';
+propertyData.pop.txt_inq06_03 = '휴대 전화';
+propertyData.pop.txt_inq07_01 = '질문유형';
+propertyData.pop.txt_inq07_02 = '질문유형 선택';
+propertyData.pop.txt_inq08_01 = '제목';
+propertyData.pop.txt_inq08_02 = '제목 입력';
+propertyData.pop.txt_inq09_01 = '내용';
+propertyData.pop.txt_inq09_02 = '내용 입력';
+propertyData.pop.txt_inq10 = '개인정보 수집 및 이용에 대한 동의(필수)';
+
+propertyData.pop.txt_inq_rad01 = '동의하지 않음';
+propertyData.pop.txt_inq_rad02 = '동의함';
+
+propertyData.pop.txt_inq11 = '관련업장';
+propertyData.pop.txt_inq12 = '날짜';
+propertyData.pop.txt_inq13 = '시간';
+propertyData.pop.txt_inq14 = '인원';
+propertyData.pop.txt_inq15 = '행사구분';
+propertyData.pop.txt_inq16 = '행사명';
+propertyData.pop.txt_inq17 = '행사장';
+propertyData.pop.txt_inq18 = '인원';
+propertyData.pop.txt_inq19 = '날짜';
+propertyData.pop.txt_inq20 = '테이블 배치';
+propertyData.pop.txt_inq21 = '필요장비';
+propertyData.pop.txt_inq22 = '멤버십구분';
+propertyData.pop.txt_inq23 = '시설';
+propertyData.pop.txt_inq24 = '시간';
+propertyData.pop.txt_inq25 = '시';
+propertyData.pop.txt_inq26 = '분';
+
+
+propertyData.pop.title_drawing = '도면';
+propertyData.pop.title_channel = '위성채널정보';
+
+/* !예약문의 팝업 */
+propertyData.pop.txt_rsv01 = '옵션 변경 및 예약 취소';
+propertyData.pop.txt_rsv02 = '옵션 예약 정보';
+propertyData.pop.txt_rsv03 = '옵션상품의 수량 변경 또는 옵션상품을 취소할 수 있습니다.';
+propertyData.pop.txt_rsv04 = '옵션 예약 정보 : 침대, 조식';
+propertyData.pop.txt_rsv05 = '유료';
+propertyData.pop.txt_rsv06 = '무료';
+propertyData.pop.txt_rsv07 = '옵션 예약 정보 : 조식 추가';
+propertyData.pop.txt_rsv08 = '조식 추가';
+propertyData.pop.txt_rsv09 = '상기 성인 조식 요금은 홈페이지 사전 예약에 한하며, <br>체크인 이후 이용시는 정상 요금(42,000원/세금 포함)이 적용됩니다.';
+propertyData.pop.txt_rsv10 = '결제금액';
+propertyData.pop.txt_rsv11 = '결제금액 : 취소 상품, 추가 상품, 전체 합계';
+propertyData.pop.txt_rsv12 = '취소 상품';
+propertyData.pop.txt_rsv13 = '추가 상품';
+propertyData.pop.txt_rsv14 = '전체 합계';
+propertyData.pop.txt_rsv15 = '옵션 상품 변경에 따른 결제 안내';
+propertyData.pop.txt_rsv16 = '예약 시 결제한 금액에서 차감되는 경우 신용카드는 부분 취소, 계좌이체는 부분 환급을 진행합니다.';
+propertyData.pop.txt_rsv17 = '(* 해당 금융사 및 카드사의 사정에 따라 최대 2일이 소요될 수 있습니다.)';
+propertyData.pop.txt_rsv18 = '예약 시 결제한 금액보다 추가 금액이 발생한 경우, 추가 결제를 진행하셔야 합니다.';
+propertyData.pop.txt_rsv19 = '결제정보 선택';
+propertyData.pop.txt_rsv20 = '결제정보 선택 : 사용 가능 포인트, 결제 방식';
+propertyData.pop.txt_rsv21 = '사용 가능 포인트';
+propertyData.pop.txt_rsv22 = '결제 방식';
+propertyData.pop.txt_rsv23 = '신용카드';
+propertyData.pop.txt_rsv24 = '계좌이체';
+propertyData.pop.txt_rsv25 = 'PARADISE CITY <br> 사용 가능 포인트 입니다.';
+propertyData.pop.txt_rsv26 = '옵션 변경이 완료되었습니다.';
+propertyData.pop.txt_rsv27 = '예약번호 :';
+propertyData.pop.txt_rsv28 = '옵션 예약 정보';
+propertyData.pop.txt_rsv29 = '옵션 예약 정보 : 침대, 조식';
+propertyData.pop.txt_rsv30 = '침대';
+propertyData.pop.txt_rsv31 = '조식';
+propertyData.pop.txt_rsv32 = '침대추가';
+propertyData.pop.txt_rsv33 = '어른 조식';
+propertyData.pop.txt_rsv34 = '어린이 조식';
+propertyData.pop.txt_rsv35 = '사용가능';
+
+
+propertyData.pop.txt_coupon01 = '쿠폰 상세';
+propertyData.pop.txt_coupon02 = '유효기간';
+propertyData.pop.txt_coupon03 = '사용 매장';
+propertyData.pop.txt_coupon04 = '사용 조건';
+propertyData.pop.txt_coupon05 = '사용 정보';
+propertyData.pop.txt_coupon06 = '사용 정보 : 사용 일시, 사용 매장';
+propertyData.pop.txt_coupon07 = '사용 일시';
+propertyData.pop.txt_coupon08 = '사용 매장';
+propertyData.pop.txt_coupon09 = 'QR 코드';
+propertyData.pop.txt_coupon10 = '해당 쿠폰은 유효기간이 경과되어 사용하실 수 없습니다.';
+
+propertyData.pop.txt_coupon11 = 'Concierge App 을 설치 후 PARADISE CITY HOTEL SPA 방문하여 해당 쿠폰을<br>제시하시면, 추가 이용료 없이 무료로 SPA를 이용할 수 있습니다.';
+propertyData.pop.txt_coupon12 = '설치 방법 : 아래 Concierge App Download 를 참고해주세요.';
+propertyData.pop.txt_coupon13 = '해당 쿠폰은 유효기간이 경과되어 사용하실 수 없습니다.';
+
+
+propertyData.pop.txt_course01 = '관광 안내';
+propertyData.pop.txt_course02 = '위치 안내';
+
+/* !메일보내기 팝업 */
+propertyData.pop.txt_mail01 = '수신자(받는분)';
+propertyData.pop.txt_mail02 = '메일발송은 1회당 최대 3명까지 가능합니다.';
+propertyData.pop.txt_mail03 = '수신자(받는분) : 이름, 이메일';
+propertyData.pop.txt_mail04 = '이름';
+propertyData.pop.txt_mail05 = '이메일';
+propertyData.pop.txt_mail06 = '수신자(받는분) : 이름, 이메일';
+propertyData.pop.txt_mail07 = '발신자(보내는분)';
+propertyData.pop.txt_mail08 = '수신자와동일';
+propertyData.pop.txt_mail09 = '발신자(보내는분)) : 이름, 이메일';
+propertyData.pop.txt_mail10 = '메일보내기';
+propertyData.pop.txt_mail11 = '추가하기';
+propertyData.pop.txt_mail12 = '빼기';
+
+/* !예약 취소' 팝업 */
+propertyData.pop.txt_rsv_cancel01 = '예약 취소';
+propertyData.pop.txt_rsv_cancel02 = '예약 취소 정책';
+propertyData.pop.txt_rsv_cancel03 = '결제 취소 안내';
+propertyData.pop.txt_rsv_cancel04 = '결제 취소 안내: 결제 금액, 예약 취소 수수료, 전체 합계';
+propertyData.pop.txt_rsv_cancel05 = '결제 금액';
+propertyData.pop.txt_rsv_cancel06 = '예약 취소 수수료';
+propertyData.pop.txt_rsv_cancel07 = '전체 합계';
+propertyData.pop.txt_rsv_cancel08 = '수수료 결제 안내';
+propertyData.pop.txt_rsv_cancel09 = '상품 결제 시 결제한 결제 방법으로 해당 결제금액에서 예약 취소 수수료를 제외한 금액을 승인 취소<br>또는 계좌이체로 환급하여 드립니다.<br> (해당 금융사 및 카드사에 따라 최대 2일이 소요 될 수 있습니다.)';
+
+/* !예약 MICE 팝업 */
+propertyData.pop.txt_mice01 = '조식 및 환율 정보';
+propertyData.pop.txt_mice02 = '환불 관련 정보';
+propertyData.pop.txt_mice03 = '감사합니다. 예약이 완료되었습니다.';
+propertyData.pop.txt_mice04 = '예약번호';
+
+/* !위성채널정보 */
+propertyData.pop.chn_caption = '위성채널정보 채널, 채널명, 언어, 방송내용을 안내합니다.';
+propertyData.pop.chn_th01 = '채널';
+propertyData.pop.chn_th02 = '채널명';
+propertyData.pop.chn_th03 = '언어';
+propertyData.pop.chn_th04 = '방송내용';
+
+
+propertyData.pop.sel_inq01  = '객실(패키지)관련';
+propertyData.pop.sel_inq02  = '예약벙법관련';
+propertyData.pop.sel_inq03  = '가격관련';
+propertyData.pop.sel_inq04  = '기타관련';
+propertyData.pop.sel_inq05  = '메뉴관련';
+propertyData.pop.sel_inq06  = '예약접수관련';
+propertyData.pop.sel_inq07  = '가격관련';
+propertyData.pop.sel_inq08  = '기타관련';
+propertyData.pop.sel_inq09  = '시설이용관련';
+propertyData.pop.sel_inq10  = '이벤트관련';
+propertyData.pop.sel_inq11  = '멤버쉽특전관련';
+propertyData.pop.sel_inq12  = '포인트관련';
+propertyData.pop.sel_inq13  = '멤버쉽가입관련';
+propertyData.pop.sel_inq14  = '이용불만관련';
+propertyData.pop.txt_inq10.msg  = '‘필수적 개인정보 수집 및 이용에 대한 동의’에 동의하셔야합니다.';
+
+
+propertyData.information = {};
+propertyData.information.trip_tip01 = '1월';
+propertyData.information.trip_tip02 = '2월';
+propertyData.information.trip_tip03 = '3월';
+propertyData.information.trip_tip04 = '4월';
+propertyData.information.trip_tip05 = '5월';
+propertyData.information.trip_tip06 = '6월';
+propertyData.information.trip_tip07 = '7월';
+propertyData.information.trip_tip08 = '8월';
+propertyData.information.trip_tip09 = '9월';
+propertyData.information.trip_tip10 = '10월';
+propertyData.information.trip_tip11 = '11월';
+propertyData.information.trip_tip12 = '12월';
+propertyData.information.trip_tip13 = '평균기온℃';
+propertyData.information.trip_tip14 = '최고기온℃';
+propertyData.information.trip_tip15 = '최저기온℃';
+propertyData.information.trip_tip16 = '강수량mm';
+
+/* ! MY MEMBERSHIP */
+propertyData.membership = {};
+propertyData.membership.txt_01 = '포인트 현황';
+propertyData.membership.txt_02 = '사용 가능 포인트';
+propertyData.membership.txt_03 = '총 적립 포인트';
+propertyData.membership.txt_04 = '소멸예정포인트';
+propertyData.membership.txt_05 = '기간';
+propertyData.membership.txt_06 = '날짜';
+propertyData.membership.txt_07 = '전체';
+propertyData.membership.txt_08 = '적립';
+propertyData.membership.txt_09 = '사용';
+propertyData.membership.txt_10 = '소멸';
+propertyData.membership.txt_11 = '이전 방문일';
+propertyData.membership.txt_12 = '포인트 현황 조회 : 날짜, 상세내역분, 구분, 포인트';
+propertyData.membership.txt_13 = '날짜';
+propertyData.membership.txt_14 = '상세내역';
+propertyData.membership.txt_15 = '구분';
+propertyData.membership.txt_16 = '포인트';
+propertyData.membership.txt_17 = '고객님의';
+propertyData.membership.txt_18 = '포인트 내역이 없습니다.';
+propertyData.membership.txt_19 = 'PARADISE CITY 방문 및 프로모션 등으로 포인트를 적립할 수 있습니다.<br>상담을 원하시는 경우 고객센터로 연락해주시기 바랍니다.<br>고객센터:1833-8855';
+propertyData.membership.txt_20 = '호텔 멤버십 전화 문의 : 02-1234-5678~5<br>(09 : 00 ~ 18:00  업무시간 내에 담당자 전화 문의가 가능합니다.)';
+propertyData.membership.txt_21 = '호텔 멤버십 전화 문의 : 02-1234-5678~5<br>(09 : 00 ~ 18:00  업무시간 내에 담당자 전화 문의가 가능합니다.)';
+propertyData.membership.txt_22 = 'PARADISE CITY <br> 사용 가능한 포인트입니다.';
+propertyData.membership.txt_23 = 'PARADISE CITY <br> 적립한 총 마일리지 입니다.';
+propertyData.membership.txt_24 = 'PARADISE CITY <br> 소멸예정포인트 입니다.';
+propertyData.membership.txt_25 = '호텔 멤버십 전화 문의 : 02-1234-5678~5<br>(09 : 00 ~ 18:00  업무시간 내에 담당자 전화 문의가 가능합니다.)';
+
+
+/* ! 예약내역 */
+propertyData.reservation = {};
+propertyData.reservation.txt_01 = '전체';
+propertyData.reservation.txt_02 = '예약완료';
+propertyData.reservation.txt_03 = '결제완료';
+propertyData.reservation.txt_04 = '예약취소';
+propertyData.reservation.btn_detail = '객실 상세보기';
+propertyData.reservation.txt_05 = '예약정보';
+propertyData.reservation.txt_06 = '예약정보 : 패키지 명, 예약번호, 예약상태, 고객명, 휴대폰 번호, 이메일, 체크인, 체크아웃, 예약 일자, 투숙인원, 객실, 침대 타입, 침대 추가, 조식';
+propertyData.reservation.txt_07 = '결제내역';
+propertyData.reservation.txt_08 = '결제내역 : 결제 금액, 포인트 차감 금액, 합계';
+propertyData.reservation.txt_09 = '부가세 포함 금액 입니다.';
+propertyData.reservation.txt_10 = '예약취소정책';
+propertyData.reservation.txt_11 = '취소/변경 및 노쇼(No-show) 안내';
+propertyData.reservation.txt_12 = '파라다이스시티 상품의 취소 및 변경, No-Show 규정은 아래와 같습니다.';
+propertyData.reservation.txt_13 = '주중(월~목요일): 숙박 예정일 1일 전 15시까지 위약금 없이 취소 및 변경이 가능합니다.<br>1일 전 15시 이후 10%의 위약금이 발생하며 당일 취소 및 변경 또는 No-Show 시 20%의 위약금이 발생합니다.';
+propertyData.reservation.txt_14 = '주말(금~일요일): 숙박 예정일 2일 전까지 위약금 없이 취소 및 변경이 가능합니다.<br>1일 전 취소 시 20%의 위약금이, 당일 취소/변경 또는 No-Show 시 30%의 위약금이 발생합니다.';
+propertyData.reservation.txt_15 = '성수기: 숙박 예정일 5일 전까지 위약금 없이 취소 및 변경이 가능합니다.<br>숙박 예정일 4일~1일 전 15시 이전 취소 및 변경은 50%의 위약금이, 1일 전 15시 이후 또는 No-Show 시 90%의 위약금이 발생합니다.';
+propertyData.reservation.txt_16 = '패키지별로 취소규정이 상이할 수 있습니다. 자세한 사항은 패키지 상세 페이지를 참고하여주시기 바랍니다.';
+propertyData.reservation.txt_17 = '고객님의';
+propertyData.reservation.txt_18 = '예약내역이 없습니다.';
+propertyData.reservation.txt_19 = '객실 예약을 진행하실 경우';
+propertyData.reservation.txt_20 = '메뉴를 이용해주시기 바랍니다.<br>또한, 상담을 원하시는 경우 고객센터로 연락해주시기 바랍니다.<br>고객센터 : 1833-8855';
+
+propertyData.reservation.txt_21= '패키지 명';
+propertyData.reservation.txt_22= '예약번호';
+propertyData.reservation.txt_23= '예약상태';
+propertyData.reservation.txt_24= '고객명';
+propertyData.reservation.txt_25= '이메일';
+propertyData.reservation.txt_26= 'Check in';
+propertyData.reservation.txt_27= 'Check out';
+propertyData.reservation.txt_28= '예약 일자';
+propertyData.reservation.txt_29= '투숙인원';
+propertyData.reservation.txt_30= '객실';
+propertyData.reservation.txt_31= '침대 타입';
+propertyData.reservation.txt_32= '침대 추가';
+propertyData.reservation.txt_33= '조식';
+propertyData.reservation.txt_34= '결제 유형';
+propertyData.reservation.txt_35= '합계';
+propertyData.reservation.txt_36= '세금 &amp; 봉사료';
+propertyData.reservation.txt_37= '포인트 차감 금액';
+propertyData.reservation.txt_38= '휴대폰번호';
+propertyData.reservation.txt_39= '투숙일';
+propertyData.reservation.txt_40= '상품명';
+propertyData.reservation.txt_41= '예약번호';
+
+/* ! e-shop 구매 내역 */
+propertyData.eshop = {};
+propertyData.eshop.txt_01 = '기간';
+
+propertyData.eshop.txt_02 = '날짜';
+propertyData.eshop.txt_03 = '전체';
+propertyData.eshop.txt_04 = '구매완료';
+propertyData.eshop.txt_05 = '구매취소';
+propertyData.eshop.txt_06 = '구매 정보';
+propertyData.eshop.txt_07 = '구매 정보 : 구분, 구매일, 주문번호, 휴대폰 번호, 주문금액';
+propertyData.eshop.txt_08 = '결제정보';
+propertyData.eshop.txt_09 = '결제정보 : 결제 유형, 사용 포인트, 결제 금액';
+propertyData.eshop.txt_10 = '구매취소정책';
+propertyData.eshop.txt_11 = '고객님의';
+propertyData.eshop.txt_12 = '구매내역이 없습니다.';
+propertyData.eshop.txt_13 = '숙박권, 식사권 및 MD 상품 등 다양한 상품의 구매는';
+propertyData.eshop.txt_14 = '메뉴를 이용해주시기 바랍니다.<br>또한, 상담을 원하시는 경우 고객센터로 연락해주시기 바랍니다.<br>고객센터 : 1833-8855';
+propertyData.eshop.txt_15 = '구분';
+propertyData.eshop.txt_16 = '구매일';
+propertyData.eshop.txt_17 = '주문번호';
+propertyData.eshop.txt_18 = '유효기간';
+propertyData.eshop.txt_19 = '사용여부';
+propertyData.eshop.txt_20 = '휴대폰 번호';
+propertyData.eshop.txt_21 = '구매상품';
+propertyData.eshop.txt_22 = '수량';
+propertyData.eshop.txt_23 = '주문금액';
+propertyData.eshop.txt_24 = '결제 유형';
+propertyData.eshop.txt_25 = '사용 포인트';
+propertyData.eshop.txt_26 = '결제 금액';
+propertyData.eshop.txt_27 = '구매 상품 정보 : 구분, 구매일, 주문번호, 구매상품, 수량, 주문금액';
+propertyData.eshop.txt_28 = '배송 정보';
+propertyData.eshop.txt_29 = '배송 정보 : 배송 방법, 받으시는 분, 휴대폰 번호, 숙박 예정일, 배달 요청 사항, 카드메시지';
+propertyData.eshop.txt_30 = '배송 방법';
+propertyData.eshop.txt_31 = '받으시는 분';
+propertyData.eshop.txt_32 = '휴대폰 번호';
+propertyData.eshop.txt_33 = '숙박 예정일';
+propertyData.eshop.txt_34 = '배달 요청 사항';
+propertyData.eshop.txt_35 = '카드메시지';
+propertyData.eshop.txt_36 = '주소';
+propertyData.eshop.txt_37 = '구매 상품 정보';
+propertyData.eshop.txt_38 = '사용완료';
+propertyData.eshop.txt_39 = '미사용';
+propertyData.eshop.txt_40 = '상태';
+
+
+
+
+/* ! benefit */
+propertyData.benefit = {};
+propertyData.benefit.txt_01 = '쿠폰함';
+propertyData.benefit.txt_02 = '전체';
+propertyData.benefit.txt_03 = '사용 가능한 쿠폰';
+propertyData.benefit.txt_04 = '검색어를 입력하세요';
+propertyData.benefit.txt_05 = '검색';
+propertyData.benefit.txt_06 = '님의 Virtual Money 현황입니다.';
+propertyData.benefit.txt_07 = '사용 가능 포인트 : ';
+propertyData.benefit.txt_08 = '포인트 현황';
+propertyData.benefit.txt_09 = '포인트 현황 : 날짜, 상세내역, 구분, 포인트';
+propertyData.benefit.txt_10 = '날짜';
+propertyData.benefit.txt_11 = '상세내역';
+propertyData.benefit.txt_12 = '구분';
+propertyData.benefit.txt_13 = '포인트';
+propertyData.benefit.txt_14 = '님의 Resort Money 현황입니다.';
+propertyData.benefit.txt_15 = '미사용';
+propertyData.benefit.txt_16 = '사용';
+propertyData.benefit.txt_17 = '유효기간:';
+propertyData.benefit.txt_18 = '사용';
+propertyData.benefit.txt_19 = '적립';
+propertyData.benefit.txt_20 = '사용취소';
+propertyData.benefit.txt_21 = '적립취소';
+propertyData.benefit.txt_22 = '소멸';
+
+/*! benefit - 쿠폰함 */
+propertyData.benefit.tag01 = '이용권';
+propertyData.benefit.tag02 = '할인권';
+propertyData.benefit.coupon_txt01 = '기간 만료';
+propertyData.benefit.coupon_txt02 = '사용 완료';
+
+
+/* ! 문의 내역 */
+propertyData.qna = {};
+propertyData.qna.txt_01 = '전체';
+propertyData.qna.txt_02 = '접수완료';
+propertyData.qna.txt_03 = '답변완료';
+propertyData.qna.txt_04 = '답변내용';
+
+
+/*! 비밀번호확인 */
+propertyData.pw = {};
+propertyData.pw.txt_01 = '회원님의 개인 정보 보호를 위한 본인 확인 절차이며, 파라다이스 시티 회원 로그인 시 사용하시는 비밀번호를 입력해주세요.';
+propertyData.pw.txt_02 = '비밀번호확인 : 아이디, 비밀번호';
+propertyData.pw.txt_03 = '아이디';
+propertyData.pw.txt_04 = '비밀번호';
+
+/* ! 회원정보수정 */
+propertyData.member01 = {};
+propertyData.member01.txt_01 = '아이디 및 비밀번호';
+propertyData.member01.txt_02 = '필수 입력 항목입니다.';
+propertyData.member01.txt_03 = '아이디 및 비밀번호 입력 폼 : 아이디, 비밀번호, 비밀번호 확인';
+propertyData.member01.txt_04 = '아이디';
+propertyData.member01.txt_05 = '아이디';
+propertyData.member01.txt_06 = 'PARADISE CITY에서는 이메일을 ID로 사용합니다.';
+propertyData.member01.txt_07 = '비밀번호';
+propertyData.member01.txt_08 = '비밀번호 입력';
+propertyData.member01.txt_09 = '영문, 숫자, 특수 기호 조합으로 8~16자 이내로 입력해주세요.';
+propertyData.member01.txt_10 = '비밀번호 확인';
+propertyData.member01.txt_11 = '비밀번호 확인';
+propertyData.member01.txt_12 = '기본 정보';
+propertyData.member01.txt_13 = '기본 정보 입력 폼 : 이름(한글), 이름(영문), 생년월일, 휴대폰 번호, 주소, 이메일';
+propertyData.member01.txt_14 = '이름(한글)';
+propertyData.member01.txt_15 = '이름(한글)';
+propertyData.member01.txt_16 = '이름(영문)';
+propertyData.member01.txt_17 = '성별 선택';
+propertyData.member01.txt_18 = 'First Name(이름)';
+propertyData.member01.txt_19 = 'Last Name(성)';
+propertyData.member01.txt_20 = '생년월일';
+propertyData.member01.txt_21 = '년도 선택';
+propertyData.member01.txt_22 = '월 선택';
+propertyData.member01.txt_23 = '일 선택';
+propertyData.member01.txt_24 = '휴대폰 번호';
+propertyData.member01.txt_25 = '휴대 전화 앞자리 선택';
+propertyData.member01.txt_26 = '휴대 전화';
+propertyData.member01.txt_27 = '주소';
+propertyData.member01.txt_28 = '우편번호';
+propertyData.member01.txt_29 = '우편번호 검색';
+propertyData.member01.txt_30 = '상세주소';
+propertyData.member01.txt_31 = '이메일';
+propertyData.member01.txt_32 = '이메일';
+propertyData.member01.txt_33 = '@daum.net, @hanmail.net 수신에 제한이 있을 수 있으니, 다른 이메일을 사용 바랍니다.';
+propertyData.member01.txt_34 = '마케팅 정보 수신 동의';
+propertyData.member01.txt_35 = '마케팅 정보 수신 동의 입력 폼 : 전체동의, 이메일, SMS, 휴대전화, PUSH';
+propertyData.member01.txt_36 = '수신 동의';
+propertyData.member01.txt_37 = '전체 동의';
+propertyData.member01.txt_38 = '이메일';
+propertyData.member01.txt_39 = 'SMS';
+propertyData.member01.txt_40 = '휴대전화';
+propertyData.member01.txt_41 = 'PUSH';
+propertyData.member01.txt_42 = '포인트/이벤트 소식을 전해드립니다. (예약 및 구매 관련 발송 내역은 제외)';
+propertyData.member01.txt_43 = '선택 정보';
+propertyData.member01.txt_44 = '선택 정보 입력 폼 : 결혼 기념일, 직업, 관심분야';
+propertyData.member01.txt_45 = '결혼 기념일';
+propertyData.member01.txt_46 = '년도 선택';
+propertyData.member01.txt_47 = '월 선택';
+propertyData.member01.txt_48 = '일 선택';
+propertyData.member01.txt_49 = '직업';
+propertyData.member01.txt_50 = '직업선택';
+propertyData.member01.txt_51 = '관심분야';
+propertyData.member01.txt_52 = '휴양';
+propertyData.member01.txt_53 = '레저';
+propertyData.member01.txt_54 = '쇼핑';
+propertyData.member01.txt_55 = '다이닝';
+propertyData.member01.txt_56 = '스포츠';
+propertyData.member01.txt_57 = '엔터테인먼트';
+propertyData.member01.txt_58 = '인테리어';
+propertyData.member01.txt_59 = '웨딩';
+propertyData.member01.txt_60 = '육아';
+propertyData.member01.txt_61 = '스파';
+propertyData.member01.txt_62 = '음악';
+propertyData.member01.txt_63 = '도서';
+propertyData.member01.txt_64 = '패션';
+
+/* ! 회원탈퇴신청 */
+propertyData.member02 = {};
+propertyData.member02.txt_01 = '회원탈퇴를 하시면 PARADISE CITY 회원 자격이 상실됩니다.';
+propertyData.member02.txt_02 = '고객님의 회원정보가 삭제되며, 보유하고 계신 PARADISE CITY 멤버십 포인트도 함께 소멸됩니다.';
+propertyData.member02.txt_03 = '해당 아이디는 즉시 탈퇴 처리됩니다.';
+propertyData.member02.txt_04 = '회원탈퇴신청 : 아이디, 이름, 비밀번호, 탈퇴사유';
+propertyData.member02.txt_05 = '아이디';
+propertyData.member02.txt_06 = '이름';
+propertyData.member02.txt_07 = '비밀번호';
+propertyData.member02.txt_08 = '탈퇴사유';
+propertyData.member02.txt_09 = '내용입력';
+
+/* ! 가이드, 여행사 수수료 조회 */
+propertyData.fee = {};
+propertyData.fee.txt_01 = '사업자 정보';
+propertyData.fee.txt_02 = '사업자 정보 : 사업자 등록번호, 대표자 성명, 업태, 종목, 사업장 소재지, 상세주소';
+propertyData.fee.txt_03 = '사업자 등록번호';
+propertyData.fee.txt_04 = '대표자 성명';
+propertyData.fee.txt_05 = '업태';
+propertyData.fee.txt_06 = '종목';
+propertyData.fee.txt_07 = '사업장 소재지';
+propertyData.fee.txt_08 = '상세주소';
+propertyData.fee.txt_09 = '수수료 내역';
+propertyData.fee.txt_10 = '년도';
+propertyData.fee.txt_11 = '월';
+propertyData.fee.txt_12 = '수수료 내역 : 일자, 가이드 성명, 수수료 구분, 고객수, 수수료, 부가세, 실지급 수수료, 상태';
+propertyData.fee.txt_13 = '일자';
+propertyData.fee.txt_14 = '여행사';
+propertyData.fee.txt_15 = '수수료 구분';
+propertyData.fee.txt_16 = '고객수';
+propertyData.fee.txt_17 = '수수료';
+propertyData.fee.txt_18 = '부가세';
+propertyData.fee.txt_19 = '실지급 수수료';
+propertyData.fee.txt_20 = '상태';
+propertyData.fee.txt_21 = '합계';
+propertyData.fee.txt_22 = '가이드 성명';
+
+
+/* !e-shop */
+propertyData.global.eshop_tag01 = '숙박권';
+propertyData.global.eshop_tag02 = '레스토랑';
+propertyData.global.eshop_tag03 = '택배배송';
+propertyData.global.eshop_tag04 = '객실배달';
+propertyData.global.eshop_tag05 = '사용완료';
+propertyData.global.eshop_tag06 = '미사용';
+
+
+propertyData.global.ticket_ol01 = '상품선택';
+propertyData.global.ticket_ol02 = '주문서 작성/결제';
+propertyData.global.ticket_ol03 = '주문완료';
+propertyData.global.ticket_txt01 = '해당 상품은 SMS로 발송되는 온라인 상품 입니다';
+propertyData.global.ticket_txt02 = '해당 상품은 SMS로 발송되는 온라인 상품 입니다';
+propertyData.global.ticket_txt03 = '상품 및 수량 선택';
+propertyData.global.ticket_txt04 = '상품목록, 수량, 금액을 안내합니다.';
+propertyData.global.ticket_txt05 = 'Total';
+propertyData.global.ticket_btn01 = '상세보기';
+propertyData.global.ticket_btn02 = '상품선택';
+propertyData.global.ticket_btn03 = '비회원 주문';
+propertyData.global.ticket_btn04 = '회원 주문';
+propertyData.global.ticket_btn05 = '수량 감소';
+propertyData.global.ticket_btn06 = '수량 증가';
+propertyData.global.ticket_btn07 = '상품 삭제';
+
+propertyData.global.ticket_order01 = '구매 상품정보';
+propertyData.global.ticket_order02 = '구매상품, 수량, 주문금액을 안내합니다.';
+propertyData.global.ticket_order03 = '구매상품';
+propertyData.global.ticket_order04 = '수량';
+propertyData.global.ticket_order05 = '주문금액';
+propertyData.global.ticket_order06 = '수작업으로 진행되는 제품의 특성상 구매후 취소가 불가능 제품이 포함되어 있습니다.';
+propertyData.global.ticket_order07 = '상품 수령 정보';
+propertyData.global.ticket_order08 = '배송 방법, 구매자 휴대폰 번호, 수신자 휴대폰 번호를 안내합니다.';
+propertyData.global.ticket_order09 = '배송 방법';
+propertyData.global.ticket_order10 = 'SMS (결제완료 후 고객님의 휴대폰번호로 30분이내 발송됩니다.)';
+propertyData.global.ticket_order11 = '구매자 휴대폰 번호';
+propertyData.global.ticket_order12 = '수신자 휴대폰 번호';
+propertyData.global.ticket_order13 = '구매자 번호와 동일';
+propertyData.global.ticket_order14 = '결제 정보';
+propertyData.global.ticket_order15 = '사용 가능 포인트, 결제 방식을 안내합니다.';
+propertyData.global.ticket_order16 = '사용 가능 포인트';
+propertyData.global.ticket_order17 = 'PARADISE CITY 사용 가능 포인트 입니다.';
+propertyData.global.ticket_order18 = '사용가능';
+propertyData.global.ticket_order19 = '결제 방식';
+propertyData.global.ticket_order20 = '신용카드';
+propertyData.global.ticket_order21 = '계좌이체';
+propertyData.global.ticket_order22 = '주문할 상품의 상품명, 상품가격, 배송정보를 확인하였으며, 구매에 동의하시겠습니까? (전자상거래법 제8조 제2항)';
+propertyData.global.ticket_order23 = '취소';
+propertyData.global.ticket_order24 = '결제';
+propertyData.global.ticket_order25 = '유효기간:';
+
+propertyData.global.label_disagree = '동의하지않음';
+propertyData.global.label_agree = '동의함';
+
+propertyData.global.ticket_finish01 = '주문번호 :';
+propertyData.global.ticket_finish02 = '배송방법 :';
+propertyData.global.ticket_finish03 = '받으실 분의 연락처로 바코드를 포함한 온라인 이용권이 30분 이내에 발송됩니다.<br>파라다이스시티 현장에서 편리하게 이용하세요.';
+propertyData.global.ticket_finish04 = '메인';
+propertyData.global.ticket_finish05 = '구매내역';
+
+/*! */
+propertyData.global.gift_step01 = '상품선택';
+propertyData.global.gift_step02 = '주문서 작성/결제';
+propertyData.global.gift_step03 = '주문완료';
+propertyData.global.gift_btn01 = '상세보기';
+propertyData.global.gift_btn02 = '상품선택';
+propertyData.global.gift_btn03 = '삭제';
+propertyData.global.gift_btn04 = '추가';
+propertyData.global.gift_btn05 = '상품 삭제';
+propertyData.global.gift_btn06 = '비회원 주문';
+propertyData.global.gift_btn07 = '회원 주문';
+
+propertyData.global.gift_txt01 = '파라다이스 시티의 객실 또는 여러분의 집에서 편리하게 받아보실 수 있습니다';
+propertyData.global.gift_txt02 = '상품 및 수량 선택';
+propertyData.global.gift_txt03 = '상품목록, 수량, 금액을 안내합니다.';
+propertyData.global.gift_txt04 = 'Total';
+
+propertyData.global.gift_order01 = '구매 상품정보';
+propertyData.global.gift_order02 = '구매상품, 수량, 주문금액을 안내합니다.';
+propertyData.global.gift_order03 = '구매상품';
+propertyData.global.gift_order04 = '수량';
+propertyData.global.gift_order05 = '주문금액';
+propertyData.global.gift_order06 = '수작업으로 진행되는 제품의 특성상 구매후 취소가 불가능 제품이 포함되어 있습니다.';
+propertyData.global.gift_order07 = '상품 수령 방법';
+propertyData.global.gift_order08 = '상품 수령 방법 입력 폼 : 배송방법, 받으시는 분, 연락처, 숙박예정일, 배달 요청 사항, 카드 메시지 를 입력해 주세요.';
+propertyData.global.gift_order09 = '배송 방법';
+propertyData.global.gift_order10 = '객실배송';
+propertyData.global.gift_order11 = '택배배송';
+propertyData.global.gift_order12 = '받으시는 분';
+propertyData.global.gift_order13 = '연락처';
+propertyData.global.gift_order14 = '숙박예정일';
+propertyData.global.gift_order15 = '배달 요청 사항';
+propertyData.global.gift_order16 = '카드 메시지';
+propertyData.global.gift_order17 = '결제 정보';
+propertyData.global.gift_order18 = '결제 정보 입력 폼 : 사용 가능 포인트, 결제 방식 을 입력해 주세요.';
+propertyData.global.gift_order19 = '사용 가능 포인트';
+propertyData.global.gift_order20 = 'PARADISE CITY <br>사용 가능 포인트 입니다.';
+propertyData.global.gift_order21 = '사용가능';
+propertyData.global.gift_order22 = '결제 방식';
+propertyData.global.gift_order23 = '신용카드';
+propertyData.global.gift_order24 = '계좌이체';
+propertyData.global.gift_order25 = '주문할 상품의 상품명, 상품가격, 배송정보를 확인하였으며, 구매에 동의하시겠습니까? (전자상거래법 제8조 제2항)';
+propertyData.global.gift_order26 = '취소';
+propertyData.global.gift_order27 = '결제';
+propertyData.global.gift_order28 = '예약번호 등을 기입하시면 더욱 빠르게 처리됩니다.';
+
+propertyData.global.gift_finish01 = '주문번호 :';
+propertyData.global.gift_finish02 = '배송방법 :';
+propertyData.global.gift_finish03 = '요청하신 배송방법으로 배송이 진행됩니다.<br>상품의 특성상 구매자님께 전화 확인을 요청할 수 있음을 양해 부탁 드립니다.<br>구매해 주셔서 감사합니다.';
+propertyData.global.gift_finish04 = '메인';
+propertyData.global.gift_finish05 = '구매내역';
+
+propertyData.global.eshop_view01 = '상품선택';
+
+propertyData.global.course_txt = '이동 시간은 거리에 따른 평균시간으로 현지 상황에 따라 달라질 수 있습니다.';
+
+
+/* ! tour */
+propertyData.tor = {};
+propertyData.tor.leo_txt01 = 'LEO란?';
+propertyData.tor.leo_txt02 = 'LEO(Leisure Entertainment Organizer)란 다양한 체험형 프로그램을 <br>기획&middot;진행하는 파라다이스시티의 멀티 엔터테이너입니다.<br>LEO는 영종도만의 지역적 특성과, 문화&middot;역사 등 주변 관광지를 연계한 <br>Outdoor 프로그램은 물론, 파라다이스시티 내에서 진행되는 <br>다양한 Indoor 체험 프로그램까지 다양한 테마와 컨텐츠로 <br>잊지 못할 추억과 경험을 선사할 것입니다.';
+propertyData.tor.leo_txt03 = '이달의 LEO 일정표';
+propertyData.tor.leo_txt04 = '날짜 :';
+propertyData.tor.leo_txt05 = '시간 :';
+propertyData.tor.leo_txt06 = '1코스';
+propertyData.tor.leo_txt07 = '2코스';
+propertyData.tor.leo_txt08 = '3코스';
+propertyData.tor.leo_txt09 = '4코스';
+
+propertyData.global.tour_btn01 = '검색';
+
+propertyData.global.travel_sch01 = '테마 검색';
+// propertyData.global.travel_sch02 = '자연';
+// propertyData.global.travel_sch03 = '체험';
+// propertyData.global.travel_sch04 = '문화시설';
+// propertyData.global.travel_sch05 = '레포츠';
+// propertyData.global.travel_sch06 = '역사';
+// propertyData.global.travel_sch07 = '테마';
+// propertyData.global.travel_sch08 = '쇼핑';
+propertyData.global.travel_sch02 = '관광지';
+propertyData.global.travel_sch03 = '문화시설';
+propertyData.global.travel_sch04 = '축제공연행사';
+propertyData.global.travel_sch05 = '여행코스';
+propertyData.global.travel_sch06 = '레포츠';
+propertyData.global.travel_sch07 = '숙박';
+propertyData.global.travel_sch08 = '쇼핑';
+propertyData.global.travel_sch09 = '음식점';
+propertyData.global.travel_select = '지역선택';
+propertyData.global.travel_txt01 = '최신순';
+propertyData.global.travel_txt02 = '조회순';
+propertyData.global.travel_tab01 = '소개';
+propertyData.global.travel_tab02 = '이용안내';
+propertyData.global.travel_tit01 = '위치 안내';
+
+propertyData.global.thema_sch = '전체';
+propertyData.global.thema_sch01 = '계절';
+propertyData.global.thema_sch02 = '테마';
+propertyData.global.thema_sch03 = '동반자';
+propertyData.global.thema_sch04 = '봄';
+propertyData.global.thema_sch05 = '여름';
+propertyData.global.thema_sch06 = '가을';
+propertyData.global.thema_sch07 = '겨울';
+propertyData.global.thema_sch08 = '먹거리';
+propertyData.global.thema_sch09 = '힐링';
+propertyData.global.thema_sch10 = '트래킹';
+propertyData.global.thema_sch11 = '스포츠';
+propertyData.global.thema_sch12 = '역사';
+propertyData.global.thema_sch13 = '쇼핑';
+propertyData.global.thema_sch14 = '즐길거리';
+propertyData.global.thema_sch15 = '환승여행';
+propertyData.global.thema_sch16 = '부모님';
+propertyData.global.thema_sch17 = '아이들';
+propertyData.global.thema_sch18 = '이성';
+propertyData.global.thema_sch19 = '단체';
+propertyData.global.thema_txt01 = '소요시간';
+propertyData.global.thema_txt02 = '무관';
+propertyData.global.thema_txt03 = '1시간';
+propertyData.global.thema_txt04 = '2시간';
+propertyData.global.thema_txt05 = '3시간';
+propertyData.global.thema_txt06 = '4시간';
+propertyData.global.thema_txt07 = '4시간 이상';
+propertyData.global.thema_txt08 = '소요시간은 파라다이스시티를 출발점으로 계산한 최소 시간입니다';
+propertyData.global.thema_txt09 = '주 교통편 ';
+propertyData.global.thema_txt10 = '소요시간 ';
+propertyData.global.thema_txt11 = '관련 홈페이지 ';
+propertyData.global.thema_txt12 = '해시 태그 ';
+propertyData.global.thema_txt13 = '고객님이 선택하신 조건에 맞는';
+propertyData.global.thema_txt14 = '테마 관광지가 없습니다.';
+propertyData.global.thema_txt15 = '검색 조건을 다시 선택하여 검색해주시기 바랍니다.';
+
+propertyData.global.thema_tab01 = '관광안내';
+propertyData.global.thema_tab02 = '기타정보';
+propertyData.global.thema_tit01 = '위치 안내';
+
+propertyData.global.course_txt01 = '소요시간';
+propertyData.global.course_txt02 = '무관';
+propertyData.global.course_txt03 = '1시간';
+propertyData.global.course_txt04 = '2시간';
+propertyData.global.course_txt05 = '3시간';
+propertyData.global.course_txt06 = '4시간';
+propertyData.global.course_txt07 = '4시간 이상';
+propertyData.global.course_txt08 = '소요시간은 파라다이스시티를 출발점으로 계산한 최소 시간입니다';
+
+propertyData.global.course_txt11 = '1코스';
+propertyData.global.course_txt12 = '2코스';
+propertyData.global.course_txt13 = '3코스';
+propertyData.global.course_txt14 = '4코스';
+propertyData.global.course_txt15 = '5코스';
+
+/* !ART COLLECTION*/
+propertyData.global.art_txt01 = '작품설명';
+propertyData.global.art_txt02 = '작품정보';
+propertyData.global.art_txt03 = '작품명';
+propertyData.global.art_txt04 = '작가';
+propertyData.global.art_txt05 = '구분';
+propertyData.global.art_txt06 = '크기';
+propertyData.global.art_txt07 = '위치';
+
+/* !예약 - 탭 */
+propertyData.etc.reservation_tab01 = '날짜/패키지 선택';
+propertyData.etc.reservation_tab02 = '상세 선택';
+propertyData.etc.reservation_tab03 = '예약정보 및 결제';
+propertyData.etc.reservation_tab04 = '예약완료';
+
+/*! 예약 - step01 */
+propertyData.etc.reservation_step01_01 = '성인';
+propertyData.etc.reservation_step01_02 = '어린이';
+propertyData.etc.reservation_step01_03 = '유아';
+propertyData.etc.reservation_step01_04 = '37개월 ~ 13세 미만';
+propertyData.etc.reservation_step01_05 = '그룹/법인/MICE';
+propertyData.etc.reservation_step01_06 = 'Code 검색';
+propertyData.etc.reservation_step01_07 = 'Reservation Summary';
+propertyData.etc.reservation_step01_08 = '예약일정';
+propertyData.etc.reservation_step01_09 = '인원';
+propertyData.etc.reservation_step01_10 = '패키지';
+propertyData.etc.reservation_step01_11 = '옵션';
+propertyData.etc.reservation_step01_12 = '객실';
+propertyData.etc.reservation_step01_13 = '추가 옵션';
+propertyData.etc.reservation_step01_14 = '* 부가세 포함된 금액입니다';
+propertyData.etc.reservation_step01_15 = 'Total';
+propertyData.etc.reservation_step01_16 = '인원수 선택';
+propertyData.etc.reservation_step01_17 = '날짜를 선택해 주세요';
+propertyData.etc.reservation_step01_18 = '투숙 인원을 선택해 주세요';
+propertyData.etc.reservation_step01_19 = '패키지 상품을 선택해 주세요';
+propertyData.etc.reservation_step01_20 = '옵션을 선택해 주세요';
+propertyData.etc.reservation_step01_21 = '객실을 선택해 주세요';
+propertyData.etc.reservation_step01_22 = '추가 옵션을 선택해 주세요';
+propertyData.etc.reservation_step01_23 = '선택하신';
+propertyData.etc.reservation_step01_24= '조건에 맞는 상품이 없습니다. ';
+propertyData.etc.reservation_step01_25 = '상담을 원하시는 경우 고객센터로 연락해주시기 바랍니다.<br>고객센터 : 1833-8855';
+propertyData.etc.reservation_step01_26 = '침대';
+propertyData.etc.reservation_step01_27 = '침대 타입을 선택해 주세요';
+
+propertyData.etc.reservation_step01_btn01 = '일자별 최저가';
+propertyData.etc.reservation_step01_btn02 = '상세보기';
+propertyData.etc.reservation_step01_btn03 = '날짜재선택';
+
+/* !예약 - step02 */
+propertyData.etc.rsv_step02_01 = '추가옵션';
+propertyData.etc.rsv_step02_02 = '패키지에 포함된 옵션 상품이 아니며, 패키지에 옵션이 포함된 상품의 경우 추가 인원에 대해서만 선택해주시기 바랍니다.';
+propertyData.etc.rsv_step02_03 = '추가 옵션 : 무료, 유료';
+propertyData.etc.rsv_step02_04 = '무료';
+propertyData.etc.rsv_step02_05 = '침대추가';
+propertyData.etc.rsv_step02_06 = '유료';
+propertyData.etc.rsv_step02_07 = '어른 조식';
+propertyData.etc.rsv_step02_08 = '상기 어른 조식 요금은 홈페이지 사전 예약에 한하며, 체크인 이후 이용 시는 정상 요금<br>(42,000원/세금, 봉사료 포함)이 적용됩니다.';
+propertyData.etc.rsv_step02_09 = '어린이 조식';
+propertyData.etc.rsv_step02_10 = '투숙 기준';
+propertyData.etc.rsv_step02_11 = 'Guest Room : 성인 2인 /  Suite 이상 : 성인 3인';
+propertyData.etc.rsv_step02_12 = '13세 이하 어린이의 경우 별도 요금 없이 객실당 2명까지 투숙 가능합니다. (단, 성인 3인 투숙시 어린이 1명 투숙가능)';
+propertyData.etc.rsv_step02_13 = '추가 인원 투숙 시 72,600원(세금 및 봉사료 포함)이 부과되며, Guest Room 객실 한정 최대 성인 1인까지 가능합니다.';
+propertyData.etc.rsv_step02_14 = '디럭스 객실은 추가 침대 (본관:침대 / 신관:소파베드 메이킹), 야외 오션 풀 1회 무료, 오션스파 씨메르 및 실내 사우나 50%할인 혜택';
+propertyData.etc.rsv_step02_15 = '객실 및 옵션 선택';
+propertyData.etc.rsv_step02_btn01 = '객실 상세보기';
+
+/* !예약 - step03 */
+propertyData.etc.rsv_step03_01 = ' 예약정보 ';
+propertyData.etc.rsv_step03_02 = '예약정보 : 이름(한글), 이름(영문), 생년월일, 휴대폰 번호, 이메일, 기타 요청 사항';
+propertyData.etc.rsv_step03_03 = '이름(한글)';
+propertyData.etc.rsv_step03_04 = '이름(영문)';
+propertyData.etc.rsv_step03_05 = '성별 선택';
+propertyData.etc.rsv_step03_06 = 'First Name(이름)';
+propertyData.etc.rsv_step03_07 = 'Last Name(성)';
+propertyData.etc.rsv_step03_08 = '생년월일';
+propertyData.etc.rsv_step03_09 = '년도 선택';
+propertyData.etc.rsv_step03_10 = '월 선택';
+propertyData.etc.rsv_step03_11 = '일 선택';
+propertyData.etc.rsv_step03_12 = '휴대폰 번호';
+propertyData.etc.rsv_step03_13 = '휴대 전화 앞자리 선택';
+propertyData.etc.rsv_step03_14 = '휴대 전화';
+propertyData.etc.rsv_step03_15 = '이메일';
+propertyData.etc.rsv_step03_16 = '기타 요청 사항';
+propertyData.etc.rsv_step03_17 = '기타 요청사항 추가하기';
+propertyData.etc.rsv_step03_18 = '기타 요청사항 빼기';
+propertyData.etc.rsv_step03_19 = '내용입력';
+propertyData.etc.rsv_step03_20 = '개인정보 수집 및 이용에 대한 동의(필수)';
+propertyData.etc.rsv_step03_21 = '동의하지 않음';
+propertyData.etc.rsv_step03_22 = '동의함';
+propertyData.etc.rsv_step03_23 = '결제 정보';
+propertyData.etc.rsv_step03_24 = '결제 정보 : 사용 가능 포인트, 결제방식';
+propertyData.etc.rsv_step03_25 = '사용 가능 포인트';
+propertyData.etc.rsv_step03_26 = 'PARADISE CITY <br>사용 가능 포인트 입니다.';
+propertyData.etc.rsv_step03_27 = '사용가능';
+propertyData.etc.rsv_step03_28 = '결제방식';
+propertyData.etc.rsv_step03_29 = '신용카드';
+propertyData.etc.rsv_step03_30 = '계좌이체';
+propertyData.etc.rsv_step03_31 = '취소 환불 수수료에 관한 동의';
+propertyData.etc.rsv_step03_32 = '해당 상품의 취소 가능일은 투숙일 기준 D-Day 2일까지 취소가 가능합니다.';
+propertyData.etc.rsv_step03_33 = 'D-Day 1일 취소 시 1일 숙박 기준 요금의 30% 가 수수료가 부과됩니다.';
+propertyData.etc.rsv_step03_34 = 'D-Day 취소 시 1일 숙박 요금의 수수료가 부과됩니다.';
+
+
+/* !예약 - step04 */
+propertyData.etc.rsv_step04_01 = '고객님 감사합니다. 예약이 완료되었습니다.';
+propertyData.etc.rsv_step04_02 = '예약번호 :';
+propertyData.etc.rsv_step04_03 = '예약 정보는 입력된 이메일 주소로 발송되며, 인쇄를 통해 예약정보를 출력할 수 있습니다.';
+propertyData.etc.rsv_step04_04 = '요청내용';
+propertyData.etc.rsv_step04_05 = '요청내용 : 기타요청사항';
+propertyData.etc.rsv_step04_06 = '기타요청사항';
+propertyData.etc.rsv_step04_07 = '여행 팁!';
+propertyData.etc.rsv_step04_08 = '여행지의 6월 아직은 물놀이를 즐기기 어려운 계절입니다. 하지만 가벼운 옷을 준비하세요.';
+propertyData.etc.rsv_step04_09 = '추가정보입력(선택사항)';
+propertyData.etc.rsv_step04_10 = '동반자(예약자와 동반)';
+propertyData.etc.rsv_step04_11 = '투숙자(예약자와 비동반)';
+propertyData.etc.rsv_step04_12 = '예약자와 동반 여부를 선택해주세요.';
+propertyData.etc.rsv_step04_13 = '추가정보입력(선택사항) : 동반자1 - 이름, 생년월일, 휴대폰번호, 이메일, 동반자2 - 이름, 생년월일, 휴대폰번호, 이메일';
+propertyData.etc.rsv_step04_14 = '동반자';
+propertyData.etc.rsv_step04_15 = '투숙자';
+propertyData.etc.rsv_step04_16 = '생년월일';
+propertyData.etc.rsv_step04_17 = '년도';
+propertyData.etc.rsv_step04_18 = '월';
+propertyData.etc.rsv_step04_19 = '일';
+propertyData.etc.rsv_step04_20 = '휴대폰번호';
+propertyData.etc.rsv_step04_21 = '이메일';
+propertyData.etc.rsv_step04_22 = '동반자2';
+propertyData.etc.rsv_step04_23 = '아직 회원이 아니신가요?';
+propertyData.etc.rsv_step04_24 = '회원이 되시면 파라다이스시티의 온라인 회원으로서 큰 혜택과 편리함을 누리실 수 있습니다.';
+
+
+
+
+/* !에러페이지*/
+propertyData.error = {};
+propertyData.error.txt01 = '죄송합니다.<br>오류가 발생했습니다.';
+
+/*! reservation  */
+propertyData.pop.reservation_title = '상세보기';
+
+propertyData.pop.option_info_title = '옵션 상품 안내';
+propertyData.pop.option_info_txt01 = '잠깐!';
+propertyData.pop.option_info_txt02 = '추가할 옵션은 더 없으신가요?';
+propertyData.pop.option_info_txt03 = '지금 옵션 상품을 추가 구매하시면  투숙 시 현장에서 추가하시는 금액 대비<br>저렴한 가격으로 동일한 서비스를 이용하실 수 있습니다 .';
+
+propertyData.pop.reservation_print_title = '예약 정보 인쇄';
+propertyData.pop.reservation_print_stit01 = '예약 정보';
+propertyData.pop.reservation_print_stit02 = '객실 정보';
+propertyData.pop.reservation_print_stit03 = '옵션 정보';
+propertyData.pop.reservation_print_stit04 = '투숙 기준';
+propertyData.pop.reservation_print_stit05 = '여행 팁';
+propertyData.pop.reservation_print_txt01 = '이름';
+propertyData.pop.reservation_print_txt02 = '국가';
+propertyData.pop.reservation_print_txt03 = '연락처';
+propertyData.pop.reservation_print_txt04 = '이메일';
+propertyData.pop.reservation_print_btn01 = '패키지 상세보기';
+
+/*! casino */
+propertyData.cas = {};
+
+propertyData.cas.main_txt01 = '품격있는 서비스, 합리적인 게임 운영, 최첨단 시스템을 갖춘<br>한국 최대 외국인 전용 카지노';
+propertyData.cas.main_txt02 = '품격있는 서비스, 합리적인 게임 운영, 최첨단 시스템을 갖춘<br>';
+propertyData.cas.main_txt03 = '국내 최대 K-Style 프리미엄 외국인 전용 카지노';
+propertyData.cas.main_txt04 = '파라다이스시티 카지노는 색다른 즐거움을 찾는 성인들을 위한 프리미엄 놀이공간입니다. <br>40여 년의 운영 노하우를 갖춘 전문성과 프리미엄 서비스, 매일 다르게 펼쳐지는 색다른 이벤트는 최상의 고객경험을 제공할 것입니다.';
+propertyData.cas.main_txt05 = '품격이 있는 파라다이스 카지노';
+propertyData.cas.main_txt06 = '최고의 VIP 프리미엄 서비스<br>VIP 전용 룸과 레스토랑, 최고의 Hospitality를 제공합니다.';
+propertyData.cas.main_txt07 = '국내 최대 면적의 외국인 전용 카지노<br>총 면적 약 4,100 평으로, 국내 시설 중 최대 규모입니다.';
+propertyData.cas.main_txt08 = '다양한 엔터테인먼트 부대시설<br>다이닝 쇼 등 엔터테인먼트 및 VIP 전용 레스토랑 시설을<br>보유하고 있습니다.';
+propertyData.cas.main_txt09 = '휴대폰 충전서비스';
+propertyData.cas.main_txt10 = '영업장 입구와 Bar 입구에 휴대폰<br>충전기를 비치하여 필요하실 때<br>언제든지 사용 가능하도록<br>운영중입니다.';
+propertyData.cas.main_txt11 = '돋보기 대여';
+propertyData.cas.main_txt12 = '안경을 두고 오시거나<br>약한 시력 때문에 게임이 불편하신<br>고객님들을 위해 돋보기를<br>비치하고 있습니다.';
+propertyData.cas.main_txt13 = '서비스 실명제';
+propertyData.cas.main_txt14 = '딜러의 정보, 이벤트, 테이블<br>리미트 및 옵션을 조회 하실 수<br>있으며 리미트 및 옵션으로<br>게임을 하실 수 있습니다.';
+propertyData.cas.main_txt15 = '고객의 소리함';
+propertyData.cas.main_txt16 = '영업장 곳곳에 고객의 의견을<br>적으실 수 있는 고객의 소리함을<br>운영하고 있습니다.';
+propertyData.cas.main_txt17 = '플로어 이벤트';
+propertyData.cas.main_txt18 = '마사지, 음료 서비스 및 다양한<br>공연이 마련된 플로어 이벤트를<br> 펼치고 있습니다.';
+
+
+propertyData.cas.useinfo_txt01 = '외국인 전용';
+propertyData.cas.useinfo_txt02 = '여권 소지';
+propertyData.cas.useinfo_txt03 = '드레스 코드';
+propertyData.cas.useinfo_txt04 = '미성년자, 내국인 출입 불가';
+propertyData.cas.useinfo_txt05 = '국적 확인을 위한 여권 소지 필요';
+propertyData.cas.useinfo_txt06 = '캐주얼 복장 입장 가능<br>단, 반바지, 저지, 샌들 등 착용 시 <br>입장이 거부될 수 있습니다.';
+propertyData.cas.useinfo_txt07 = '출입 가능 신분증';
+propertyData.cas.useinfo_txt08 = '해외영주권자 출입방법';
+propertyData.cas.useinfo_txt09 = '게임진행 안내';
+propertyData.cas.useinfo_txt10 = '테이블 선택';
+propertyData.cas.useinfo_txt11 = '칩 구입';
+propertyData.cas.useinfo_txt12 = '게임 배팅';
+propertyData.cas.useinfo_txt13 = '게임 종료';
+propertyData.cas.useinfo_txt14 = '환전';
+propertyData.cas.useinfo_txt15 = '원하는 게임 테이블의 빈 자리에 앉습니다.<br>다른 플레이어 없이 딜러와 1:1로도 게임이 가능합니다.';
+propertyData.cas.useinfo_txt16 = '게임용 칩스는 오픈된 테이블에서 딜러에게 언제든지 구매할 수 있습니다.';
+propertyData.cas.useinfo_txt17 = '게임 진행 시 칩을 사용해 베팅을 합니다. 게임 방법에 대해 궁금한 사항이 있으면 <br>카지노 스태프에게 문의합니다.';
+propertyData.cas.useinfo_txt18 = '게임이 종료된 후 칩이 남았다면 환전하기 쉬운 고액의 칩으로 교환할 수 있습니다.<br>또한, 잠시 자리를 비워야 하는 경우, 칩은 스태프에게 보관 요청할 수 있습니다.';
+propertyData.cas.useinfo_txt19 = '게임을 마치고 칩을 현금으로 교환하려는 경우, 환전소를 이용합니다. <br>딜러는 칩을 현금으로 교환해주지 않습니다.';
+propertyData.cas.useinfo_txt20 = '카지노 에티켓';
+propertyData.cas.useinfo_txt21 = '복장';
+propertyData.cas.useinfo_txt22 = '초보자';
+propertyData.cas.useinfo_txt23 = '흡연';
+propertyData.cas.useinfo_txt24 = '사진촬영';
+propertyData.cas.useinfo_txt25 = '분쟁';
+propertyData.cas.useinfo_txt26 = '기타';
+propertyData.cas.useinfo_txt27 = '유럽의 카지노와 같은 넥타이 착용 등의 <br>룰은 없습니다. 캐주얼 복장으로 입장하실 수 있으나 <br>노출이 심하거나 혐오감을 느낄 정도의 복장은 <br>지양해주시기 바랍니다.';
+propertyData.cas.useinfo_txt28 = '초보자의 경우 블랙잭 게임과 같이 플레이어 <br>개개인의 결정에 따라 게임에 영향을 줄 수 있는 <br>경우가 있으므로, 다른 플레이어들에게 초보자임을 <br>반드시 알리고 게임에 참가해주시기 바랍니다.';
+propertyData.cas.useinfo_txt29 = '일반적으로 모든 테이블에서 흡연이 가능합니다. <br>다만, 고객이 원하는 경우 비흡연 테이블을 <br>별도로 운영하고 있사오니, 비흡연 테이블에서의 <br>흡연은 삼가 해주시기 바랍니다.';
+propertyData.cas.useinfo_txt30 = '다른 고객의 프라이버시를 위해 영업장에서의 <br>사진 촬영은 허용되지 않습니다. 입구, 바, 휴게실 등의 <br>지정된 장소에서 촬영해주시기 바랍니다.';
+propertyData.cas.useinfo_txt31 = '다른 플레이어와의 분쟁이 예상될 경우, 카지노 <br>관리자에게 알려,분쟁을 막고 해결할 수 있도록 <br>해주시기 바랍니다.';
+propertyData.cas.useinfo_txt32 = '지나친 알코올 섭취 혹은 분쟁으로 다른 고객에게 <br>피해를 주거나 줄 수 있다고 판단될 경우 카지노 <br>출입자격에 제한을 받을 수 있습니다.';
+
+propertyData.cas.game_tit01 = 'Baccarat';
+propertyData.cas.game_tit02 = 'BlackJack';
+propertyData.cas.game_tit03 = '3Card Poker';
+propertyData.cas.game_tit04 = 'Caribbean Stud Poker';
+propertyData.cas.game_tit05 = 'Roulette';
+propertyData.cas.game_tit06 = 'SIC BO';
+propertyData.cas.game_tit07 = 'Big Wheel';
+propertyData.cas.game_tit08 = 'Texas Hold&#39;em Poker';
+propertyData.cas.game_tit09 = 'Casino War';
+propertyData.cas.game_tit10 = 'Slot Game';
+propertyData.cas.game_desc01 = '가장 드라마틱한 테이블 게임';
+propertyData.cas.game_desc02 = '가장 널리 알려진 카지노 게임';
+propertyData.cas.game_desc03 = '포커의 매력적인 변신';
+propertyData.cas.game_desc04 = '프로그래시브 잭팟의 보너스';
+propertyData.cas.game_desc05 = '누구나 쉽게 즐길 수 있는 카지노 게임';
+propertyData.cas.game_desc06 = '중국의 전통 게임과 카지노의 만남';
+propertyData.cas.game_desc07 = '짜릿한 운명의 수레바퀴';
+propertyData.cas.game_desc08 = '포커 토너먼트 대회에서 가장 많이 사랑받는 포커 게임';
+propertyData.cas.game_desc09 = '승부의 결정이 빠르고 이해하기 가장 쉬운 테이블 게임';
+propertyData.cas.game_desc10 = '당신도 잭팟의 행운을 만날 수 있습니다.';
+propertyData.cas.game_desc11 = '고객은 플레이어(Player)와 뱅커(Banker) 중<br>어느 핸드가 이길지 예상하여 베팅을 합니다';
+propertyData.cas.game_desc12 = '21 또는 21에 가까운 숫자를 만들어<br>딜러 보다 높으면 이기는 게임입니다';
+propertyData.cas.game_desc13 = '3장의 카드로 하우스와 우열을 겨루어 더 높은<br>조합을 가지는 경우 이기게 되는 게임입니다';
+propertyData.cas.game_desc14 = '5장의 카드로 하우스와 우열을 겨루어 더 높은<br>조합을 가지는 경우 이기게 되는 게임입니다';
+propertyData.cas.game_desc15 = '휠(회전판) 상의 어떤 번호(번호/색깔 등)에<br>낙착할 것인가를 알아 맞추는 게임입니다';
+propertyData.cas.game_desc16 = '가장 대중적인 카지노 게임 중 하나로,<br>동양인들이 특히 즐겨 하는 게임입니다';
+propertyData.cas.game_desc17 = '휠 위에 부착된 가죽띠가 어떤 모양을 가리킬 <br>것인가를 알아 맞추어 당첨되는 게임입니다';
+propertyData.cas.game_desc18 = '총 7장 중 5장의 카드로 우열을 겨루어<br>최고 등급의 조합을 가지는 게임입니다';
+propertyData.cas.game_desc19 = '정해진 카드 값에 따라 회사와 고객이 우열을 겨루어<br>최고 등급을 가지는 것에 목적을 두는 게임입니다';
+propertyData.cas.game_desc20 = '파라다이스 카지노에서는 다양한 종류의<br>게임머신을 보유하고 있습니다';
+
+propertyData.cas.jackpot_txt01 = 'LATEST MEGA JACKPOT';
+propertyData.cas.jackpot_txt02 = '마지막 메가 잭팟 후 <em>@DATE</em>일이 지났습니다. 지금 도전해 보세요!';
+propertyData.cas.jackpot_txt03 = '당첨금액';
+
+propertyData.pop.casino_idcard_title = '출입가능 신분증 리스트';
+propertyData.pop.casino_idcard_txt01 = '출입가능 신분증';
+propertyData.pop.casino_idcard_txt02 = '비고';
+propertyData.pop.casino_idcard_txt03 = '여권';
+propertyData.pop.casino_idcard_txt04 = '외국인등록증';
+propertyData.pop.casino_idcard_txt05 = '외국국적동포국내거소신고증';
+propertyData.pop.casino_idcard_txt06 = '미군ID카드';
+propertyData.pop.casino_idcard_txt07 = '공관원 신분증';
+propertyData.pop.casino_idcard_txt08 = '국제운전면허증';
+propertyData.pop.casino_idcard_txt09 = '선원증';
+propertyData.pop.casino_idcard_txt10 = '외국(P)여권 입장 가능';
+propertyData.pop.casino_idcard_txt11 = '동남아/중남미 영주자(PR) : 여권 + 재외국민등록부등본';
+propertyData.pop.casino_idcard_txt12 = '그 외 국가 영주자(PR)여권 : ';
+propertyData.pop.casino_idcard_txt13 = '여권 + 재외국민등록부등본';
+propertyData.pop.casino_idcard_txt14 = '여권 + 외국의 외국인등록증';
+propertyData.pop.casino_idcard_txt15 = '여권 + 외국의 영주권카드';
+propertyData.pop.casino_idcard_txt16 = '여권 + 재외국민국내거소신고증 중 택일';
+propertyData.pop.casino_idcard_txt17 = '현역 군인만 입장 가능';
+propertyData.pop.casino_idcard_txt18 = '외교관신분증, 영사신분증';
+propertyData.pop.casino_idcard_txt19 = '신분증A';
+propertyData.pop.casino_idcard_txt20 = '주한 외교공관의 행정, 기능 노무직원';
+propertyData.pop.casino_idcard_txt21 = '주한 영사기관의 사무, 노무직원';
+propertyData.pop.casino_idcard_txt22 = '주한 국제기구 대표사무소에 근무하는 일반 직원';
+propertyData.pop.casino_idcard_txt23 = '상기 해당자와 동거할 목적으로 입국한 동반가족<br>(14세 미만은 제외)';
+propertyData.pop.casino_idcard_txt24 = '신분증B';
+propertyData.pop.casino_idcard_txt25 = '한국정부가 체결한 협정 등에 의거하여 특권, 면제를 <br>부여받은 자';
+propertyData.pop.casino_idcard_txt26 = '상기 해당자와 동거할 목적으로 입국한 동반가족<br>(14세 미만은 제외)';
+propertyData.pop.casino_idcard_txt27 = '기타 신분증발급이 필요하다고 인정되는 자';
+propertyData.pop.casino_idcard_txt28 = '신분증 A,B 경우 직위란에 본인 직위가 표기된 것만 가능';
+propertyData.pop.casino_idcard_txt29 = '외국인임이 입증되는 경우 (발급지가 대한민국 외 국가)';
+propertyData.pop.casino_idcard_txt30 = '외국인임이 입증되는 선원증';
+
+propertyData.pop.casino_passport_title = '해외영주권자(PR여권소지자) 출입방법 안내문';
+propertyData.pop.casino_passport_txt01 = '출입방법 변경 대상 고객';
+propertyData.pop.casino_passport_txt02 = '대한민국 거주여권(PR여권) 소지 고객 중 중남미 및 동남아 영주권 보유 고객';
+propertyData.pop.casino_passport_txt03 = '대한민국 거주여권 (PR여권) 소지 고객 중 중남미 및 동남아를 제외한 기타국가 영주권보유고객';
+propertyData.pop.casino_passport_txt04 = '출입방법 변경 및 증명 서류 제출 방법';
+propertyData.pop.casino_passport_txt05 = '멤버십 카드 소지 고객의 경우';
+propertyData.pop.casino_passport_txt06 = '담당마케터에게 소지하고 있는 멤버쉽 카드를 반납, 대한민국 거주여권(PR여권) 및 재외국민등록부등본을 제출한 후 멤버십 카드를 재발급 받아 출입';
+propertyData.pop.casino_passport_txt07 = '기존 VIP카드 소지고객(에이전트 고객 포함)은 해당 지역마케팅팀 담당자에게, 실버카드 소지고객은 해당 영업점 CS팀에 기존 멤버십카드와 증명서류를 제출하시기 바랍니다.';
+propertyData.pop.casino_passport_txt08 = '멤버십 카드 신규 발급 고객의 경우';
+propertyData.pop.casino_passport_txt09 = '대한민국 거주여권(PR여권) 및 재외국민등록부등본을 제출 후 멤버십카드를 발급 받아 출입';
+propertyData.pop.casino_passport_txt10 = 'VIP카드 발급 대상 고객은 해당 지역마케팅팀 담당자에게, 실버카드 발급 대상 고객은 해당 영업점 CS팀에 증명서류를 제출하시기 바랍니다.';
+propertyData.pop.casino_passport_txt11 = '멤버십 카드 미소지 고객의 경우';
+propertyData.pop.casino_passport_txt12 = '대한민국 거주여권(PR여권) 및 재외국민등록부등본을 해당 영업점 CS팀에 제출, 확인 및 사본 징구';
+propertyData.pop.casino_passport_txt13 = '중남미 및 동남아를 제외한 기타국가 영주권 보유고객의 경우';
+propertyData.pop.casino_passport_txt14 = '재외국민국내거소신고증/해당국가 외국인 등록증/영주권 카드 중 하나를 제시하여 확인 후 출입';
+propertyData.pop.casino_passport_txt15 = '증명 서류 발급 방법';
+propertyData.pop.casino_passport_txt16 = '재외공관에 재외국민등록이 되어 있지 않은 고객께서는 우선 재외공관에 재외국민등록을 합니다.';
+propertyData.pop.casino_passport_txt17 = '재외국민등록 방법';
+propertyData.pop.casino_passport_txt18 = '재외공관이란 거주지의 관할 공관(대사관, 총영사관, 영사관 등)을 의미하며, 재외공관에 직접방문 제출, 우편송부, 팩스전송 또는 온라인의 방법으로 등록 하실 수 있습니다. 재외공관에 재외국민등록후, 외교부 민원실(종로구청 뒤 Korean Re 빌딩4층) 해외이주 창구에서 재외국민등록부등본을 발급 받으실 수 있습니다. 재외국민등록부등본의 대리인 신청시에는 위임장, 여권사본, 대리인신분증이 필요하며, 우편신청(본인만 가능)시에는 7～10일정도 소요됩니다. 재외국민등록부등본에 관하여 궁금하신 사항은 외교부 여권과에 문의하시기 바랍니다.';
+
+propertyData.pop.game_detail_title = '운영게임 자세히보기';
+propertyData.pop.game_detail_tab01 = '게임 소개';
+propertyData.pop.game_detail_tab02 = '가치 및 순위';
+propertyData.pop.game_detail_tab03 = '드로잉 롤';
+propertyData.pop.game_detail_tab04 = '게임 진행';
+propertyData.pop.game_detail_tab05 = '게임옵션';
+
+propertyData.cas.facilities_txt01 = '카지노를 한층 더 다이내믹하게 즐길 수 있는 카지노 엔터테인먼트바<br>바21에서는 연중 색다른 이벤트/공연이 펼쳐지며 이와 함꼐 간단한 식음 서비스를<br>즐길 수도 있습니다.';
+propertyData.cas.facilities_txt02 = '게임 속 오아시스, 미식의 즐거움을 경험하는 곳<br>긴장감 넘치는 게임밍 중 잠시 쉬어갈 수 있는 편안한 공간인 카지노 내 레스토랑 카페9은 한&middot;중&middot;일을 넘어 세계의 다양한 요리까지 맛볼 수 있는 메뉴를 제공합니다. 익숙해서<br>더 좋은 일상의 메뉴부터 특별함을 맛볼 수 있는 메뉴까지 신선한 재료만을 사용하여<br>최고의 퀄리티로 제공하는 파라다이스시티 카지노 레스토랑을 경험해 보세요.';
+propertyData.cas.facilities_txt03 = '화려하고 고급스럽게 꾸며진 VIP룸은 게임과 함께 파라다이스시티 카지노의 최상급<br>서비스를 누릴 수 있는 VIP 전용 게임공간입니다. 파라다이스시티 카지노에서<br>최고의 순간을 경험하세요.';
+propertyData.cas.facilities_txt04 = '최고의 고객에게 최고만을 선보이는 VIP 전용 카지노 레스토랑 THE EMPEROR<br>카지노 VIP 레스토랑 디엠퍼러는 오리엔탈 감성과 모던한 디자인이 어우러져 황제의<br>기품을 느낄 수 있는 공간입니다. 최상급의 식자재를 사용하여 조리되는 메뉴들은<br>미각을 넘어 시각, 청각까지 만족시키는 놀라운 경험을 선사할 것입니다. 특히,<br>북경 출신 최고 쉐프가 책임지는 중국 황실의 요리는 디엠퍼러의 자랑입니다.';
+propertyData.cas.facilities_txt05 = '게임용 칩스는 오픈된 테이블에서 항상 구매할 수 있습니다. 외화로 칩스를 구매한 경우<br>환전 영수증을 드리는데, 재환전할 때는 이 영수증을 반드시 지참해야 합니다. 또한,<br>보다 편리한 이용을 위해 현금지급기가 영업장 내 환전소 옆에 항상 비치되어 있습니다.';
+propertyData.cas.facilities_txt06 = '포인트 확인, 각종 쿠폰 및 바우처 출력, 카지노 및 리조트 관련 시설 정보, 이벤트 정보,<br>프로모션 참가 등 KIOSK를 통해 다양한 서비스를 체험할 수 있습니다.';
+propertyData.cas.facilities_txt07 = '서해의 멋진 노을, 아름다운 예술품이 게이밍과 함께하는 어디에서도 경험할 수 없는<br>유니크한 VIP 전용 공간<br>전문 딜러와 함께 하는 게임뿐만 아니라 편안한 휴식, 최고의 식사 등 다양한 체험을<br>한꺼번에 체험할 수 있는 P-City 내 최고의 VIP 공간입니다.';
+
+propertyData.cas.map_nav_stit = '편의시설';
+
+
+/*! email */
+propertyData.email = {};
+propertyData.email.cancel_policy_rsv_title = '예약취소정책';
+propertyData.email.cancel_policy_buy_title = '구매취소정책';
+propertyData.email.cancel_policy_txt01 = '취소/변경 및 노쇼(No-show) 안내';
+propertyData.email.cancel_policy_txt02 = '파라다이스시티 상품의 취소 및 변경, No-Show 규정은 아래와 같습니다.';
+propertyData.email.cancel_policy_txt03 = '주중(월~목요일): 숙박 예정일 1일 전 15시까지 위약금 없이 취소 및 변경이 가능합니다. 1일 전 15시 이후 10%의 위약금이 발생하며 당일 취소 및 변경 또는 No-Show 시 20%의 위약금이 발생합니다.';
+propertyData.email.cancel_policy_txt04 = '주말(금~일요일): 숙박 예정일 2일 전까지 위약금 없이 취소 및 변경이 가능합니다. 1일 전 취소 시 20%의 위약금이, 당일 취소/변경 또는 No-Show 시 30%의 위약금이 발생합니다.';
+propertyData.email.cancel_policy_txt05 = '성수기: 숙박 예정일 5일 전까지 위약금 없이 취소 및 변경이 가능합니다. 숙박 예정일 4일~1일 전 15시 이전 취소 및 변경은 50%의 위약금이, 1일 전 15시 이후 또는 No-Show 시 90%의 위약금이 발생합니다.';
+propertyData.email.cancel_policy_txt06 = '패키지별로 취소규정이 상이할 수 있습니다. 자세한 사항은 패키지 상세 페이지를 참고해 주시기 바랍니다.';
+
+propertyData.email.footer = '본 메일은 발신전용 메일입니다. 궁금하신 점은 <a href="#" style="color:#c4c3c2;">Contact Us</a> 로 문의해주시기 바랍니다.';
+propertyData.email.copyright = 'Copyright © 2016 PARADISE CITY Co. Ltd. All rights reserved. 고객센터 : Tel +82-1-1234-5678';
+
+propertyData.email.won = '원';
+propertyData.email.creditcard = '신용카드';
+propertyData.email.rsv_ok = '예약 완료';
+propertyData.email.rsv_cncl_ok = '예약 취소 완료';
+
+propertyData.email.rsv_cfm_title = '예약 접수 완료';
+propertyData.email.rsv_cfm_desc = '예약 접수가 정상적으로 접수되었습니다.';
+
+propertyData.email.rsv_stit01 = '예약정보';
+propertyData.email.rsv_stit02 = '결제내역';
+
+propertyData.email.rsv_pkg_name = '패키지 명';
+propertyData.email.rsv_num = '예약번호';
+propertyData.email.rsv_status = '예약상태';
+propertyData.email.rsv_cus_name = '고객명';
+propertyData.email.rsv_hp_num = '휴대폰 번호';
+propertyData.email.rsv_email = '이메일';
+propertyData.email.rsv_chk_in = 'Check in';
+propertyData.email.rsv_chk_out = 'Check out';
+propertyData.email.rsv_member = '투숙인원';
+propertyData.email.rsv_date = '예약 일자';
+propertyData.email.rsv_room = '객실';
+propertyData.email.rsv_bed_type = '침대 타입';
+propertyData.email.rsv_bed_add = '침대 추가';
+propertyData.email.rsv_breakfast = '조식';
+propertyData.email.rsv_pay_type = '결제 유형';
+propertyData.email.rsv_breakfast_adt = '성인 조식';
+propertyData.email.rsv_breakfast_chd = '어린이 조식';
+propertyData.email.rsv_extra_bed = 'Extra Bed';
+propertyData.email.rsv_total = '합계';
+propertyData.email.rsv_tax_vat = '세금 &amp; 봉사료';
+propertyData.email.rsv_paid_point = '포인트 차감 금액';
+propertyData.email.rsv_vat_include_info = '부가세 포함 금액 입니다.';
+
+propertyData.email.rsv_cncl_title = '예약 취소 완료';
+propertyData.email.rsv_cncl_desc = '예약 취소 신청이 정상적으로 접수되었습니다.';
+propertyData.email.rsv_cncl_fee = '취소 수수료';
+
+propertyData.email.join_auth_title = '회원가입 인증 메일';
+propertyData.email.join_auth_desc = '아래 회원가입 인증 링크를 클릭하시면 회원가입을 진행할 수 있습니다.';
+propertyData.email.join_auth_txt01 = '인증 유효기간';
+propertyData.email.join_auth_txt02 = '인증링크';
+propertyData.email.join_auth_txt03 = '회원가입 인증 메일의 인증 링크는 개인정보보호를 위해 발송 후 24시간까지만 유효합니다.<br>인증 유효기간이 경과된 경우, 회원가입 절차를 처음부터 다시 진행해주시기 바랍니다.';
+
+propertyData.email.join_ok_title = '회원가입완료';
+propertyData.email.join_ok_desc = '파라다이스시티 홈페이지 회원가입 완료 되었습니다.';
+propertyData.email.join_ok_txt01 = '이름';
+propertyData.email.join_ok_txt02 = '회원번호';
+propertyData.email.join_ok_txt03 = '가입일';
+propertyData.email.join_ok_txt04 = '이메일';
+propertyData.email.join_ok_txt05 = '휴대폰 번호';
+propertyData.email.join_ok_txt06 = 'PARADIAN REWARD';
+propertyData.email.join_ok_txt07 = '동북아시아 최초의 한국형 복합리조트<br><span style="color:#db7428;">파라다이스시티 홈페이지 회원 가입을 환영합니다.</span>';
+propertyData.email.join_ok_txt08 = '멤버십 가입 대상은 호텔을 이용하는 모든 고객(외국인 포함)이며 가입비는 무료입니다.<br>단, 미성년자는 가입할 수 없습니다';
+propertyData.email.join_ok_txt09 = '호텔 이용금액 할인/포인트 적립';
+propertyData.email.join_ok_txt10 = '호텔 이용 금액 포인트 결제';
+propertyData.email.join_ok_txt11 = '포인트에 따른 등급 업그레이드';
+propertyData.email.join_ok_txt12 = '등급별 할인% 및 혜택 내역은 상이할 수 있습니다.';
+
+propertyData.email.join_drop_title = '회원탈퇴완료';
+propertyData.email.join_drop_desc = '파라다이스시티 회원 탈퇴가 정상적으로 처리되었습니다.';
+propertyData.email.join_drop_txt01 = '그 동안 PARADISE CITY 이용해주셔서 감사합니다.';
+propertyData.email.join_drop_txt02 = '고객님의 회원정보가 삭제되었으며, 보유하신 PARADISE CITY 멤버십 포인트도 함께 소멸되었습니다.';
+
+propertyData.email.temp_pw_title = '임시비밀번호 발급';
+propertyData.email.temp_pw_desc = '고객님, PARADISE CITY 임시 비밀번호 발급 안내 드립니다.';
+propertyData.email.temp_pw_txt01 = '임시 비밀번호';
+propertyData.email.temp_pw_txt02 = '위의 임시 비밀번호로 로그인 하신 후 비밀번호를 변경해주시기 바랍니다.';
+
+propertyData.email.qna_title = '문의답변';
+propertyData.email.qna_desc = '문의 주신 내용에 대한 답변드립니다.';
+propertyData.email.qna_txt01 = '문의내용';
+propertyData.email.qna_txt02 = '답변내용';
+
+propertyData.email.eshop_buy_title = 'e-Shop 구매완료';
+propertyData.email.eshop_buy_desc = 'e-Shop 구매가 정상적으로 처리되었습니다.';
+
+propertyData.email.eshop_stit01 = '구매 정보';
+propertyData.email.eshop_stit02 = '구매 상품 정보';
+propertyData.email.eshop_stit03 = '배송정보';
+propertyData.email.eshop_stit04 = '결제정보';
+
+propertyData.email.eshop_index = '구분';
+propertyData.email.eshop_order_date = '구매일';
+propertyData.email.eshop_order_num = '주문번호';
+propertyData.email.eshop_order_price = '주문금액';
+propertyData.email.eshop_hp_num = '휴대폰 번호';
+propertyData.email.eshop_pay_type = '결제 유형';
+propertyData.email.eshop_pay_point = '사용 포인트';
+propertyData.email.eshop_pay_price = '결제 금액';
+
+propertyData.email.eshop_gift_txt01 = '배송 방법';
+propertyData.email.eshop_gift_txt02 = '받으시는 분';
+propertyData.email.eshop_gift_txt03 = '숙박 예정일';
+propertyData.email.eshop_gift_txt04 = '배달 요청 사항';
+propertyData.email.eshop_gift_txt05 = '카드 메시지';
+propertyData.email.eshop_gift_txt06 = '주소';
+propertyData.email.eshop_gift_txt07 = '객실번호';
+
+propertyData.email.eshop_coupon_txt01 = '유효기간';
+propertyData.email.eshop_coupon_txt02 = '사용여부';
+propertyData.email.eshop_coupon_txt03 = '구매상품';
+
+propertyData.email.eshop_cncl_title = 'e-Shop 구매취소';
+propertyData.email.eshop_cncl_desc = 'e-Shop 구매 취소가 정상적으로 처리되었습니다.';
+
+propertyData.email.eshop_date = '유효기간:';
+
+
+/*! location */
+propertyData.global.location_txt01 = '인천광역시 중구 영종해안남로 321번길 208';
+propertyData.global.location_txt02 = '네비게이션';
+propertyData.global.location_txt03 = '파라다이스시티, Paradise City';
+propertyData.global.location_txt04 = '자동차로 오시는 길';
+propertyData.global.location_txt05 = '인천국제공항고속도로';
+propertyData.global.location_txt06 = '신불 IC';
+propertyData.global.location_txt07 = '인천 국제공항공사';
+propertyData.global.location_txt08 = 'IBC 지하차도';
+propertyData.global.location_txt09 = 'IBC 월드게이트 오피스텔 방향 좌회전';
+propertyData.global.location_txt10 = '파라다이스시티 도착';
+propertyData.global.location_txt11 = '지역별 인천국제공항고속도로 진입로 안내';
+propertyData.global.location_txt12 = '인천국제공항고속도로 진입로 안내';
+propertyData.global.location_txt13 = '인천지역 : 북인천IC';
+propertyData.global.location_txt14 = '김포, 부천, 시흥, 일산 등의 지역 : 서울외곽순환고속도로와 연결된 노오지JCT';
+propertyData.global.location_txt15 = '김포공항, 목동 등 서울 남서부지역 : 김포공항IC';
+propertyData.global.location_txt16 = '강남, 서초, 영등포, 여의도 등 서울 남부지역 : 올림픽대로와 연결된 88JCT';
+propertyData.global.location_txt17 = '은평, 마포 등 서울 북서부지역 : 강변북로, 자유로와 연결된 북로JCT';
+propertyData.global.location_txt18 = '대중교통으로 오시는 길';
+propertyData.global.location_txt19 = '지하철 + 자기부상열차';
+propertyData.global.location_txt20 = '공항철도 서울역 승차<br>(인천국제공항 방면)';
+propertyData.global.location_txt21 = '인천국제공항역<br>환승';
+propertyData.global.location_txt22 = '자기부상열차<br>(용유 방면)';
+propertyData.global.location_txt23 = '합동청사역 하차<br>(2번 출구)';
+propertyData.global.location_txt24 = '웨스트 타워 방면<br>도보 이동 (약 8분)';
+propertyData.global.location_txt25 = '도보 이동<br>(약, 8분)';
+propertyData.global.location_txt26 = '지하철 + 버스';
+propertyData.global.location_txt27 = '공항철도 서울역 승차<br>(인천국제공항 방면)';
+propertyData.global.location_txt28 = '인천국제공항역 하차<br>(3번 출구)';
+propertyData.global.location_txt29 = '인천국제공항정류장<br>방면 도보이동(약 8분)';
+propertyData.global.location_txt30 = '302, 306A, 306 승차<br>(용유 초등학교 방면)';
+propertyData.global.location_txt31 = '이마트 정류장 하차';
+propertyData.global.location_txt32 = '웨스트 타워 방면<br>도보 이동 (약 8분)';
+// propertyData.global.location_txt29 = '3번 출구';
+// propertyData.global.location_txt30 = '인천국제공항정류장<br>도보 이동 (약, 8분)';
+// propertyData.global.location_txt31 = '302, 306A, 306 승차<br>(용유 초등학교 방면)';
+// propertyData.global.location_txt32 = '도보 이동<br>(약, 8분)';
+// propertyData.global.location_txt33 = '국제업무단지<br>정류장 하차';
+// propertyData.global.location_txt34 = '도보 이동<br>(약, 9분)';
+
+propertyData.global.location_btn01 = 'Naver 지도 보기';
+propertyData.global.location_btn02 = 'Daum 지도 보기';
+
+/*! 회사소개 */
+propertyData.global.company_txt01 = '파라다이스 시티 전경 이미지';
+propertyData.global.company_txt02 = 'PARADISE SEGASAMMY';
+propertyData.global.company_txt03 = '지난 40여년간 대한민국 관광, 문화, 예술 분야에 전념해 온 관광레저산업의 선도기업 파라다이스와 <br>일본의 대표적인 엔터테인먼트 기업인 세가사미가 만나 각 분야의 특화된 노하우를 결합하여 창조적 시너지를 일으킵니다.<br>문화와 예술, 사람과 삶에 대한 진지한 고민을 바탕으로 시대가 요구하는 진정한 복합리조트를 건설하여 <br>최고의 가치를 창출하겠습니다.';
+propertyData.global.company_txt04 = '파라다이스';
+propertyData.global.company_txt05 = '1972년 설립된 파라다이스그룹은 호텔, 카지노, 레저 등 관광서비스 사업을 중심으로 <br>성장해 오면서, 복지재단, 문화재단, 계원학원 등 사회공헌에도 기여하고 있는 <br>한국을 대표하는 관광 전문 기업입니다.';
+propertyData.global.company_txt06 = 'SEGASAMMY HOLDINGS';
+propertyData.global.company_txt07 = '세가사미그룹은 어뮤즈먼트 제품의 개발 및 판매 사업, <br>엔터테인먼트 시설 및 리조트시설 운영 사업, 게임 컨텐츠 사업, 완구 사업, <br>애니메이션 사업 등 폭넓은 영역에서 계속해서 성장해 나가고 있는 <br>글로벌 엔터테인먼트 기업입니다.';
+
+/*! Hotel Membership */
+// propertyData.global.hotel_mem_top = '파라다이스 시티 호텔을 이용하면서 사용하신 금액의 일정 부분을<br>포인트로 적립하면 파라다이스 시티에서 제공해 드리는 다양한 혜택을 누리실 수 있습니다.';
+propertyData.global.hotel_mem_top = '파라다이스 호텔&amp;리조트 멤버십 회원이 되시면,<br>파라다이스호텔&amp;리조트에서제공하는 다양한 혜택과 가치를 누리실 수 있습니다.';
+propertyData.global.hotel_mem_btn01 = '포인트 교환정보';
+propertyData.global.hotel_mem_btn02 = '이용약관';
+propertyData.global.hotel_mem_desc01 = '멤버십 가입 대상은 호텔이용 모든 고객(외국인 포함)이며 가입비는 무료입니다.';
+propertyData.global.hotel_mem_desc02 = '(단, 미성년자 가입불가 합니다)';
+propertyData.global.hotel_mem_info01 = '멤버십 등급';
+propertyData.global.hotel_mem_info0101 = 'Red, Purple, Gold<br>적립 포인트에 따라 등급이 적용됩니다.<br>(포인트가 일정기준 미만일 경우 등급이 변동 될 수 있습니다)';
+propertyData.global.hotel_mem_info02 = '유효기간';
+propertyData.global.hotel_mem_info0201 = '첫 적립월로부터 24개월이며, <br>24개월 이후 적립 포인트는 자동 소멸하게 됩니다.';
+propertyData.global.hotel_mem_info03 = '주요혜택';
+propertyData.global.hotel_mem_info0301 = '호텔 이용금액 할인/포인트 적립';
+propertyData.global.hotel_mem_info0302 = '호텔 이용금액 포인트 결제';
+propertyData.global.hotel_mem_info0303 = '포인트에 따른 등급 업그레이드';
+propertyData.global.hotel_mem_caption = '멤버십 등급별 적립내역 및 혜택 안내';
+propertyData.global.hotel_mem_divide = '구분';
+propertyData.global.hotel_mem_save = '적립';
+propertyData.global.hotel_mem_save01 = '객실 이용요금의 2%적립';
+propertyData.global.hotel_mem_save02 = '식사 및 음료 이용요금의 1%적립';
+propertyData.global.hotel_mem_benefit = '혜택';
+propertyData.global.hotel_mem_benefit0101 = '객실 주중 30%, 식음 5% 할인';
+propertyData.global.hotel_mem_benefit0102 = '사우나 포인트 이용 가능 (성수기 제외)';
+propertyData.global.hotel_mem_benefit0201 = '객실 주중 40%, 주말 30%,';
+propertyData.global.hotel_mem_benefit0202 = '식음 5% 할인';
+propertyData.global.hotel_mem_benefit0203 = '무료 view upgrade (연1회/성수기제외)';
+propertyData.global.hotel_mem_benefit0204 = '무료 트리트먼트';
+propertyData.global.hotel_mem_benefit0205 = '사우나 무료 이용 (연2회, 성수기 제외)';
+propertyData.global.hotel_mem_benefit0206 = '발렛 파킹 (연2회, 성수기 제외)';
+propertyData.global.hotel_mem_benefit0301 = '객실 주중 50%, 주말 40% 할인';
+propertyData.global.hotel_mem_benefit0302 = '성수기/연말 20% 할인';
+propertyData.global.hotel_mem_benefit0303 = '식음 10% 할인';
+propertyData.global.hotel_mem_benefit0304 = '생일케이크 제공 무료';
+propertyData.global.hotel_mem_benefit0305 = '트리트먼트 룸 업그레이드 (1단계/연2회/성수기 제외)';
+propertyData.global.hotel_mem_benefit0306 = '사우나 무료 이용 (연4회, 성수기 제외)';
+propertyData.global.hotel_mem_benefit0307 = '발렛 파킹 (연4회, 성수기 제외)';
+propertyData.global.hotel_mem_benefit0308 = 'EFL회의실 (연2회, 2시간 限)';
+propertyData.global.hotel_mem_caution = '등급별 할인% 및 혜택 내역은 상이할 수 있습니다.';
+
+propertyData.global.hotel_mem_pt_desc = '호텔 서비스를 보다 효과적으로 이용하고자 하는 고객을 위한 멤버십이며,<br>연회비 납부를 통해 서비스 이용이 가능합니다.';
+propertyData.global.hotel_mem_pt_info0101 = '연회비에 따라 등급이 적용됩니다.';
+propertyData.global.hotel_mem_pt_info0102 = 'Signature Red (45만)';
+propertyData.global.hotel_mem_pt_info0103 = 'Signature Purple (80만)';
+propertyData.global.hotel_mem_pt_info0104 = 'Signature Gold (150만)';
+propertyData.global.hotel_mem_pt_info0201 = '가입 후 1년간 유지되며, <br>이 후 연회비 납부를 통해 갱신됩니다.';
+propertyData.global.hotel_mem_pt_info0301 = '객실 무료 숙박권 및 할인 제공';
+propertyData.global.hotel_mem_pt_info0302 = '식음업장 바우처 및 할인 제공';
+propertyData.global.hotel_mem_pt_info0303 = '부대업장 할인 및 무료 이용';
+propertyData.global.hotel_mem_pt_benefit_stit01 = '객실';
+propertyData.global.hotel_mem_pt_benefit010101 = '주중 디럭스 1박 이용권';
+propertyData.global.hotel_mem_pt_benefit010102 = '주중 50%, 주말 40%, 성수기 20%';
+propertyData.global.hotel_mem_pt_benefit010103 = '시즌패키지 10% 할인';
+propertyData.global.hotel_mem_pt_benefit010201 = '주중 디럭스 1박 이용권';
+propertyData.global.hotel_mem_pt_benefit010202 = '주중 50%, 주말 40%, 성수기 20%';
+propertyData.global.hotel_mem_pt_benefit010203 = '시즌패키지 10% 할인';
+propertyData.global.hotel_mem_pt_benefit010301 = '주중 주니어스위트 1박 이용권';
+propertyData.global.hotel_mem_pt_benefit010302 = '주말 주니어스위트 1박 이용권';
+propertyData.global.hotel_mem_pt_benefit010303 = '주말 50% 할인권 2매(성수기 제외)';
+propertyData.global.hotel_mem_pt_benefit010304 = '주중 50%, 주말 40%, 성수기 20%';
+propertyData.global.hotel_mem_pt_benefit010305 = '시즌패키지 10% 할인';
+propertyData.global.hotel_mem_pt_benefit_stit02 = '식음';
+propertyData.global.hotel_mem_pt_benefit020101 = '레스토랑 바우처 7만원 3매';
+propertyData.global.hotel_mem_pt_benefit020102 = '베이커리 바우처 3만원 1매';
+propertyData.global.hotel_mem_pt_benefit020103 = '1~10인: 30%, 11~15인: 15% 16~30인: 10%, 30인 이상: 5% 할인';
+propertyData.global.hotel_mem_pt_benefit020104 = '음료 및 주류 10%';
+propertyData.global.hotel_mem_pt_benefit020201 = '레스토랑 바우처 7만원 4매';
+propertyData.global.hotel_mem_pt_benefit020202 = '베이커리 바우처 3만원 1매';
+propertyData.global.hotel_mem_pt_benefit020203 = '1~10인: 30%, 11~15인: 15%, 16~30인: 10%, 30인 이상: 5% 할인';
+propertyData.global.hotel_mem_pt_benefit020204 = '음료 및 주류 10%';
+propertyData.global.hotel_mem_pt_benefit020301 = '레스토랑 바우처 10만원 3매';
+propertyData.global.hotel_mem_pt_benefit020302 = '베이커리 바우처 3만원 1매';
+propertyData.global.hotel_mem_pt_benefit020303 = '1~10인: 30%, 11~15인: 15%, 16~30인: 10%, 30인 이상: 5% 할인';
+propertyData.global.hotel_mem_pt_benefit020304 = '음료 및 주류 10%';
+propertyData.global.hotel_mem_pt_benefit_stit03 = '기타';
+propertyData.global.hotel_mem_pt_benefit030101 = '사우나 이용권 2매/4매 + 연중 30% 할인';
+propertyData.global.hotel_mem_pt_benefit030102 = '호텔 세탁 20%';
+propertyData.global.hotel_mem_pt_benefit030103 = '베이커리 20% 할인';
+propertyData.global.hotel_mem_pt_benefit030104 = '장기 주차 이용권 4매';
+propertyData.global.hotel_mem_pt_benefit030201 = '사우나 이용권 2매/4매 + 연중 30% 할인';
+propertyData.global.hotel_mem_pt_benefit030202 = '호텔 세탁 20%';
+propertyData.global.hotel_mem_pt_benefit030203 = '베이커리 20% 할인';
+propertyData.global.hotel_mem_pt_benefit030204 = '장기 주차 이용권 4매';
+propertyData.global.hotel_mem_pt_benefit030301 = '사우나 이용권 4매 + 연중 30% 할인';
+propertyData.global.hotel_mem_pt_benefit030302 = '호텔 세탁 20%';
+propertyData.global.hotel_mem_pt_benefit030303 = '발렛 이용권 6매';
+propertyData.global.hotel_mem_pt_benefit030304 = '베이커리 20% 할인';
+propertyData.global.hotel_mem_pt_benefit030305 = '장기 주차 이용권 8매';
+propertyData.global.hotel_mem_pt_benefit040101 = '플스존 무료 이용 (Bakery 20% 할인)';
+propertyData.global.hotel_mem_pt_benefit040102 = '볼링장 무료이용 2회';
+propertyData.global.hotel_mem_pt_benefit040103 = '각 종 클래스 (플라워, 야외 등) 20% 할인 (TBD)';
+propertyData.global.hotel_mem_pt_benefit040104 = '청라 국제성모병원 30% 할인 (TBD)';
+propertyData.global.hotel_mem_pt_benefit040105 = '서울/경기도 호텔 객실/식음 할인 (TBD)';
+propertyData.global.hotel_mem_pt_benefit040106 = 'Sky 72 (골프) 그린피 10% 할인 (TBD)';
+propertyData.global.hotel_mem_pt_benefit040201 = '플스존 무료 이용 (Bakery 20% 할인)';
+propertyData.global.hotel_mem_pt_benefit040202 = '볼링장 무료이용 2회';
+propertyData.global.hotel_mem_pt_benefit040203 = '각 종 클래스 (플라워, 야외 등) 20% 할인 (TBD)';
+propertyData.global.hotel_mem_pt_benefit040204 = '청라 국제성모병원 30% 할인 (TBD)';
+propertyData.global.hotel_mem_pt_benefit040205 = '서울/경기도 호텔 객실/식음 할인 (TBD)';
+propertyData.global.hotel_mem_pt_benefit040206 = 'Sky 72 (골프) 그린피 10% 할인 (TBD)';
+propertyData.global.hotel_mem_pt_benefit040301 = '플스존 무료 이용 (Bakery 20% 할인)';
+propertyData.global.hotel_mem_pt_benefit040302 = '야외수영장 카바나 2회';
+propertyData.global.hotel_mem_pt_benefit040303 = '볼링장 무료이용 2회';
+propertyData.global.hotel_mem_pt_benefit040304 = '각 종 클래스 (플라워, 야외 등) 20% 할인 (TBD)';
+propertyData.global.hotel_mem_pt_benefit040305 = 'BMW 드라이빙 센터 이용권 1회 (TBD)';
+propertyData.global.hotel_mem_pt_benefit040306 = '청라 국제성모병원 30% 할인 (TBD)';
+propertyData.global.hotel_mem_pt_benefit040307 = '서울/경기도 호텔 객실/식음 할인 (TBD)';
+propertyData.global.hotel_mem_pt_benefit040308 = 'Sky 72 (골프) 그린피 10% 할인 (TBD)';
+
+propertyData.global.hotel_mem_etc_tit01 = '기타안내';
+propertyData.global.hotel_mem_etc_txt01 = 'F&amp;B 할인 및 Cashback 제공: 50만원 당 5% 추가 할인 또는 2.5% Cashback';
+propertyData.global.hotel_mem_etc_txt0101 = '100만원 사용시 10% or 5% Cashback (One Card 內 포인트 적립)';
+propertyData.global.hotel_mem_etc_txt0102 = '카드 및 각종 제휴 관련 중복 혜택 불가';
+propertyData.global.hotel_mem_etc_txt02 = '바우처 혜택 제공 시, 분할 혜택 제공을 통한 고객 만족도 기여 (One Card 3분할 바우처 서비스)';
+propertyData.global.hotel_mem_etc_txt0201 = '멤버 1명당 3명에게 무료 및 할인 바우처 인계 가능 (전자쿠폰 활용)';
+propertyData.global.hotel_mem_etc_txt03 = '장기주차 이용권: 최초 입차 후 출차 시 때까지 (최대 4일 (96시간) 기준, 4일 이후 1 day 2만원 추가)';
+propertyData.global.hotel_mem_etc_tit02 = '가입방법';
+propertyData.global.hotel_mem_etc_txt04 = '무료 멤버십 : 프론트 및 식음업장에서 가입 가능합니다.';
+propertyData.global.hotel_mem_etc_txt05 = '유료 멤버십 : 멤버십 라운지에서 가입 가능합니다.';
+propertyData.global.hotel_mem_etc_tit03 = '카드재발급';
+propertyData.global.hotel_mem_etc_txt06 = '무료 멤버십 : 본관 프론트 데스크에서 본인확인 후 재발급이 가능합니다.';
+propertyData.global.hotel_mem_etc_txt07 = '유료 멤버십 : 멤버십 라운지에서 본인확인 후 재발급이 가능합니다.';
+propertyData.global.hotel_mem_etc_tit04 = '회원탈퇴 및 자격상실';
+propertyData.global.hotel_mem_etc_txt08 = '요청 시 즉시 탈퇴 처리 되며, 적립 된 포인트는 회원약관에 의해 소멸됩니다.';
+propertyData.global.hotel_mem_etc_txt09 = '호텔 정책 상 부적격 회원 (약관 사용 위반자, 부정 행위자 등)은 자격정지 및 박탈 될 수 있습니다.';
+
+propertyData.pop.point_exchg_tit = '포인트 교환 정보';
+propertyData.pop.point_exchg_caption = '포인트 교환 내용 및 차감 포인트 안내';
+propertyData.pop.point_exchg_caution = '성수기 제외, 기타 할인권 중복 사용 불가';
+propertyData.pop.point_exchg_txt01 = '교환 내용';
+propertyData.pop.point_exchg_txt02 = '차감 포인트';
+propertyData.pop.point_exchg_txt03 = '포인트 사용 가능시점';
+propertyData.pop.point_exchg_txt04 = '룸 업그레이드';
+propertyData.pop.point_exchg_txt05 = '주중 1인 뷔페 식사권 (성수기 제외)';
+propertyData.pop.point_exchg_txt06 = '2인 EFL 이용권';
+propertyData.pop.point_exchg_txt07 = '1박 본관 Deluxe City View 숙박권 (주중, 일~목 한정)<br>1박 Deluxe 숙박권 (주중, 일~목 한정)';
+propertyData.pop.point_exchg_txt08 = '1박 Deluxe Ocean Terrace View 숙박권 (주중, 일~목 한정)<br>1박 Deluxe 숙박권 (주중/주말)';
+propertyData.pop.point_exchg_txt09 = '1박 본관 Deluxe City View 숙박권 (주중/주말)<br>1박 Deluxe Ocean View 숙박권 (주중/주말)';
+propertyData.pop.point_exchg_txt10 = '1박 Deluxe Ocean Terrace View 숙박권 (주중/주말)<br>1박 Deluxe 숙박권 + EFL라운지 2인 이용권 (주중/주말)';
+propertyData.pop.point_exchg_txt11 = '1박 본관 Junior Suite City View 숙박권 (주중/주말)<br>1박 Junior Suite 숙박권 (주중/주말)';
+propertyData.pop.point_exchg_txt12 = '1박 Ruby Suite 숙박권 (주중/주말)<br>1박 Premier Suite 숙박권 (주중/주말)';
+
+/* ! 팝업 - 호텔 멤버십 이용약관 */
+/* ! 20170126 내용변경*/
+propertyData.pop.hotel_policy_tit = '호텔 멤버십 이용약관';
+propertyData.pop.hotel_policy_txt01 = 'Paradian Reward 이용 약관';
+propertyData.pop.hotel_policy_txt02 = '목 차';
+propertyData.pop.hotel_policy_txt03 = '제1조 목적';
+propertyData.pop.hotel_policy_txt04 = '제2조 회원 가입 및 멤버쉽';
+propertyData.pop.hotel_policy_txt05 = '제3조 회원 탈퇴 및 자격 상실';
+propertyData.pop.hotel_policy_txt06 = '제4조 포인트 적립 및 사용 기준';
+propertyData.pop.hotel_policy_txt07 = '제5조 포인트 등급과 혜택';
+propertyData.pop.hotel_policy_txt08 = '제6조 멤버쉽 카드의 사용 및 관리';
+propertyData.pop.hotel_policy_txt09 = '제7조 회원의 권리';
+propertyData.pop.hotel_policy_txt10 = '제8조 멤버쉽 서비스 약관의 개정';
+propertyData.pop.hotel_policy_txt11 = '제9조 멤버쉽 서비스의 중지';
+propertyData.pop.hotel_policy_txt12 = '제10조 개인정보 보호';
+propertyData.pop.hotel_policy_txt13 = '제11조 약관 등 위반 시의 책임';
+propertyData.pop.hotel_policy_txt14 = '제12조 약관의 해석 및 관할 법원';
+propertyData.pop.hotel_policy_txt15 = '제1조 목 적';
+propertyData.pop.hotel_policy_txt16 = '본 이용 약관은 파라다이스 호텔&amp;리조트 (이하"호텔"이라 한다)에서 운영하는 Paradise Rewards (이하 "멤버쉽"이라 한다) 가입 회원을 대상으로 제공하는 서비스와 관련하여 가입 조건, 서비스 이용 및 제반 권리 등 총괄적인 운영 사항들을 규정하는데 그 목적이 있습니다.';
+propertyData.pop.hotel_policy_txt17 = '제2조 회원 가입 및 멤버쉽';
+propertyData.pop.hotel_policy_txt18 = '1. 멤버쉽 가입 대상은 호텔을 이용하는 모든 고객(외국인 포함)이며 가입비는 무료입니다. 단, 미성년자는 가입할 수 없습니다.';
+propertyData.pop.hotel_policy_txt19 = '2. 회원 가입은 반드시 호텔에서 정한 가입 신청서를 작성, 개인정보 취급 방침에 동의하고 멤버쉽 카드 발급 후 모든 절차가 완료됩니다.';
+propertyData.pop.hotel_policy_txt20 = '3. 멤버쉽 카드를 분실하였을 경우, 호텔 본관 프론트 데스크에서 본인 인증 절차를 거쳐 멤버쉽 카드를 재발급 받을 수 있습니다.';
+propertyData.pop.hotel_policy_txt21 = '4. 호텔 내 기존 회원(유료멤버쉽) 역시 중복 가입이 가능합니다. 단, 여행사, 수수료 취득 숙박대행업체 등 협회, 단체는 회원으로 가입할 수 없습니다.';
+propertyData.pop.hotel_policy_txt22 = '5. 회원은 본 서비스에서 정한 약관 및 세부 운영 사항을 준수해야 하며, 가입 신청 시 허위 정보를 입력한 회원은 법적인 보호 및 호텔의 서비스 제공에 제한을 받을 수 있습니다.';
+propertyData.pop.hotel_policy_txt23 = '6. 포인트 등급은 누적된 적립 포인트에 따라 갱신됩니다.';
+propertyData.pop.hotel_policy_txt24 = '제3조 회원 탈퇴 및 자격 상실';
+propertyData.pop.hotel_policy_txt25 = '1. 회원은 서면, E-mail, 기타 방법으로 회원 탈퇴가 가능하며, 탈퇴 신청 시 해당 회원 계정 및 적립된 포인트는 모두 소멸 됩니다.';
+propertyData.pop.hotel_policy_txt26 = '2. 호텔은 아래 사유의 경우, 회원 자격을 정지 또는 상실시킬 수 있습니다.';
+propertyData.pop.hotel_policy_txt27 = '1) 가입 신청 시 작성한 내용이 사실과 다를 경우';
+propertyData.pop.hotel_policy_txt28 = '2) 본 약관에 따른 포인트 적립 및 사용과 관련하여 부정한 방법으로 이용한 경우';
+propertyData.pop.hotel_policy_txt29 = '3) 본 약관에 따라 회원이 준수해야 하는 의무를 위반한 경우';
+propertyData.pop.hotel_policy_txt30 = '4) 호텔의 정상적인 영업 및 운영을 방해한 경우';
+propertyData.pop.hotel_policy_txt31 = '5) 회원이 사망한 경우';
+propertyData.pop.hotel_policy_txt32 = '3. 본 약관 제3조 1항에 정해진 방법으로 회원 탈퇴할 경우, 탈퇴 요청일까지의 잔여 적립 포인트는 자동으로 소멸됩니다.';
+propertyData.pop.hotel_policy_txt33 = '4. 본 약관 제3조 2항에 의해 회원 자격이 상실된 경우, 자격 상실일까지의 잔여 적립 포인트는 자동으로 소멸됩니다.';
+propertyData.pop.hotel_policy_txt34 = '제4조 포인트 적립 및 사용 기준';
+propertyData.pop.hotel_policy_txt35 = '1. 포인트 적립 기준';
+propertyData.pop.hotel_policy_txt36 = '1) 멤버쉽 카드 발급 이전 결제금액에 대해서는 포인트 적립이 불가합니다.';
+propertyData.pop.hotel_policy_txt37 = '2) 포인트 적립 시 본인 명의의 멤버쉽 카드 제시를 원칙으로 합니다.';
+propertyData.pop.hotel_policy_txt38 = '3) 호텔에서 제공하는 서비스 및 상품 구입에 따라 아래와 같이 포인트를 적립할 수 있습니다.';
+propertyData.pop.hotel_policy_txt39 = '가. 객실 이용 시 포인트 등급에 따라 적립률이 달라집니다.';
+propertyData.pop.hotel_policy_txt40 = 'A. RED 회원: 객실료 결제금액(VAT제외) 2% 적립';
+propertyData.pop.hotel_policy_txt41 = 'B. PURPLE 회원: 객실료 결제금액(VAT제외) 2.5% 적립';
+propertyData.pop.hotel_policy_txt42 = 'C. GOLD 회원: 객실료 결제금액(VAT제외) 3% 적립';
+propertyData.pop.hotel_policy_txt43 = 'D. 여행사 및 단체를 통하여 객실을 이용할 경우, 포인트 적립이 불가합니다.';
+propertyData.pop.hotel_policy_txt44 = 'E. 특별 계약 업체를 통하여 객실을 이용할 경우, 포인트 등급과 무관하게 객실 결제금액(VAT 제외)의 1%가 적립됩니다.';
+propertyData.pop.hotel_policy_txt45 = 'F. 온라인 수수료 취득 숙박대행업체를 통하여 객실을 이용할 경우, 객실 결제금액 중 해당 업체에 지급되는 수수료 및 VAT가 제외된 금액을 기준으로 포인트가 적립됩니다.';
+propertyData.pop.hotel_policy_txt46 = '나. 식음료 영업장 이용 시 결제금액(VAT제외) 1% 적립';
+propertyData.pop.hotel_policy_txt47 = '다. 포인트 적립 불가 항목';
+propertyData.pop.hotel_policy_txt48 = '임대업장 결제금액, 유료멤버쉽 연회비, 연회장 이용금액';
+propertyData.pop.hotel_policy_txt49 = '클럽 라운지 회의실 대여료, 비즈니스 센터 이용금액, 발렛파킹 이용금액';
+propertyData.pop.hotel_policy_txt50 = '일일 객실 5실 초과 이용금액, 객실 전화 이용금액, 기타 객실 이용 시 발생하는 부대비용';
+propertyData.pop.hotel_policy_txt51 = '강습료, 장비대여, 이용금액';
+propertyData.pop.hotel_policy_txt52 = '4) 회원 본인이 이용하고 회원 본인이 결제한 건에 대해서만 포인트가 적립됩니다.';
+propertyData.pop.hotel_policy_txt53 = '5) 포인트는 분할 및 중복 적립이 불가합니다.(하나의 Bill에 한 명만 적립가능)';
+propertyData.pop.hotel_policy_txt54 = '6) 포인트 적립은 이용금액 결제 당일 호텔 영업 마감 후 익일 처리됩니다.';
+propertyData.pop.hotel_policy_txt55 = '7) 호텔에서 판매하는 자사 상품권 구입 시 포인트 적립은 불가하며, 자사 및 타사 상품권으로 대금 결제 시 포인트 적립이 가능합니다.';
+propertyData.pop.hotel_policy_txt56 = '8) 호텔 이용 후 발생하는 결제금액의 일부 또는 전체에 대하여 포인트를 사용할 경우 포인트 사용금액에 대해서는 포인트 적립이 불가합니다.';
+propertyData.pop.hotel_policy_txt57 = '9) 기존 회원(유료멤버쉽)이 중복 가입한 경우, 중복 할인은 불가하며 가장 높은 할인율이 적용됩니다. 할인된 금액 차감 후 포인트 적립이 가능합니다.';
+propertyData.pop.hotel_policy_txt58 = '10) 호텔에서 시행하는 캠페인 활동에 따라 추가 포인트 부여 및 적립이 가능합니다.';
+propertyData.pop.hotel_policy_txt59 = '11) 회원이 객실을 이용하는 경우, 일일 최대 5실의 결제금액에 대해서만 포인트 적립이 가능합니다. 단, 전 객실이 회원 명의로 예약되어야 하며, 회원 본인이 하나의 객실에 반드시 투숙해야 하고 회원 본인이 모든 객실 비용을 하나의 Bill로 지불해야 합니다.';
+propertyData.pop.hotel_policy_txt60 = '12) 포인트 적립은 당일 호텔 현장에서만 가능하며, 추후 소급 적립 혹은 수정 사항에 대한 정정 및 확인은 적립일로부터 1개월 이내에 호텔 마일리지 센터를 통하여 가능합니다.';
+propertyData.pop.hotel_policy_txt61 = '13) 특별판촉행사의 경우, 포인트 적립이 제한될 수 있습니다.';
+propertyData.pop.hotel_policy_txt62 = '2. 포인트 사용 기준';
+propertyData.pop.hotel_policy_txt63 = '1) 포인트 사용 시, 본인 명의의 멤버쉽 카드 제시를 원칙으로 합니다.';
+propertyData.pop.hotel_policy_txt64 = '2) 포인트 사용은 호텔 내 영업장(임대업장 제외)에서만 이용 가능하며, 기타 장소에서는 포인트 사용이 불가합니다.';
+propertyData.pop.hotel_policy_txt65 = '3) 회원은 5,000 포인트 이상 적립 시 1,000포인트 단위로 사용할 수 있습니다.';
+propertyData.pop.hotel_policy_txt66 = '4) 포인트 사용 기준은 1포인트당 1원이며, 포인트는 2인 이상 분할 및 중복 사용이 불가합니다. (하나의 Bill에 2인 사용 불가)';
+propertyData.pop.hotel_policy_txt67 = '5) 회원은 포인트를 타인에게 양도 및 대여 또는 담보의 목적으로 이용할 수 없습니다.';
+propertyData.pop.hotel_policy_txt68 = '6) 회원이 구입하는 서비스 및 상품의 대금 결제 시 할인 및 포인트 사용이 동시에 가능하나, 호텔 내 기존 회원(유료멤버쉽)이 중복 가입한 경우 중복 할인은 불가하며 가장 높은 할인율이 적용됩니다.';
+propertyData.pop.hotel_policy_txt69 = '7) 포인트 유효 기간은 포인트 적립월로부터 만 24개월간이며, 적립월부터 24개월 후 선입선출 방식에 의해 월 단위로 포인트가 소멸됩니다.';
+propertyData.pop.hotel_policy_txt70 = '8) 회원은 포인트 사용과 관련하여 수정사항 발생 시 사용일로부터 10일 이내에 호텔 마일리지 센터를 통하여 포인트 수정 및 확인이 가능합니다.';
+propertyData.pop.hotel_policy_txt71 = '9) 누적된 포인트는 약관에 규정된 무료 숙박권, 뷔페 식사권 등으로 교환하여 사용이 가능합니다. 단, 적립된 포인트의 현금 지급은 불가합니다.';
+propertyData.pop.hotel_policy_txt72 = '10) 회원은 포인트 등급에 관계 없이 포인트를 사용하여 사우나 입장료를 결제할 경우 사우나 입장이 가능하며, 포인트 사용금액만큼 포인트가 차감됩니다.';
+propertyData.pop.hotel_policy_txt73 = '3. 포인트 교환 기준';
+propertyData.pop.hotel_policy_txt74 = '포인트 교환 기준 : 차감 포인트, 교환 내용, 구분, 파라이스 시티, 파라다이스 부산';
+propertyData.pop.hotel_policy_txt75 = '차감 포인트';
+propertyData.pop.hotel_policy_txt76 = '교환 내용';
+propertyData.pop.hotel_policy_txt77 = '구분';
+propertyData.pop.hotel_policy_txt78 = '파라다이스 시티';
+propertyData.pop.hotel_policy_txt79 = '파라다이스 부산';
+propertyData.pop.hotel_policy_txt80 = '베이커리 2만원 바우처 (포인트 사용 가능시점)';
+propertyData.pop.hotel_policy_txt81 = '룸 업그레이드';
+propertyData.pop.hotel_policy_txt82 = '주중 1인 뷔페 식사권 (성수기 제외)';
+propertyData.pop.hotel_policy_txt83 = '2인 EFL 이용권';
+propertyData.pop.hotel_policy_txt84 = '1박 Deluxe 숙박권 (주중, 일~목 한정)';
+propertyData.pop.hotel_policy_txt85 = '1박 본관 Deluxe City View 숙박권<br>(주중, 일~목 한정)';
+propertyData.pop.hotel_policy_txt86 = '1박 Deluxe 숙박권 (주중/주말)';
+propertyData.pop.hotel_policy_txt87 = '1박 본관 주중(일-목) 숙박권<br>(Deluxe Ocean Terrace view)';
+propertyData.pop.hotel_policy_txt88 = '1박 Premier Deluxe 숙박권 (주중/주말)';
+propertyData.pop.hotel_policy_txt89 = '1박 본관 Deluxe City view 숙박권<br>(주중/주말 사용 가능)';
+propertyData.pop.hotel_policy_txt90 = '1박 Deluxe Suite 숙박권 + EFL라운지<br>2인 이용권 (주중/주말)';
+propertyData.pop.hotel_policy_txt91 = '1박 본관 Deluxe Ocean Terrace View 숙박권<br>(주중/주말 사용 가능)';
+propertyData.pop.hotel_policy_txt92 = '1박 Grand Premier Deluxe 숙박권 (주중/주말)';
+propertyData.pop.hotel_policy_txt93 = '1박 본관 Junior Suite City View Room only<br>1박 숙박권 (주중/주말 사용 가능)';
+propertyData.pop.hotel_policy_txt94 = '1박 Grand Deluxe Suite 숙박권 (주중/주말)';
+propertyData.pop.hotel_policy_txt95 = '1박 Ruby Suite Room only 1박 숙박권 <br>(주중/주말 사용 가능)';
+propertyData.pop.hotel_policy_txt96 = '* 여름성수기, 연말연시 사용 제외 * 기타 객실 숙박권 및 객실 할인권과의 중복 사용은 불가합니다.';
+propertyData.pop.hotel_policy_txt97 = '1) 상기 포인트 교환 기준에 따라 해당 특전을 교환 신청하실 경우, 해당 특전은 바우처(상품권)로 발급되는 것을 원칙으로 합니다.';
+propertyData.pop.hotel_policy_txt98 = '2) 바우처의 교환은 본인 확인 절차를 거쳐 유선(마일리지 센터 : <strong class="txt_orange">031-???-????</strong>)으로 신청 가능하며, 교환 신청일로부터 7일 이내에 수령 가능합니다.';
+propertyData.pop.hotel_policy_txt99 = '3) 회원 요청으로 발급된 바우처는 현금 교환 및 포인트 재교환이 불가하며, 해당 바우처의 유상 판매를 금합니다.';
+propertyData.pop.hotel_policy_txt100 = '4) 회원 요청으로 발급된 바우처는 우편수령 또는 본인 현장 수령을 원칙으로 하며, 본인 현장 수령의 경우 호텔 본관 프론트 데스크에서 멤버쉽 카드 제시 후 본인 확인 절차를 거쳐 해당 바우처가 제공됩니다.';
+propertyData.pop.hotel_policy_txt101 = '5) 회원 요청으로 발급된 모든 바우처는 여름성수기 및 연말연시 사용이 불가합니다. 세부 제외기간 및 사용 조건은 바우처에 기재된 사항을 참고하시기 바랍니다.';
+propertyData.pop.hotel_policy_txt102 = '6) 바우처 이용 시 반드시 해당 바우처 실물을 제시하여야 합니다. 특히 객실 관련 바우처는 사전 예약에 한하여 적용되며, 체크인 시 해당 바우처를 제시하여야 합니다.';
+propertyData.pop.hotel_policy_txt103 = '7) 회원 요청으로 발급된 모든 바우처의 유효기간은 발급일로부터 6개월입니다.';
+propertyData.pop.hotel_policy_txt104 = '8) 회원 요청으로 발급된 바우처의 분실, 도난, 파손 등 어떠한 경우에도 해당 바우처의 재발행은 불가합니다.';
+propertyData.pop.hotel_policy_txt105 = '제5조 포인트 등급과 혜택';
+propertyData.pop.hotel_policy_txt106 = '1. 포인트 등급은 회원 가입월로부터 매 12개월 단위로 평가 및 반영됩니다. 등급 조정에 따른 혜택은 조정일로부터 1년간 사용하실 수 있습니다.';
+propertyData.pop.hotel_policy_txt107 = '2. 포인트 등급에 따른 혜택은 기간 내 미 사용 시 자동 소멸되어 재발행 및 기간연장이 불가합니다.';
+propertyData.pop.hotel_policy_txt108 = '3. 모든 혜택은 회원 카드에 내장되어 있으며, 사용 시 회원 카드를 제시하여 주시기 바랍니다. (본인 한하여 사용 가능)';
+propertyData.pop.hotel_policy_txt109 = '4. RED 회원 및 혜택';
+propertyData.pop.hotel_policy_txt110 = '1) 최초 멤버쉽 가입이 완료되면 RED 회원으로 등록됩니다.';
+propertyData.pop.hotel_policy_txt111 = '2) RED 회원은 아래와 같은 특전 사항이 제공됩니다.';
+propertyData.pop.hotel_policy_txt112 = '가. 주중(일-목) 객실 이용 시 30% 할인이 가능합니다.';
+propertyData.pop.hotel_policy_txt113 = '나. 식음료 영업장 이용 시 5% 할인이 가능합니다.';
+propertyData.pop.hotel_policy_txt114 = '다. 객실 할인 제외 기간: 주말(금,토,공휴일 전일), 여름성수기 및 연말연시(해당 기간의 일자는 연도별로 변경될 수 있습니다.)';
+propertyData.pop.hotel_policy_txt115 = '5. PURPLE 회원 및 혜택';
+propertyData.pop.hotel_policy_txt116 = '1) 회원 가입 후 200,000포인트 이상 누적 적립할 경우 포인트 등급 평가 시 PURPLE 등급으로 상향 조정되며, 이후 12개월간 100,000포인트 이상 누적 적립 시 PURPLE 회원 자격이 유지됩니다.';
+propertyData.pop.hotel_policy_txt117 = '2) PURPLE 회원 대상 아래와 같은 혜택이 제공됩니다.';
+propertyData.pop.hotel_policy_txt118 = '가. 객실 투숙 시, 호텔이 정한 월컴 어메니티가 제공됩니다.';
+propertyData.pop.hotel_policy_txt119 = '나. 주중(일-목) 투숙 시 40% 할인, 주말(금, 토, 공휴일 전일) 투숙 시 30% 할인 가능합니다.';
+propertyData.pop.hotel_policy_txt120 = '다. 식음료 영업장 이용 시 5% 할인이 가능합니다.';
+propertyData.pop.hotel_policy_txt121 = '라. 연 1회 객실 무료 Upgrade 이용권 1매가 제공됩니다. (여름성수기 및 연말연시 제외)';
+propertyData.pop.hotel_policy_txt122 = '마. 연간 사우나 무료 입장권 2매가 제공됩니다. (여름성수기 제외)';
+propertyData.pop.hotel_policy_txt123 = '바. Valet Parking 연 2회, Club Lounge 연 1회 (2시간/사전 예약 필수) 사용이 무료로 제공됩니다. (단, Club Lounge 회의실 사용 시 별도 식음료 서비스는 포함되어 있지 않습니다. / 최대 12인 이용 가능)';
+propertyData.pop.hotel_policy_txt124 = '사. 객실 할인 제외 기간: 여름성수기 및 연말연시 (해당 기간의 일자는 연도별로 변경될 수 있습니다.)';
+propertyData.pop.hotel_policy_txt125 = '6. GOLD 회원 및 혜택';
+propertyData.pop.hotel_policy_txt126 = '1) 회원 가입 후 500,000포인트 이상 누적 적립할 경우 포인트 등급 평가 시 GOLD등급으로 상향 조정되며, 이후 12개월간 200,000포인트 이상 누적 적립 시 GOLD 회원 자격이 유지됩니다.';
+propertyData.pop.hotel_policy_txt127 = '2) GOLD 회원 대상 아래와 같은 혜택이 제공됩니다.';
+propertyData.pop.hotel_policy_txt128 = '가. 객실 투숙 시, 호텔이 정한 월컴 어메니티가 제공됩니다.';
+propertyData.pop.hotel_policy_txt129 = '나. 회원 본인 생일 시, 축하 케익이 제공됩니다.';
+propertyData.pop.hotel_policy_txt130 = '다. 주중(일-목) 투숙 시 50% 할인, 주말(금, 토, 공휴일 전일) 투숙 시 40% 할인, 여름성수기 및 연말연시 투숙 시 20% 할인이 가능합니다.';
+propertyData.pop.hotel_policy_txt131 = '라. 식음료 영업장 이용 시 10% 할인이 가능합니다.';
+propertyData.pop.hotel_policy_txt132 = '마. 연간 객실 무료 Upgrade 이용권 2매가 제공됩니다. (여름성수기 및 연말연시 제외)';
+propertyData.pop.hotel_policy_txt133 = '바. 연간 사우나 무료 입장권 4매가 제공됩니다. (여름성수기 제외)';
+propertyData.pop.hotel_policy_txt134 = '사. Valet Parking 연 4회(여름성수기 및 연말연시 제외), EFL 회의실 연 2회(2시간/회) 사용이 무료 제공됩니다. (단, EFL 회의실 사용 시 별도 식음료 서비스는 포함되어 있지 않습니다. / 최대 12인 이용 가능)';
+propertyData.pop.hotel_policy_txt135 = '아. 여름성수기 및 연말연시 기간은 연도별로 변경될 수 있습니다.';
+propertyData.pop.hotel_policy_txt136 = '7. 식음료 할인 제외업장';
+propertyData.pop.hotel_policy_txt137 = '1) 포인트 등급에 관계 없이 아래의 경우, 식음료 영업장 할인에서 제외됩니다.';
+propertyData.pop.hotel_policy_txt138 = '가. 연회행사, 풀 사이드바, 룸서비스, 한시적 여름행사, 별판촉행사';
+propertyData.pop.hotel_policy_txt139 = '나. 베이커리 ‘가든카페’ : 수입품 및 일부품목, 제과제빵행사';
+propertyData.pop.hotel_policy_txt140 = '제6조 멤버쉽 카드의 사용 및 관리';
+propertyData.pop.hotel_policy_txt141 = '1. 멤버쉽 카드 사용을 원할 경우 본인 명의의 멤버쉽 카드를 제시하여야 합니다.';
+propertyData.pop.hotel_policy_txt142 = '2. 호텔은 회원의 본인 확인을 위해 신분증 제시를 요청할 수 있으며, 회원은 호텔의 요청을 준수하여야 정상적인 서비스를 제공받을 수 있습니다.';
+propertyData.pop.hotel_policy_txt143 = '3. 멤버쉽 카드 사용은 회원 본인만이 가능하며 타인 대여, 사용 위임, 양도 또는 담보의 목적으로 제공할 수 없습니다.';
+propertyData.pop.hotel_policy_txt144 = '4. 회원은 스스로의 책임 하에 멤버쉽 카드를 관리하여야 하며, 회원의 고의 또는 과실로 멤버쉽 카드의 훼손, 분실, 도난 등의 사고가 발생한 경우 회원은 즉시 호텔 마일리지 센터로 그 사실을 통지하여야 합니다.';
+propertyData.pop.hotel_policy_txt145 = '5. 멤버쉽 카드 사용에 있어 약관 사항을 위반한 행위에 따르는 손해 및 배상과 관련하여 호텔에서는 어떠한 책임도 지지 않습니다.';
+propertyData.pop.hotel_policy_txt146 = '6. 주소 및 기타 회원 사항의 변경 시 회원은 호텔에 통보할 의무가 있으며, 미통보로 인한 회원의 불이익은 호텔에 그 책임이 없습니다.';
+propertyData.pop.hotel_policy_txt147 = '제7조 회원의 권리';
+propertyData.pop.hotel_policy_txt148 = '1. 포인트 적립 현황은 사용 금액 결제 시 영수증 하단에 표시되며, 홈페이지 조회 및 호텔 마일리지 센터를 통한 개별 유선 조회가 가능합니다.';
+propertyData.pop.hotel_policy_txt149 = '2. 회원은 각종 혜택 및 포인트를 호텔로 문의하여 알 권리가 있으며, 호텔은 적절한 방법을 통하여 프로그램의 변경 사항에 대한 내용과 정보 등을 회원들에게 통지할 수 있습니다. 우편에 의한 통지의 경우 분실 또는 지연 등으로 발생하는 회원의 불이익에 대하여 호텔은 책임을 지지 않습니다.';
+propertyData.pop.hotel_policy_txt150 = '제8조 멤버쉽 서비스 약관의 개정';
+propertyData.pop.hotel_policy_txt151 = '1. 호텔은 멤버쉽 서비스의 원활한 운영을 위하여 이용 약관을 개정할 수 있는 권리를 가지고 있으며, 그 효력은 멤버쉽의 전 회원들을 대상으로 합니다.';
+propertyData.pop.hotel_policy_txt152 = '2. 호텔 내부적인 사정으로 인하여 멤버쉽 서비스 약관의 관련 조건 변경 및 수정 시 그 내용을 회원들에게 E-mail 또는 홈페이지를 통하여 공지하고, 15일 이후 그 효력을 발생시킬 수 있는 권리를 가집니다.';
+propertyData.pop.hotel_policy_txt153 = '제9조 멤버쉽 서비스의 중지';
+propertyData.pop.hotel_policy_txt154 = '1. 호텔은 원활한 운영을 위한 목적으로 멤버쉽 서비스를 중지할 수 있는 권리를 가집니다.';
+propertyData.pop.hotel_policy_txt155 = '2. 호텔의 자유재량으로 결정하는 서비스 종료일까지 서비스를 제공하며, 호텔의 사정에 의하여 서비스를 중지할 경우 회원들에게 6개월 이전에 E-mail 또는 홈페이지로 통지하여 멤버쉽 서비스를 종료할 수 있습니다.';
+propertyData.pop.hotel_policy_txt156 = '3. 서비스 종료일 이후에는 멤버쉽 서비스의 혜택을 받지 못하고, 호텔에서 별도로 정한 지정일까지 포인트를 사용하여야 하며, 지정일까지 사용하지 않은 포인트는 자동 소멸됩니다.';
+propertyData.pop.hotel_policy_txt157 = '제10조 개인정보 보호';
+propertyData.pop.hotel_policy_txt158 = '1. 호텔은 관계법령이 정하는 바에 따라 이용자 등록정보를 포함한 이용자의 개인정보를 보호하기 위해 관계법령과 호텔이 정한 개인정보 보호정책을 준수합니다.';
+propertyData.pop.hotel_policy_txt159 = '2. 호텔은 회원들을 대상으로 보다 나은 서비스를 제공하기 위하여 회원이 동의한 개인정보 수집, 제공 및 활용 동의서에 기재된 범위 내에서 개인정보를 활용할 수 있습니다.';
+propertyData.pop.hotel_policy_txt160 = '3. 호텔은 수집된 개인정보 취급 및 관리 등의 업무를 호텔에서 직접 수행함을 원칙으로 하지만, 필요의 경우 위 업무의 일부 또는 전부를 호텔이 선정한 회사에 위탁할 수 있습니다.';
+propertyData.pop.hotel_policy_txt161 = '4. 호텔에 제공한 개인정보의 변경사항이 발생하여 이에 대한 변경 통보가 늦어짐에 따라 발생하는 일체의 손해에 대하여 호텔은 어떠한 책임도 지지 않습니다.';
+propertyData.pop.hotel_policy_txt162 = '제11조 약관 등 위반 시의 책임';
+propertyData.pop.hotel_policy_txt163 = '본 약관에서 정한 사항을 위반함으로써 발생하는 모든 책임은 위반한 자가 부담하며, 이로 인해 상대방에게 손해를 입힌 경우 배상하여야 합니다.';
+propertyData.pop.hotel_policy_txt164 = '제12조 약관의 해석 및 관할법원';
+propertyData.pop.hotel_policy_txt165 = '1. 멤버쉽 서비스는 호텔을 이용하는 고객들을 위한 배려 차원으로 시행되며, 포인트가 무상으로 제공되는 점 등을 고려하여 약관의 해석 및 적용에 있어 호텔의 입장이 반영되는 것에 동의해야 합니다.';
+propertyData.pop.hotel_policy_txt166 = '2. 본 약관과 관련된 분쟁은 호텔이 정한 관할 법원에서 다루어 집니다.';
+
+
+
+/*! Casino Membership */
+propertyData.global.cas_mem_top = '파라다이스시티 카지노 멤버십의 회원이 되시면, 멤버십 종류에 따라 포인트 적립, 카지노 내 시설 이용,<br>각종 이벤트 및 공연 초청 등의 다양한 혜택을 누릴 수 있습니다.';
+propertyData.global.cas_mem_btn01 = '포인트 교환정보';
+propertyData.global.cas_mem_btn02 = '이용약관';
+propertyData.global.cas_mem_caption01 = '클럽 멤버십 등급별 혜택 안내';
+propertyData.global.cas_mem_divide = '구분';
+// propertyData.global.cas_mem_benefit01 = '등급 혜택';
+propertyData.global.cas_mem_benefit01 = '가입승급<br>기념품';
+// propertyData.global.cas_mem_benefit010101 = 'VIP 건강검진';
+propertyData.global.cas_mem_benefit010101 = '기념품 증정';
+propertyData.global.cas_mem_benefit010201 = '카지노 Platinum Lounge 이용';
+propertyData.global.cas_mem_benefit010202 = 'Paradise City ↔ 공항 간 VIP Limousine 서비스';
+propertyData.global.cas_mem_benefit010203 = 'Paradise City Esthetic Spa(The SPA at PARADISE) 이용 1회';
+propertyData.global.cas_mem_benefit010204 = '객실 업그레이드 1회';
+propertyData.global.cas_mem_benefit010205 = '주차장 무료 이용';
+propertyData.global.cas_mem_benefit010206 = '발렛 서비스 무료';
+propertyData.global.cas_mem_benefit010207 = 'On the Plate 뷔페 이용 2회 또는 주중 스위트 객실 1박(생일 전후 1달 사용 기준)';
+propertyData.global.cas_mem_benefit010208 = 'Paradise City 키즈프로그램 이용 2회';
+propertyData.global.cas_mem_benefit010209 = '카지노 영업장 내 편의용품 제공';
+// propertyData.global.cas_mem_benefit02 = '할인 혜택';
+propertyData.global.cas_mem_benefit02 = '생일선물';
+// propertyData.global.cas_mem_benefit020201 = '식음업장 이용금액 10% 할인';
+propertyData.global.cas_mem_benefit020201 = '호텔 Buffet 식사 이용권 2매';
+//propertyData.global.cas_mem_benefit020202 = '부대시설 이용금액 10% 할인';
+propertyData.global.cas_mem_benefit020202 = 'Special Dinnery(20만원) * 2인 or,<br>40만원 상당 Whisky or,<br>Deluxe Room 1박 숙박권';
+// propertyData.global.cas_mem_benefit03 = '제휴 혜택';
+propertyData.global.cas_mem_benefit03 = '호텔시설';
+// propertyData.global.cas_mem_benefit030201 = '면세점 VIP카드(TBD)';
+// propertyData.global.cas_mem_benefit030202 = 'BMW Driving Center 트랙 체험권 1회';
+propertyData.global.cas_mem_benefit030201 = '식음업장 이용금액 15%<br>Bar 이용금액 15% <br>수영장 무료 이용<br>Fitness 무료 이용<br>플레이스테이션 Zone 무료 이용<br>호텔 Late 체크아웃 가능<br>Paradise City ↔ 공항 간 셔틀버스 무료 이용';
+propertyData.global.cas_mem_benefit030202 = '식음업장 이용금액 15%<br>Bar 이용금액 15% <br>수영장 무료 이용<br>Fitness 무료 이용<br>플레이스테이션 Zone 무료 이용<br>호텔 Late 체크아웃 가능<br>Paradise City ↔ 공항 간 셔틀버스 무료 이용';
+// propertyData.global.cas_mem_benefit030203 = '외부 제휴 시설 할인 10%';
+propertyData.global.cas_mem_caution = '등급별 할인% 및 혜택 내역은 상이할 수 있습니다.';
+propertyData.global.cas_mem_caption02 = '포인트 멤버십 등급별 혜택 안내';
+propertyData.global.cas_mem_point010101 = '럭키 베팅 쿠폰 2만원 + 기념품 증정'; //before 가입기념품
+propertyData.global.cas_mem_point010102 = 'Casino F&amp;B 이용 2회';
+propertyData.global.cas_mem_point010103 = '가입기념 Promotion Chips';
+propertyData.global.cas_mem_point010104 = 'Paradise City ↔ 공항 간 셔틀버스 이용';
+propertyData.global.cas_mem_point010201 = '럭키 베팅 쿠폰 10만원 + 기념품 증정'; //before 교통카드 또는 공항리무진 이용권
+propertyData.global.cas_mem_point010202 = '승급기념 Promotion Chips';
+propertyData.global.cas_mem_point010203 = '주차장 무료이용';
+propertyData.global.cas_mem_point010204 = '발렛 이용권(연 4회)';
+propertyData.global.cas_mem_point010205 = '카지노 영업장 내 편의용품 제공';
+propertyData.global.cas_mem_point010206 = '10Pins 이용 2회';
+propertyData.global.cas_mem_point010207 = '식음업장 이용권 1회(생일당월)';
+propertyData.global.cas_mem_point010301 = '기념 Deluxe Room 1박 숙박권'; //before 카지노 Platinum Lounge 이용
+propertyData.global.cas_mem_point010302 = 'Paradise City ↔ 공항 간 VIP Limousine 서비스';
+propertyData.global.cas_mem_point010303 = 'Paradise City Esthetic Spa(The SPA at PARADISE) 이용 1회';
+propertyData.global.cas_mem_point010304 = '객실 업그레이드 1회';
+propertyData.global.cas_mem_point010305 = '주차장 무료 이용';
+propertyData.global.cas_mem_point010306 = '발렛 서비스 무료';
+propertyData.global.cas_mem_point010307 = 'On the Plate 뷔페 이용 2회 또는 주중 스위트 객실 1박(생일 전후 1달 사용 기준)';
+propertyData.global.cas_mem_point010308 = 'Paradise City 키즈프로그램 이용 2회';
+propertyData.global.cas_mem_point010309 = '카지노 영업장 내 편의용품 제공';
+propertyData.global.cas_mem_point020101 = '식음업장 할인 5%';
+propertyData.global.cas_mem_point020102 = '부대시설 할인 5%';
+propertyData.global.cas_mem_point020201 = '생일 케익 교환권'; //before 식음업장 이용금액 10% 할인
+propertyData.global.cas_mem_point020202 = '부대시설 이용금액 10% 할인';
+propertyData.global.cas_mem_point020301 = '호텔 뷔페 식사 이용권 2매'; //before 식음업장 이용금액 10% 할인
+propertyData.global.cas_mem_point020302 = '부대시설 이용금액 10% 할인';
+propertyData.global.cas_mem_point030101 = '식음업장 이용금액 15%<br>Bar 이용금액 15% <br>Paradise City ↔ 공항 간 셔틀버스 무료 이용';
+// propertyData.global.cas_mem_point030101 = '외부 제휴시설 할인 5%';
+propertyData.global.cas_mem_point030201 = '식음업장 이용금액 15%<br>Bar 이용금액 15%<br>Paradise City ↔ 공항 간 셔틀버스 무료 이용'; //before 면세점 VIP카드(TBD)
+propertyData.global.cas_mem_point030301 = '식음업장 이용금액 15%<br>Bar 이용금액 15% <br>수영장 무료 이용<br>Fitness 무료 이용<br>플레이스테이션 Zone 무료 이용<br>Paradise City ↔ 공항 간 셔틀버스 무료 이용';//before 면세점 VIP카드(TBD)
+propertyData.global.cas_mem_point030302 = 'BMW Driving Center 트랙 체험권 1회';
+propertyData.global.cas_mem_point030303 = '외부 제휴 시설 할인 10%';
+
+propertyData.global.cas_mem_etc_tit01 = '유의사항';
+propertyData.global.cas_mem_etc_txt0101 = '상세 멤버쉽 혜택은 멤버쉽 약관을 확인하시기 바랍니다.';
+propertyData.global.cas_mem_etc_txt0102 = '일부 혜택은 파라다이스시티 내부 사정에 의해 변경될 수 있으며 일부 영업장 및 혜택 이용은 제한될 수 있습니다.';
+propertyData.global.cas_mem_etc_txt0103 = '외부 제휴서비스는 제휴사 사정에 의해 변경될 수 있습니다.';
+propertyData.global.cas_mem_etc_tit02 = '가입방법';
+propertyData.global.cas_mem_etc_txt0201 = '카지노 내 리워딩 데스크에서 가입 가능합니다.';
+propertyData.global.cas_mem_etc_tit03 = '카드재발급';
+propertyData.global.cas_mem_etc_txt0301 = '카지노 내 리워딩 데스크에서 본인확인 후 재발급 가능합니다.';
+propertyData.global.cas_mem_etc_tit04 = '회원탈퇴 및 자격상실';
+propertyData.global.cas_mem_etc_txt0401 = '탈퇴 요청 시 즉시 탈퇴 처리 되며, 적립된 포인트는 회원약관에 의해 소멸됩니다.';
+propertyData.global.cas_mem_etc_txt0402 = '파라다이스시티 정책상 부적격 회원 (약관 위반, 부정 행위 등)은 자격이 정지되거나 박탈될 수 있습니다.';
+
+propertyData.pop.cas_policy_tit = '카지노 멤버십 이용약관';
+propertyData.pop.cas_policy_txt01 = 'CASINO MEMBERSHIP 이용 약관';
+
+/*! WEDDING */
+propertyData.global.wedding_txt01 = '파라다이스시티는 인생의 가장 빛나는 하루, 두 사람의 진실된 약속을 함께 나누는 설레고 소중한 순간에 <br>또 하나의 동반자로 함께합니다. 평생 잊지 못할 감동과 마음 깊이 자리할 최고의 추억을 만들어 드립니다.';
+propertyData.global.wedding_txt02 = '문의 +82-32-1234-4321';
+propertyData.global.wedding_txt03 = '최고의 셰프가 엄선된 식재료로 만든 <br>최상의 메뉴를 선사합니다.';
+propertyData.global.wedding_txt04 = '파라다이스시티만의 다양하고 새로운 웨딩 테마와 <br>플라워 연출은 기품있는 웨딩 스타일링을 완성합니다.';
+propertyData.global.wedding_txt05 = '신랑 신부 한분한분의 고유한 취향에 맞춰 <br>항상 새로운 디자인의 웨딩을 파라다이스시티 <br>웨딩 전문가들이 준비합니다.';
+propertyData.global.wedding_txt06 = '파라다이스 시티는 영원한 미래를 약속하는<br>인생의 가장 행복한 순간을 완벽하게 연출할 수 있는 최고의 공간을 만들어 드립니다.';
+propertyData.global.wedding_txt07 = 'P-City Convention 1층<br>규모 51.8*29.1 / 높이 8m / 700명 수용가능';
+propertyData.global.wedding_txt08 = 'P-City Convention 1층<br>규모 29.1*17.9 / 높이 6m / 300명 수용가능';
+propertyData.global.wedding_txt09 = 'P-City Convention 1층<br>규모 25.3*14.9 / 높이 6m / 200명 수용가능';
+propertyData.global.wedding_txt10 = '신부가 가장 아름답게 비춰지는 파라다이스시티의 <br>브라이드룸은 모든 이들의 탄사를 자아낼 <br>우아한 공간으로 신부를 맞이합니다.';
+propertyData.global.wedding_txt11 = '과거와 현재를 아우르는 상징적인 공간에서 <br>새로이 출발하는 신랑 신부를 위해 <br>격조 높은 서비스를 제공합니다.';
+propertyData.global.wedding_txt12 = '파라다이스시티는 새로운 웨딩 트렌드 ‘Tradding’ (Travel + Wedding)을 제시합니다.';
+propertyData.global.wedding_txt13 = '파라다이스시티 웨딩 전문가들이 만들어내는 고전적 우아함과 럭셔리 호텔 서비스는 <br>신랑 신부가 꿈꾸던 상상을 현실로 선사합니다.';
+propertyData.global.wedding_txt14 = '';
+propertyData.global.wedding_txt15 = '';
+propertyData.global.wedding_alt01 = '웨딩 드레스를 입은 남녀가 손을 맞잡고 한곳을 바라보는 사진';
+propertyData.global.wedding_alt02 = '웨딩 식사 테이블 사진';
+propertyData.global.wedding_alt03 = '웨딩 드레스를 입은 여자가 부케를 들고있는 사진';
+
+/*! Family Event */
+propertyData.global.family_evt_txt01 = '소중한 사람들과 함께하는 특별한 날을 최고의 순간으로 만들어 드립니다.<br>이벤트의 시작부터 끝까지 완벽한 연출을 위해 파티 전문가가 체계적으로 계획을 세우고 함께합니다.';
+propertyData.global.family_evt_txt02 = '나의 소중한 아이의 100일, 첫 돌 그리고 부모님의 생신연 등 가족만의 의미있는 날이 더욱 뜻깊게 남을 수 있도록 <br>파라다이스시티의 파티 전문가는 시작부터 끝까지 함께하며 완벽한 순간을 창조합니다.';
+propertyData.global.family_evt_txt03 = '파라다이스시티 파티 전문가는 약혼식을 비롯한 프라이빗한 이벤트를 책임지고 기획하여 <br>오래도록 기억에 남는 순간이 될 수 있도록 특별한 경험을 제공합니다.';
+propertyData.global.family_evt_txt03 = '소중한 사람들과 함께하는 특별한 날, <br>파라다이스시티 케이터링 서비스는 언제, 어느 곳에서나 안정적이고 차별화된 최고급 케이터링 서비스를 제공합니다.';
+propertyData.global.family_evt_txt04 = '';
+propertyData.global.family_evt_txt05 = '';
+propertyData.global.family_evt_txt06 = '';
+propertyData.global.family_evt_txt07 = '';
+propertyData.global.family_evt_txt08 = '';
+propertyData.global.family_evt_alt01 = '행복한 웃음을 보이는 가족사진';
+propertyData.global.family_evt_alt02 = '생일 축하를 위한 케익 및 음식이 있는 테이블 사진';
+propertyData.global.family_evt_alt03 = '와인잔을 든 남여 여러명이 웃으며 이야기하는 사진';
+
+
+/*! Paradise City - Paradise City */
+propertyData.global.pcity_txt01 = '파라다이스시티는 동북아 최초의 한국형 복합리조트입니다.';
+propertyData.global.pcity_txt02 = '파라다이스시티는 호텔, 카지노, 컨벤션, 쇼핑, 아트 갤러리, 스파, 클럽, 카니발, 공연 등 <br>다양한 Hospitality 및 Entertainment가 결합된 동북아 최초의 한국형 복합 리조트입니다. <br>파라다이스시티는 ‘최고’를 지향합니다.';
+propertyData.global.pcity_txt03 = '시설, 콘텐츠, 서비스 등 모든 면에서 최고 수준의 퀄리티를 선보이기 위해, <br>Hospitality 분야의 세계적인 파트너사들과 협력하고 있습니다.';
+propertyData.global.pcity_txt04 = '파라다이스시티는 격(格)이 다른 아트테인먼트 복합리조트입니다.';
+propertyData.global.pcity_txt05 = '최정상 예술가의 작품에서부터 파라다이스가 후원하는 신진 작가의 작품까지 감상할 수 있는 <br>아트 갤러리는 물론, 호텔∙카지노∙클럽 등 곳곳에 마련된 문화공간에서 사계절 다채로운 문화를 즐길 수 있습니다.';
+propertyData.global.pcity_txt06 = '각각의 개성을 가진 조각들이 모여 하나의 완성된 하모니를 이루는 조각보(Mosaic)처럼, <br>파라다이스시티 내 각각의 공간에서 누리는 예술과 문화의 컬러가 하모니를 이루어 파라다이스시티만의 <br>컬러를 창출합니다.';
+propertyData.global.pcity_txt07 = '동북아 주요 도시로부터 4 시간 이내, 여행의 시작과 끝을 장식하는 데스티네이션';
+propertyData.global.pcity_txt08 = '파라다이스시티는 동북아의 중심에 위치한 한국, <br>그 관문인 인천공항 인근에 위치하여 동북아의 경제∙문화의 중심지로 자리잡을 것입니다. <br>베이징, 상하이, 도쿄 등 인접 국가의 주요 도시로부터 1시간 30분 이내, 홍콩, 대만 등 동북아 주요 국가로부터는 <br>비행거리 4시간 이내 거리에 위치해 있으며, 해당 범위 내 인구는 약 13억 5천만 여 명입니다.';
+propertyData.global.pcity_txt09 = '파라다이스시티는 서울에서 약 40분 거리(서울역-인천공항 간 공항철도 이용 기준), <br>인천국제공항에서 자기부상열차로 5분, 도보로 15분 거리에 위치하여, 내국인들에게도 <br>가까운 거리의 휴양지입니다.';
+propertyData.global.pcity_txt10 = '독립적인 데스티네이션으로서는 물론, 국내에서 해외로 나갈 때, 또는 해외에서 국내로 들어올 때에 <br>여행의 시작과 끝을 더욱 풍성하게 만들어 주는 또다른 여행 스팟으로서도 새로운 경험을 제공합니다.';
+propertyData.global.pcity_txt11 = '고객의 오감을 만족시킬 다채로운 시설, 한국 관광산업의 랜드마크 파라다이스 시티';
+propertyData.global.pcity_txt12 = '2017년 4월 오픈 예정: MICE윙, 컨벤션, 패밀리윙, 호텔 &amp; 카지노, 카지노윙<br>2018년 오픈 예정: 서브컬쳐 존, 플라자(부티크 호텔, 쇼핑시설, 갤러리), 클럽, 샌드박스, 엔터테인먼트 광장, 에비뉴, 스파';
+propertyData.global.pcity_txt13 = '자기부상열차<br>국제업무단지역';
+propertyData.global.pcity_txt14 = '서브컬쳐 존';
+propertyData.global.pcity_txt15 = '플라자(부티크 호텔,<br>쇼핑시설, 갤러리)';
+propertyData.global.pcity_txt16 = '클럽';
+propertyData.global.pcity_txt17 = '샌드박스';
+propertyData.global.pcity_txt18 = '엔터테인먼트 광장';
+propertyData.global.pcity_txt19 = '에비뉴';
+propertyData.global.pcity_txt20 = '스파';
+propertyData.global.pcity_txt21 = 'MICE윙';
+propertyData.global.pcity_txt22 = '컨벤션';
+propertyData.global.pcity_txt23 = '패밀리윙';
+propertyData.global.pcity_txt24 = '호텔 &amp; 카지노';
+propertyData.global.pcity_txt25 = '카지노윙';
+propertyData.global.pcity_txt26 = '파라다이스시티는 세계적인 디자이너 및 Hospitality 전문 건축가들과 협업하여, <br>그 동안 국내에서는 찾아 볼 수 없었던 새롭고 감각적인 디자인으로 대한민국의 명실상부한 랜드마크로 자리할 것입니다.';
+
+/*! Paradise City - Hotel */
+propertyData.global.pcity_hotel_txt01 = '동북아 허브 공항인 인천국제공항과 직선거리 1.1Km로, 여행의 시작과 끝을 장식합니다.<br>해외 휴양지에서 즐기던 럭셔리 풀빌라를 이제 가까운 국내에서도 즐길 수 있습니다.<br>국내외 최고 수준의 유명 쉐프들이 지휘하는 최고급 레스토랑과 다양한 테마의 라운지를 보유하고 있습니다.';
+propertyData.global.pcity_hotel_txt02 = '총 객실 수 711개로, 단위 객실당 최대 공간을 제공하는 최고급 리조트형 호텔 객실입니다.<br>컨템포러리 디자인으로 구성된 디럭스 룸부터 럭셔리 풀빌라까지 다양한 고객의 니즈에 맞춘 객실을 제공하고 있습니다.';
+propertyData.global.pcity_hotel_txt03 = '풀빌라';
+propertyData.global.pcity_hotel_txt04 = '프레지덴셜 스위트';
+propertyData.global.pcity_hotel_txt05 = '디럭스';
+propertyData.global.pcity_hotel_txt06 = '이탈리안, 중식 및 일식 Fine Casual 레스토랑, Contemporary Bar, 수영장 내 스낵바까지 다양하고 트렌디한 레스토랑을 보유하고 있으며, <br>Entertainment Bar에서는 라이브 뮤직 공연과 F&amp;B가 결합된 공간에서 특별한 즐거움을 선사합니다.';
+propertyData.global.pcity_hotel_txt07 = '파라다이스 호텔 &amp; 리조트에서만 만나 보실 수 있는 테마별 라운지, 4계절 운영하는 실내/외 수영장, 고급 에스테틱 스파 및 사우나,<br>스포츠클럽 등의 다채로운 부대시설이 여행을 더욱 풍성하게 합니다.';
+propertyData.global.pcity_hotel_txt08 = '실내 수영장';
+propertyData.global.pcity_hotel_txt09 = '실외 수영장';
+propertyData.global.pcity_hotel_txt10 = '스파 &amp; 사우나';
+propertyData.global.pcity_hotel_txt11 = '클럽 라운지';
+propertyData.global.pcity_hotel_txt12 = '스포츠 클럽';
+
+/*! Paradise City - Casino */
+propertyData.global.pcity_cas_txt01 = '최고의 VIP 프리미엄 서비스를 선사합니다. VIP 전용 룸과 레스토랑을 갖추고 있으며, 최고 수준의 Hospitality를 제공합니다.<br>국내 최대 규모의 외국인 전용 카지노입니다. 총 면적 약 4,100평으로, 국내 시설 중 최대 규모입니다.<br>다양한 종류의 최신식 게임을 즐기실 수 있습니다. 888개의 게임테이블 및 슬롯머신 등 최신식 게임 인프라를 구비하고 있습니다.<br>수준 높은 엔터테인먼트를 경험하실 수 있습니다. 다이내믹한 공연과 이벤트를 즐길 수 있는 Entertainment Bar 시설이 있습니다.';
+propertyData.global.pcity_cas_txt02 = '40여 년 전통의 품격 있는 서비스, 합리적인 게임 운영, 최첨단 시스템을 갖춘 K-style 프리미엄 카지노';
+
+/*! Paradise City - Convention */
+propertyData.global.pcity_cov_top_txt = '';
+propertyData.global.pcity_cov_txt01 = '인천공항과 직선거리 1.1km로, 해외 참석 고객이 많은 국제 행사 개최에 최적입니다.<br>정상급 서비스와 Hospitality 제공으로, 품격있는 행사 개최가 가능합니다.<br>고급스러운 호텔 및 다양한 부대시설로 참석 고객들의 만족도를 높여줍니다.';
+propertyData.global.pcity_cov_txt02 = '국제회의, 한류 이벤트, 웨딩 등 최고 전문가들의 손길로 운영되는 다양한 문화의 체험과 교류';
+propertyData.global.pcity_cov_txt03 = '그랜드볼룸';
+propertyData.global.pcity_cov_txt04 = '사파이어홀';
+
+
+/*! City Planning - PLAZA  */
+propertyData.global.cp_plaza_txt01 = 'K-Style의 쇼핑, 미식, 문화까지 유쾌하게 즐길 수 있는 세련된 문화 공간입니다.';
+propertyData.global.cp_plaza_txt02 = '파라다이스시티의 문화가 시작되는 곳입니다.';
+propertyData.global.cp_plaza_txt03 = '인천공항에서 자기부상열차를 타고 파라다이스시티에 도착해 가장 먼저 만나는 곳입니다.';
+propertyData.global.cp_plaza_txt04 = '파라다이스시티의 문화&middot;예술&middot;쇼핑의 중심지입니다.';
+propertyData.global.cp_plaza_txt05 = '미술관, 쇼핑거리, 카페, 주거지 등을 하나로 연결하는 유럽 고대도시의 광장(Plaza)처럼, <br>갤러리, 쇼핑센터, 레스토랑 및 카페, 부티크 호텔이 모여있는 파라다이스시티의 중심지입니다.';
+propertyData.global.cp_plaza_txt06 = '세련된 K-Style의 문화를 향유하는 공간입니다.';
+propertyData.global.cp_plaza_txt07 = '화장품, 패션 등 K-Beauty부터 떠오르고 있는 한국 신진 예술가들의 K-Art까지 <br>두루 경험할 수 있는 New K-Style 문화 공간입니다.';
+propertyData.global.cp_plaza_alt01 = '쇼핑, 미식, 문화등을 즐길 수 있는 문화공간 사진';
+
+/*! City Planning - BOUTIQUE HOTEL */
+propertyData.global.cp_b_hotel_txt01 = '체크인부터 체크아웃까지 예술이 일상처럼 깃든 호텔 전체를 나의 저택처럼 누릴 수 있는<br>신 개념의 부티크 호텔입니다.';
+propertyData.global.cp_b_hotel_txt02 = '예술의 도시 암스테르담을 닮은 감각적 디자인의 럭셔리 부티크 호텔입니다.';
+propertyData.global.cp_b_hotel_txt03 = '네덜란드 디자인 대표 가구, 팝아트, 공공 미술 브랜드 활용 및 콜라보레이션을 통해<br>체크인 라운지부터 룸, 클럽 라운지, 루프탑까지 자유를 느낄 수 있는 공간 연출';
+propertyData.global.cp_b_hotel_txt04 = '네덜란드의 자유를 표방하는 미식과 음악을 통한 라이프 스타일을 경험하실 수 있습니다.';
+propertyData.global.cp_b_hotel_txt05= '와인과 맥주, 치즈, 크로켓, 스트룹 와플 등 암스테르담 캐널 스트리트의 카페에서 즐길 수 있는<br>메뉴와 함께 클럽 라운지, 루프탑에서 즐기는 고음질의 근사한 음악';
+propertyData.global.cp_b_hotel_alt01= 'Boutique Hotel 내부 전경 사진 (하단 내용 참조)';
+
+/*! City Planning - SPA */
+propertyData.global.cp_spa_txt01 = '현대적으로 해석된 감성 공간에서 즐기는 스파와 한국 고유의 찜질방 문화까지<br><span>모두 경험할 수 있는 신개념 힐링 스팟이자, 예술적이고 유니크한 리프레쉬 공간입니다.</span>';
+propertyData.global.cp_spa_txt02 = '물놀이 시설, 에스테틱, 한국식 찜질방까지 여유를 즐길 수 있는 건강한 힐링의 공간입니다.<br>휴식과 놀이가 결합된 복합 공간으로, 신개념의 스타일리시한 프리미엄 스파입니다.';
+propertyData.global.cp_spa_alt01 = '파라다이스시티 SPA 외부 전경 사진(하단 내용 참조)';
+propertyData.global.cp_spa_alt02 = '파라다이스시티 SPA 외부 전경 사진2 (하단 내용 참조)';
+
+/*! City Planning - ART GALLERY */
+propertyData.global.cp_art_gallery_txt01 = '최정상 예술가의 작품에서부터 파라다이스가 후원하는 신진 작가의 특색 있는 작품까지<br>모두 감상할 수 있는 격이 있는 문화 공간';
+propertyData.global.cp_art_gallery_txt02 = '동북아 최초의 복합리조트 내 미술관급 갤러리입니다.';
+propertyData.global.cp_art_gallery_txt03 = '세계적인 아티스트의 전시와 격이 있는 대중적 전시를 선보입니다.';
+propertyData.global.cp_art_gallery_txt04 = 'K-ART 해외 시장 진출의 교두보가 될 것입니다.';
+propertyData.global.cp_art_gallery_txt05 = '한국 신진 작가 발굴을 통해 한국 예술의 위상을 높이고 해외 진출을 장려합니다.';
+propertyData.global.cp_art_gallery_alt01 = '파라다이스시티 갤러리 내부 전경 사진 (하단 내용 참조)';
+
+/*! City Planning - CLUB */
+propertyData.global.cp_club_txt01 = '세계 정상급 DJ가 퍼포먼스를 펼치는 <span>EDM 클럽,</span> 세계 최초 사계절 풀파티를 즐길 수 있는 <span>루프탑 클럽,</span><br>그리고 국내 최초의 디스코 클럽까지 세 개의 각기 다른 클럽이 선사하는 <span>최고의 파티,</span><br>아시아의 이비자';
+propertyData.global.cp_club_txt02 = '세계적인 건축가 MVRDV와 JOSH HELD가 디자인한 화려함을 담은 유니크한 클럽입니다.<br>세계 정상급 DJ를 상시 만날 수 있는 The Most Glamourous Spot 입니다.';
+propertyData.global.cp_club_alt01 = '파라다이스시티 클럽 외부 전경 사진 (하단 내용 참조)';
+
+/*! City Planning - SANDBOX */
+propertyData.global.cp_sandbox_txt01 = '동화같은 플레이그라운드에서 아이부터 어른까지 모두 함께 즐길 수 있는 <br>환상적인 카니발 게임과 매력적인 트릭아이를 만나보실 수 있습니다.';
+propertyData.global.cp_sandbox_txt02 = '현실 세계를 초월하는 몽환적인 공간을 경험할 수 있습니다.';
+propertyData.global.cp_sandbox_txt03 = '미스틱 맨(Mystic Man)이 안내하는 동화같은 세상, 신비로운 숲(Mystic Forest), 신기한 마법의 마을(Magical Village), <br>예상치 못한 즐거움을 선사하는 거인의 방(Giant’s Room)으로 구성된 환상적인 공간이 펼쳐집니다.';
+propertyData.global.cp_sandbox_txt04 = '아이부터 어른까지 모두 함께 즐기는 엔터테인먼트 파크입니다.';
+propertyData.global.cp_sandbox_txt05 = '향수를 자극하는 카니발 게임, 재미있는 트릭 아이 등 다양한 체험의 기회를 제공합니다.';
+propertyData.global.cp_sandbox_alt01 = 'SANDBOX 외부 전경 사진 (하단 내용 참조)';
+
+/*! City Planning - SUB-CULTURE ZONE */
+propertyData.global.cp_culture_zone_txt01 = '한류 스타와의 만남, 시즌 마켓, 공연, 뮤직 스튜디오까지 <br>한류 문화를 직접 체험할 수 있는 복합 문화 공간입니다.';
+propertyData.global.cp_culture_zone_txt02 = '영화, 음악 등 한류 대중문화 콘텐츠를 직접 체험하는 공간입니다.';
+propertyData.global.cp_culture_zone_txt03 = '한국 대중문화의 과거와 현재, 미래를 다양하게 즐길 수 있는 문화 공간입니다.';
+propertyData.global.cp_culture_zone_txt04 = '한류 문화예술 콘텐츠를 발굴하고 육성합니다.';
+propertyData.global.cp_culture_zone_txt05 = '신진 아티스트 발굴과 육성을 위한 공간을 제공하고 다양한 문화행사를 개최합니다.';
+propertyData.global.cp_culture_zone_alt01 = '무대에서 공연을 하는 사진 (하단 내용 참조)';
+
+/* consierge app */
+propertyData.title.app_desc = '파라다이스시티를 좀 더 편리하게 이용할 수 있도록 컨시어지앱 서비스를 제공합니다.';
+propertyData.global.app_txt01 = '필요한 서비스나 문의사항이 있으면 언제라도 컨시어지 앱을 통해<br>콜센터와 바로 연결할 수 있습니다. <br>보너스로 컨시어지 앱 내의 이벤트와 쿠폰을 바로 즐겨보세요.';
+propertyData.global.app_txt02 = '파라다이스시티 포인트와 쿠폰을 확인하고,<br>현장에서 사용할 수 있습니다.';
+propertyData.global.app_txt03 = '파라다이스시티에서 추천하는 테마와 코스로 이루어진<br>관광 정보를 제공합니다.';
+propertyData.global.app_txt04 = '오늘 저녁엔 뭘 먹지? 고민하지 마세요!<br>파라다이스시티에서 맛 볼 수 있는 최고의 레스토랑을 소개합니다.';
+propertyData.global.app_txt05 = '파라다이스시티 내 예술작품 아래에 있는 QR코드를 촬영해 보세요.<br>작품의 정보를 알려드립니다.';
+propertyData.global.app_txt06 = '무엇이 필요하신가요?<br>파라다이스시티 담당자와의 1:1 채팅 서비스를 이용해 보세요.';
+propertyData.global.app_txt07 = '일부 기능은 파라다이스시티에 방문(체크인) 하신 후 부터 동작합니다.';
+propertyData.global.app_txt08 = '<span>휴대폰을 흔드세요!</span><br>파라다이스시티 포인트를 바로 사용할 수 있습니다.';
+propertyData.global.app_txt09 = '파라다이스시티를 좀 더 편리하게 이용할 수 있도록 컨시어지앱 서비스를 제공합니다.<br>모바일을 통해 전 여정을 관리하며 차별화된 서비스를 제공하는<br>파라다이스시티 컨시어지 앱을 다운받고 스마트한 리조트를 경험해 보세요.';
+propertyData.global.app_txt10 = '지금 다운로드 하세요!';
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 추가 사항 */
+propertyData.pop.txt_inq03_01 = '1:1 문의 입력 폼 : 이름, 이메일, 휴대폰번호, 질문유형, 관련업장, 날짜, 시간, 인원, 제목, 내용';
+propertyData.pop.txt_inq03_02 = '1:1 문의 입력 폼 : 이름, 이메일, 휴대폰번호, 행사구분, 행사명, 행사장, 내용, 인원, 날짜, 시간, 테이블 배치, 필요장비';
+propertyData.pop.txt_inq03_03 = '1:1 문의 입력 폼 : 이름, 이메일, 휴대폰번호, 멤버십구분, 질문유형, 제목, 내용';
+propertyData.pop.txt_inq03_04 = '1:1 문의 입력 폼 : 이름, 이메일, 휴대폰번호, 시설, 질문유형, 제목, 내용';
+
+propertyData.pop.casino_idcard_caption = '출입가능 신분증 리스트 : 출입가능 신분증, 비고';
+
+propertyData.fee.txt_23 = '수수료 내역 : 일자, 여행사, 수수료 구분, 고객수, 수수료, 부가세, 실지급 수수료, 상태';
+
+propertyData.global.ticket_txt06 = '수량 입력';
+propertyData.global.ticket_order26 = '사용할 포인트 입력';
+
+propertyData.global.tooltip = '도움말';
+propertyData.global.date_start = '기간 검색 시작일';
+propertyData.global.date_end = '기간 검색 종료일';
+propertyData.global.facility_info = '시설명 안내';
+
+propertyData.global.parking = '주차장';
+
+propertyData.reservation.txt_42= '결제 금액';
+propertyData.reservation.txt_43= '결제 상세 내역';
+propertyData.reservation.txt_44= '결제 상세 내역: 날짜, 구분, 상품명, 수수료, 금액, 합계';
+propertyData.reservation.txt_45= '날짜';
+propertyData.reservation.txt_46= '구분';
+propertyData.reservation.txt_47= '상품명';
+propertyData.reservation.txt_48= '수수료';
+propertyData.reservation.txt_49= '금액';
+propertyData.reservation.txt_50= '합계';
+propertyData.reservation.txt_51= '결제';
+propertyData.reservation.txt_52= '취소';
+propertyData.reservation.txt_53= '신용카드';
+propertyData.reservation.txt_54= '포인트';
+propertyData.reservation.txt_55= '계좌이체';
+propertyData.reservation.txt_56= '침대';
+propertyData.reservation.txt_57= '침대 추가';
+propertyData.reservation.txt_58= '어른 조식';
+propertyData.reservation.txt_59= '아이 조식';
+
+propertyData.global.btn_option01 = '옵션추가';
+propertyData.global.btn_option02 = '옵션/예약 취소';
+
+propertyData.pop.txt_rsv36 = '옵션 추가';
+propertyData.pop.txt_rsv37 = '옵션 및 예약 취소';
+propertyData.pop.txt_rsv38 = '옵션 추가 정보';
+propertyData.pop.txt_rsv39 = '패키지의 옵션 상품을 추가 할 수 있습니다.';
+propertyData.pop.txt_rsv40 = '옵션 추가 정보 테이블입니다. 상품, 합계 금액을 안내합니다.';
+propertyData.pop.txt_rsv41 = '옵션';
+propertyData.pop.txt_rsv42 = '상기 어른 조식 요금은 홈페이지 사전 예약에 한하며,<br>체크인 이후 이용 시는 정상 요금 (42,000원/세금, 봉사료 포함)이 적용됩니다.';
+propertyData.pop.txt_rsv43 = '상기 어린이 조식 요금은 홈페이지 사전 예약에 한하며, <br>체크인 이후 이용시는 정상 요금(29,500원/세금,봉사료 포함)이 적용됩니다.';
+propertyData.pop.txt_rsv44 = '합계';
+propertyData.pop.txt_rsv45= '취소 환불 수수료에 관한 동의';
+propertyData.pop.txt_rsv46 = '해당 상품의 취소 가능일은 투숙일 기준 D-Day 2일까지 취소가 가능합니다.';
+propertyData.pop.txt_rsv47 = 'D-Day 1일 취소 시 1일 숙박 기준 요금의 30% 가 수수료가 부과됩니다.';
+propertyData.pop.txt_rsv48 = 'D-Day 취소 시 1일 숙박 요금의 수수료가 부과됩니다.';
+propertyData.pop.txt_rsv49 = '패키지 및 옵션 상품의 예약을 취소 할 수 있습니다.';
+propertyData.pop.txt_rsv50 = '상품명, 금액, 수수료를 안내합니다.';
+propertyData.pop.txt_rsv51 = '상품 명';
+propertyData.pop.txt_rsv52 = '금액';
+propertyData.pop.txt_rsv53 = '신용카드';
+propertyData.pop.txt_rsv54 = '포인트';
+propertyData.pop.txt_rsv55 = '수수료';
+propertyData.pop.txt_rsv56 = '옵션명, 금액을 안내합니다. 취소를 하시려면 옵션취소 버튼을 클릭해 주세요. ';
+propertyData.pop.txt_rsv57 = '옵션 명';
+propertyData.pop.txt_rsv58 = '옵션 취소';
+propertyData.pop.txt_rsv59 = '취소/변경 및 노쇼(No-show) 안내';
+propertyData.pop.txt_rsv60 = '파라다이스시티 상품의 취소 및 변경, No-Show 규정은 아래와 같습니다.';
+propertyData.pop.txt_rsv61 = '주중(월~목요일) : 숙박 예정일 1일 전 15시까지 위약금 없이 취소 및 변경이 가능합니다. 1일 전 15시 이후 10%의 위약금이 발생하며 당일 취소 및 변경 또는 No-Show 시 20%의 위약금이 발생합니다.';
+propertyData.pop.txt_rsv62 = '주말(금~일요일) : 숙박 예정일 2일 전까지 위약금 없이 취소 및 변경이 가능합니다.<br>1일 전 취소 시 20%의 위약금이, 당일 취소/변경 또는 No-Show 시 30%의 위약금이 발생합니다.';
+propertyData.pop.txt_rsv63= '패키지별로 취소규정이 상이할 수 있습니다.<br>자세한 사항은 패키지 상세 페이지를 참고해 주시기 바랍니다.';
+propertyData.pop.txt_rsv64 = '수수료 결제 안내';
+propertyData.pop.txt_rsv65 = '상품 결제 시 결제한 결제 방법으로 해당 결제금액에서 예약 취소 수수료를 제외한 금액을 승인 취소 또는 계좌이체로 환급하여 드립니다.<br>    (해당 금융사 및 카드사에 따라 최대 2일이 소요 될 수 있습니다.)';
+propertyData.pop.txt_rsv66 = '예약 취소';
+propertyData.pop.txt_rsv67 = '결제금액';
+propertyData.pop.txt_rsv68 = '결제금액을 안내합니다.';
+propertyData.pop.txt_rsv69 = '전체 취소';
+
+/*! benefit */
+propertyData.benefit.txt_23 = '이용가능한 쿠폰이 없습니다.';
+
+/*! family site */
+propertyData.footer.family_group01 = '그룹';
+propertyData.footer.family_group01_opt01 = '파라다이스 그룹';
+propertyData.footer.family_group02 = '호텔';
+propertyData.footer.family_group02_opt01 = '파라다이스 호텔 부산';
+propertyData.footer.family_group02_opt02 = '올림포스 호텔';
+propertyData.footer.family_group03 = '건설/ 제조';
+propertyData.footer.family_group03_opt01 = '파라다이스 건설';
+propertyData.footer.family_group04 = '여행/ 레저';
+propertyData.footer.family_group04_opt01 = '파라다이스 투어';
+propertyData.footer.family_group04_opt02 = '파라다이스 스파 도고';
+propertyData.footer.family_group05 = '카지노';
+propertyData.footer.family_group05_opt01 = '파라다이스 카지노';
+propertyData.footer.family_group06 = '사회공헌';
+propertyData.footer.family_group06_opt01 = '계원예술대학교';
+propertyData.footer.family_group06_opt02 = '계원예술고등학교';
+propertyData.footer.family_group06_opt03 = '계원예술학교(중등)';
+propertyData.footer.family_group06_opt04 = '파라다이스 복지재단';
+propertyData.footer.family_group06_opt05 = '파라다이스 문화재단';
+propertyData.footer.family_group06_opt06 = '한국현대문학';
+propertyData.footer.family_group06_opt07 = '파라다이스상';
+/* !20170207 add family site */
+propertyData.footer.family_group07 = '세가사미홀딩스';
+propertyData.footer.family_group07_opt01 = 'SEGA SAMMY Holdings INC.';
+propertyData.footer.family_group07_opt02 = 'SEGA Holdings Co., Ltd.';
+propertyData.footer.family_group07_opt03 = 'Sammy Corporation';
+propertyData.footer.family_group07_opt04 = 'PHOENIX Resort CO.,LTD.';
+propertyData.footer.family_group07_opt05 = 'SEGA SAMMY <br>Golf Entertainment INC.';
+
+/*BTN*/
+propertyData.global.btn_contact = '이용문의';
+propertyData.etc.reservation_step01_btn04 = '그룹/법인 예약';
+
+/*! Hotel Membership */
+propertyData.global.hotel_mem_benefit0207 = 'EFL회의실 (연1회, 2시간 한정)';
+
+/* !예약 MICE 팝업 */
+propertyData.pop.txt_mice04 = '결제방식';
+propertyData.pop.txt_mice05 = '신용카드';
+propertyData.pop.txt_mice06 = '계좌이체';
+propertyData.pop.txt_mice07 = '패키지 상품을 선택해주세요.';
+propertyData.pop.txt_mice08 = '인원수';
+
+propertyData.global.select_div = '구분 선택';
+// propertyData.global.start_day = '기간 검색 시작일';
+// propertyData.global.end_day = '기간 검색 마지막일';
+
+propertyData.global.phone_center = '휴대 전화 가운데 번호';
+propertyData.global.phone_last = '휴대 전화 마지막 번호';
+
+/*! Floor Map */
+propertyData.global.floor_fac = '편의시설 : 공용화장실, 로비, 안내데스크, 환전소';
+propertyData.global.floor_b1f = '지하 1층 안내도';
+propertyData.global.floor_1f = '1층 안내도';
+propertyData.global.floor_2f = '2, 3층 안내도';
+propertyData.global.floor_8f = '8, 9층 안내도';
+
+propertyData.global.floor_btn01 = '위치보기';
+
+propertyData.global.floor_txt01 = 'ON THE PLATE';
+propertyData.global.floor_txt02 = '유럽, 뉴욕, 상해의 최신 trend를 반영, 다섯가지 station으로 구성된 premium buffet restaurant.';
+propertyData.global.floor_txt03 = 'IMPERIAL TREASURE';
+propertyData.global.floor_txt04 = '한국 최초 선보이는 정통 광동식 Fine Dining Cuisine';
+propertyData.global.floor_txt05 = 'RAKU';
+propertyData.global.floor_txt06 = '모던한 분위기에서 즐기는 트렌디한 일식의 진수';
+propertyData.global.floor_txt07 = 'LA SCALA';
+propertyData.global.floor_txt08 = '밀라노의 감성으로 이탈리아 본연의 맛을 조리하는 Italian Gourmet Restaurant';
+propertyData.global.floor_txt09 = 'RUBIK';
+propertyData.global.floor_txt10 = '공연과 Bar가 만나는 색다른 엔터테인먼트 공간';
+propertyData.global.floor_txt11 = 'LOUNGE PARADISE';
+propertyData.global.floor_txt12 = '음악이 흐르는 로비라운지';
+propertyData.global.floor_txt13 = 'Garden Caf&#233;';
+propertyData.global.floor_txt14 = '유럽의 정취를 지닌 카페';
+propertyData.global.floor_txt15 = 'BAKERY';
+propertyData.global.floor_txt16 = '감성이 녹아있는 베이커리';
+propertyData.global.floor_txt17 = 'CYBER LOUNGE';
+propertyData.global.floor_txt18 = 'Cyber Lounge';
+propertyData.global.floor_txt19 = 'FLOWER SHOP';
+propertyData.global.floor_txt20 = '향과 색이 어우러지는 아름다운 공간';
+propertyData.global.floor_txt21 = 'GIFT SHOP';
+propertyData.global.floor_txt22 = 'Logo Shop';
+propertyData.global.floor_txt23 = 'CLUB LOUNGE';
+propertyData.global.floor_txt24 = '파라다이스시티에서만 경험할 수 있는 격이 다른 Club Lounge';
+propertyData.global.floor_txt25 = 'FAMILY LOUNGE';
+propertyData.global.floor_txt26 = '꿈꾸던 가족만의 공간, 즐거움이 가득한 Family Lounge';
+propertyData.global.floor_txt27 = 'OUTDOOR POOL';
+propertyData.global.floor_txt28 = '하늘과 마주한 로맨틱 Outdoor Pool';
+propertyData.global.floor_txt29 = 'KIDS ZONE';
+propertyData.global.floor_txt30 = '아이가 자라는 시간, Kids Zone';
+propertyData.global.floor_txt31 = 'ESTHETIC SPA';
+propertyData.global.floor_txt32 = 'The SPA at Paradise';
+propertyData.global.floor_txt33 = 'GYM';
+propertyData.global.floor_txt34 = 'GYM';
+propertyData.global.floor_txt35 = 'INDOOR POOL';
+propertyData.global.floor_txt36 = '자연과 하나되는 Relaxation Indoor Pool';
+propertyData.global.floor_txt37 = 'SAUNA';
+propertyData.global.floor_txt38 = '사우나';
+propertyData.global.floor_txt39 = '10 Pins';
+propertyData.global.floor_txt40 = '10 가지 즐거움, 10 Pins';
+propertyData.global.floor_txt41 = 'SONY PLAY STATION ZONE';
+propertyData.global.floor_txt42 = '국내 최대규모 체험 공간, Sony Play Station Zone';
+
+/*! 예약정보 인쇄 팝업 */
+propertyData.pop.reservation_print_cap01 = '예약 정보를 안내합니다.';
+propertyData.pop.reservation_print_cap02 = '예약 옵션 정보를 안내합니다.';
+
+/*! location 2차 오픈 범위 */
+propertyData.global.location_txt35 = '셔틀버스로 오시는 길';
+propertyData.global.location_txt36 = '운행 시간표';
+propertyData.global.location_txt37 = '인천공항 (3C)';
+propertyData.global.location_txt38 = '매시 5,20,35,50분';
+propertyData.global.location_txt39 = '인천공항 (14C)';
+propertyData.global.location_txt40 = '매시 10,25,40,55분';
+propertyData.global.location_txt41 = '파라다이스 시티';
+propertyData.global.location_txt42 = '매시 10,25,40,55분';
+propertyData.global.location_txt43 = '운행 시간';
+propertyData.global.location_txt44 = '15분마다 파라다이스 시티로의 여정이 펼쳐집니다.';
+propertyData.global.location_txt45 = '인천공항 3C 탑승기준 첫차 운행시간: 오전 6시 20분, 막차 운행시간: 오후 11시 20분, 배차간격 15분';
+propertyData.global.location_txt46 = '탑승장소 및 노선';
+propertyData.global.location_txt47 = '인천공항 3C, 14C, 파라다이스 시티';
+propertyData.global.location_txt48 = '인천공항 3C, 14C 게이트 근처에서 탑승가능';
+
+propertyData.global.location_btn03 = '운행시간표 상세보기';
+
+/*! 셔틀버스 운행시간표 팝업 */
+propertyData.pop.shuttle_time_title = '셔틀버스 운행시간표';
+propertyData.pop.shuttle_time_caption = '셔틀버스 운행시간표 안내';
+propertyData.pop.shuttle_time_th01 = '정차위치';
+propertyData.pop.shuttle_time_th02 = '정차시각';
+propertyData.pop.shuttle_time_th03 = '시각';
+propertyData.pop.shuttle_time_td01 = '매시 10,25,40,55분';
+propertyData.pop.shuttle_time_td02 = '매시 5,20,35,50분';
+propertyData.pop.shuttle_time_td03 = '매시 10,25,40,55분';
+
+/*! main */
+propertyData.global.main_visual01 = '과거와 미래가 공존하는, 현실과 상상을 넘나드는 새로운 도시의 탄생';
+propertyData.global.main_offers01 = '파라다이스 시티만의 특별한 패키지 상품을 즐겨보세요';
+propertyData.global.main_event01 = '차원이 다른 파라다이스 시티의 이벤트를 만나보세요';
+propertyData.global.main_tour01 = 'Travel Korea';
+propertyData.global.main_tour02 = '테마 관광';
+propertyData.global.main_tour03 = '코스 관광';
+propertyData.global.main_service01 = '휴대폰을 흔드세요! <br>포인트를 현금처럼 사용하실 수 있습니다';
+
+/*! header Util menu */
+propertyData.global.util01 = '예약확인/ 취소';
+
+/* 추가2 */
+propertyData.global.lpo_chk = '오늘 하루 보지않기';
+
+propertyData.global.new_window = '새창 열림';
+propertyData.global.floor_tooltip = '객실전용 <br>층 입니다.';
+propertyData.global.floor_tooltip02 = '주차장전용 <br>층 입니다.';
+/* add mice */
+propertyData.pop.txt_mice09 = '상기 금액은 10%의 부가가치세가 포함된 금액입니다.';
+propertyData.pop.txt_mice10 = '취소 환불규정 안내';
+propertyData.pop.txt_mice11 = '취소 환불 규정은 양사간 계약에 준합니다.';
+
+/* 추가 20170201 */
+propertyData.title.casino_sub = 'K-Style Premium Casino';
+propertyData.title.casino_sub_desc = '품격있는 서비스, 합리적인 게임 운영, 최첨단 시스템을 갖춘<br>국내 최대 K-Style 프리미엄 외국인 전용 카지노';
+
+propertyData.title.casino_sub_stit = 'PARADISECITY CASINO EVENT';
+propertyData.title.casino_sub_stit_desc = '격이 다른 PARADISECITY CASINO 상품을 만나보세요';
+
+/*! 추가 20170206 */
+propertyData.pop.txt_inq27 = '질문유형';
+
+/*! 추가 20170222 */
+propertyData.global.form_txt_sameid = '아이디와 동일';
+
+/*! 추가 20170227 */
+propertyData.cas.game_tit11 = 'Progressive Texas Hold’em Poker';
+propertyData.cas.game_desc21 = '-';
+propertyData.cas.game_desc22 = '-';
+
+/*! s: 추가 20170412 호텔 멤버십 이용약관 팝업 */
+propertyData.pop.hotel_policy_free_title = 'Paradise Rewards 이용 약관';
+propertyData.pop.hotel_policy_free01 = '제1조 목 적';
+propertyData.pop.hotel_policy_free01_01 = '본 이용 약관은 파라다이스 호텔&amp;리조트 (이하“호텔”이라 한다)에서 운영하는 Paradise Rewards (이하 “멤버쉽”이라 한다) 가입 회원을 대상으로 제공하는 서비스와 관련하여 가입 조건, 서비스 이용 및 제반 권리 등 총괄적인 운영 사항들을 규정하는데 그 목적이 있습니다.';
+
+propertyData.pop.hotel_policy_free02 = '제2조 회원 가입 및 멤버쉽';
+propertyData.pop.hotel_policy_free02_01 = '1. 멤버쉽 가입 대상은 호텔을 이용하는 모든 고객(외국인 포함)이며 가입비는 무료입니다. 단, 미성년자는 가입할 수 없습니다.';
+propertyData.pop.hotel_policy_free02_02 = '2. 회원 가입은 반드시 호텔에서 정한 가입 신청서를 작성, 개인정보 취급 방침에 동의하고 멤버쉽 카드 발급 후 모든 절차가 완료됩니다.';
+propertyData.pop.hotel_policy_free02_03 = '3. 멤버쉽 카드를 분실하였을 경우, 호텔 본관 프론트 데스크에서 본인 인증 절차를 거쳐 멤버쉽 카드를 재발급 받을 수 있습니다';
+propertyData.pop.hotel_policy_free02_04 = '4. 호텔 내 기존 회원(유료멤버쉽) 역시 중복 가입이 가능합니다. 단, 여행사, 수수료 취득 숙박대행업체 등 협회, 단체는 회원으로 가입할 수 없습니다.';
+propertyData.pop.hotel_policy_free02_05 = '5. 회원은 본 서비스에서 정한 약관 및 세부 운영 사항을 준수해야 하며, 가입 신청 시 허위 정보를 입력한 회원은 법적인 보호 및 호텔의 서비스 제공에 제한을 받을 수 있습니다.';
+propertyData.pop.hotel_policy_free02_06 = '6. 포인트 등급은 누적된 적립 포인트에 따라 갱신됩니다.';
+
+propertyData.pop.hotel_policy_free03 = '제3조 회원 탈퇴 및 자격 상실';
+propertyData.pop.hotel_policy_free03_01 = '1. 회원은 서면, E-mail, 기타 방법으로 회원 탈퇴가 가능하며, 탈퇴 신청 시 해당 회원 계정 및 적립된 포인트는 모두 소멸 됩니다.';
+propertyData.pop.hotel_policy_free03_02 = '2. 호텔은 아래 사유의 경우, 회원 자격을 정지 또는 상실시킬 수 있습니다.';
+propertyData.pop.hotel_policy_free03_02_01 = '1) 가입 신청 시 작성한 내용이 사실과 다를 경우';
+propertyData.pop.hotel_policy_free03_02_02 = '2) 본 약관에 따른 포인트 적립 및 사용과 관련하여 부정한 방법으로 이용한 경우';
+propertyData.pop.hotel_policy_free03_02_03 = '3) 본 약관에 따라 회원이 준수해야 하는 의무를 위반한 경우';
+propertyData.pop.hotel_policy_free03_02_04 = '4) 호텔의 정상적인 영업 및 운영을 방해한 경우';
+propertyData.pop.hotel_policy_free03_02_05 = '5) 회원이 사망한 경우';
+propertyData.pop.hotel_policy_free03_03 = '3. 본 약관 제3조 1항에 정해진 방법으로 회원 탈퇴할 경우, 탈퇴 요청일까지의 잔여 적립 포인트는 자동으로 소멸됩니다.';
+propertyData.pop.hotel_policy_free03_04 = '4. 본 약관 제3조 2항에 의해 회원 자격이 상실된 경우, 자격 상실일까지의 잔여 적립 포인트는 자동으로 소멸됩니다.';
+
+propertyData.pop.hotel_policy_free04 = '제4조 포인트 적립 및 사용 기준';
+propertyData.pop.hotel_policy_free04_01 = '1. 포인트 적립 기준';
+propertyData.pop.hotel_policy_free04_01_01 = '1) 멤버쉽 카드 발급 이전 결제금액에 대해서는 포인트 적립이 불가합니다.';
+propertyData.pop.hotel_policy_free04_01_02 = '2) 포인트 적립 시 본인 명의의 멤버쉽 카드 제시를 원칙으로 합니다.';
+propertyData.pop.hotel_policy_free04_01_03 = '3) 호텔에서 제공하는 서비스 및 상품 구입에 따라 아래와 같이 포인트를 적립할 수 있습니다.';
+propertyData.pop.hotel_policy_free04_01_03_01 = '가. 객실 이용 시 포인트 등급에 따라 적립률이 달라집니다.';
+propertyData.pop.hotel_policy_free04_01_03_01_01 = 'A. RED 회원: 객실료 결제금액(VAT제외) 1% 적립';
+propertyData.pop.hotel_policy_free04_01_03_01_02 = 'B. PURPLE 회원: 객실료 결제금액(VAT제외) 2% 적립';
+propertyData.pop.hotel_policy_free04_01_03_01_03 = 'C. GOLD 회원: 객실료 결제금액(VAT제외) 3% 적립';
+propertyData.pop.hotel_policy_free04_01_03_01_04 = 'D. 여행사 및 단체를 통하여 객실을 이용할 경우, 포인트 적립이 불가합니다.';
+propertyData.pop.hotel_policy_free04_01_03_01_05 = 'E. 특별 계약 업체를 통하여 객실을 이용할 경우, 파라다이스 리워즈 등급과 무관하게 파라다이스 비즈니스 리워즈가 정한 적립률에 따라 포인트가 적립됩니다.';
+propertyData.pop.hotel_policy_free04_01_03_01_06 = 'F. 온라인 수수료 취득 숙박대행업체를 통하여 객실을 이용할 경우, 객실 결제금액 중 해당 업체에 지급되는 수수료 및 VAT가 제외된 금액을 기준으로 포인트가 적립됩니다.';
+propertyData.pop.hotel_policy_free04_01_03_02 = '나. 식음료 및 레저 영업장 이용 시 등급에 따라 적립률이 달라집니다.';
+propertyData.pop.hotel_policy_free04_01_03_02_01 = 'A. RED 회원: 식음료 및 레저 결제금액(VAT제외) 1% 적립';
+propertyData.pop.hotel_policy_free04_01_03_02_02 = 'B. PURPLE 회원: 식음료 및 레저 결제금액(VAT제외) 2% 적립';
+propertyData.pop.hotel_policy_free04_01_03_02_03 = 'C. GOLD 회원: 식음료 및 레저 결제금액(VAT제외) 3% 적립';
+propertyData.pop.hotel_policy_free04_01_03_02_03_01 = '①  10,000 포인트 이상 사용시, 결제 포인트의 5% 만큼 페이백 포인트가 적립됩니다.';
+propertyData.pop.hotel_policy_free04_01_03_02_04 = 'D. 기타 제휴 카드 및 바우처가 제공하는 혜택을 이용할 경우, 식음료 및 레저 결제금액 중 해당 금액 및 VAT가 제외된 금액을 기준으로 포인트가 적립됩니다.';
+propertyData.pop.hotel_policy_free04_01_03_03 = '다. 포인트 적립 불가 항목';
+propertyData.pop.hotel_policy_free04_01_03_03_01 = '- 임대업장 결제금액, 유료멤버쉽 연회비, 연회장 이용금액';
+propertyData.pop.hotel_policy_free04_01_03_03_02 = '- 클럽 라운지 회의실 대여료, 비즈니스 센터 이용금액, 발렛파킹 이용금액';
+propertyData.pop.hotel_policy_free04_01_03_03_03 = '- 일일 객실 5실 초과 이용금액, 객실 전화 이용금액, 기타 객실 이용 시 발생하는 부대비용';
+propertyData.pop.hotel_policy_free04_01_03_03_04 = '- 강습료, 장비대여, 이용금액';
+propertyData.pop.hotel_policy_free04_01_03_03_05 = '- 외부업체가 제공하는 바우처 등의 이용금액';
+propertyData.pop.hotel_policy_free04_01_04 = '4) 회원 본인이 이용하고 회원 본인이 결제한 건에 대해서만 포인트가 적립됩니다.';
+propertyData.pop.hotel_policy_free04_01_05 = '5) 포인트는 분할 및 중복 적립이 불가합니다.(하나의 Bill에 한 명만 적립가능)';
+propertyData.pop.hotel_policy_free04_01_06 = '6) 포인트 적립은 이용금액 결제 당일 호텔 영업 마감 후 익일 처리됩니다.';
+propertyData.pop.hotel_policy_free04_01_07 = '7) 호텔에서 판매하는 자사 숙박권, 금액권 구입 시 포인트 적립은 불가하며, 자사 숙박권 및 금액권 또는 타사 상품권으로 대금 결제 시 포인트 적립이 가능합니다.';
+propertyData.pop.hotel_policy_free04_01_08 = '8) 호텔 이용 후 발생하는 결제금액의 일부 또는 전체에 대하여 포인트를 사용할 경우 포인트 사용금액에 대해서는 포인트 적립이 불가합니다.';
+propertyData.pop.hotel_policy_free04_01_09 = '9) 기존 회원(유료멤버쉽)이 중복 가입한 경우, 중복 할인은 불가하며 가장 높은 할인율이 적용됩니다. 할인된 금액 차감 후 포인트 적립이 가능합니다.';
+propertyData.pop.hotel_policy_free04_01_10 = '10) 호텔에서 시행하는 캠페인 활동에 따라 추가 포인트 부여 및 적립이 가능합니다.';
+propertyData.pop.hotel_policy_free04_01_11 = '11) 회원이 객실을 이용하는 경우, 일일 최대 5실의 결제금액에 대해서만 포인트 적립이 가능합니다. 단, 전 객실이 회원 명의로 예약되어야 하며, 본인이 모든 객실 비용을 하나의 Bill로 지불해야 합니다.';
+propertyData.pop.hotel_policy_free04_01_12 = '12) 포인트 적립은 당일 호텔 현장에서만 가능하며, 추후 소급 적립 혹은 수정 사항에 대한 정정 및 확인은 적립일로부터 1개월 이내에 호텔 마일리지 센터를 통하여 가능합니다.';
+propertyData.pop.hotel_policy_free04_01_13 = '13) 포인트 적립은 일일 200만 포인트, 총 1,000만 포인트까지 적립이 가능합니다.';
+
+propertyData.pop.hotel_policy_free04_02 = '2. 포인트 사용 기준';
+propertyData.pop.hotel_policy_free04_02_01 = '1) 포인트 사용 시, 본인 명의의 멤버쉽 카드 제시를 원칙으로 합니다.';
+propertyData.pop.hotel_policy_free04_02_02 = '2) 포인트 사용은 호텔 내 영업장(임대업장 제외)에서만 이용 가능하며, 기타 장소에서는 포인트 사용이 불가합니다.';
+propertyData.pop.hotel_policy_free04_02_03 = '3) 회원은 3,000 포인트 이상 적립 시 1포인트 단위로 사용할 수 있습니다.';
+propertyData.pop.hotel_policy_free04_02_04 = '4) 포인트 사용 기준은 1포인트당 1원이며, 포인트는 2인 이상 분할 및 중복 사용이 불가합니다. (하나의 Bill에 2인 사용 불가)';
+propertyData.pop.hotel_policy_free04_02_05 = '5) 회원은 포인트를 타인에게 양도 및 대여 또는 담보의 목적으로 이용할 수 없습니다.';
+propertyData.pop.hotel_policy_free04_02_06 = '6) 회원이 구입하는 서비스 및 상품의 대금 결제 시 할인 및 포인트 사용이 동시에 가능하나, 호텔 내 기존 회원(유료멤버쉽)이 중복 가입한 경우 중복 할인은 불가하며 가장 높은 할인율이 적용됩니다.';
+propertyData.pop.hotel_policy_free04_02_07 = '7) 포인트 유효 기간은 포인트 적립월로부터 만 24개월간이며, 적립월부터 24개월 후 선입선출 방식에 의해 월 단위로 포인트가 소멸됩니다.';
+propertyData.pop.hotel_policy_free04_02_08 = '8) 회원은 포인트 사용과 관련하여 수정사항 발생 시 사용일로부터 10일 이내에 호텔 마일리지 센터를 통하여 포인트 수정 및 확인이 가능합니다.';
+propertyData.pop.hotel_policy_free04_02_09 = '9) 누적된 포인트는 약관에 규정된 무료 숙박권, 뷔페 식사권 등으로 교환하여 사용이 가능합니다. 단, 적립된 포인트의 현금 지급은 불가합니다.';
+propertyData.pop.hotel_policy_free04_02_10 = '10) 회원은 포인트 등급에 관계 없이 포인트를 사용하여 사우나 입장료를 결제할 경우 사우나 입장이 가능하며, 포인트 사용금액만큼 포인트가 차감됩니다.';
+
+propertyData.pop.hotel_policy_free05 = '제5조 포인트 등급과 혜택';
+propertyData.pop.hotel_policy_free05_01 = '1. 포인트 등급은 회원 가입월로부터 매 3개월 단위로 평가 및 반영됩니다. 등급 조정에 따른 혜택은 조정일로부터 1년간 사용하실 수 있습니다.';
+propertyData.pop.hotel_policy_free05_02 = '2. 포인트 등급에 따른 혜택은 기간 내 미 사용 시 자동 소멸되어 재발행 및 기간연장이 불가합니다.';
+propertyData.pop.hotel_policy_free05_03 = '3. 모든 혜택은 회원 카드에 내장되어 있으며, 사용 시 회원 카드를 제시하여 주시기 바랍니다. (본인 한하여 사용 가능)';
+propertyData.pop.hotel_policy_free05_04 = '4. RED 회원 및 혜택';
+propertyData.pop.hotel_policy_free05_04_01 = '1) 최초 멤버쉽 가입이 완료되면 RED 회원으로 등록됩니다.';
+propertyData.pop.hotel_policy_free05_04_02 = '2) RED 회원은 아래와 같은 특전 사항이 제공됩니다.';
+propertyData.pop.hotel_policy_free05_04_02_01 = '가. 식음료 영업장 및 베이커리 이용 시 5% 할인이 가능합니다.';
+propertyData.pop.hotel_policy_free05_04_02_01_01 = '①  매입 상품 및 기타 프로모션 대상 제품은 포함되지 않습니다.';
+propertyData.pop.hotel_policy_free05_04_02_02 = '나. 바(Rubik) 이용 시, 2% 할인이 가능합니다.';
+propertyData.pop.hotel_policy_free05_04_02_03 = '다. 객실 내 무선 인터넷을 무료로 이용할 수 있습니다.';
+propertyData.pop.hotel_policy_free05_04_02_04 = '라. 객실 투숙 시 플레이스테이션존 무료 이용이 가능합니다.';
+propertyData.pop.hotel_policy_free05_05 = '5. PURPLE 회원 및 혜택';
+propertyData.pop.hotel_policy_free05_05_01 = '1) 회원 가입 후 50,000포인트 이상 누적 적립할 경우 포인트 등급 평가 시 PURPLE 등급으로 상향 조정되며, 이후 12개월간 30,000포인트 이상 적립 시 PURPLE 회원 자격이 유지됩니다.';
+propertyData.pop.hotel_policy_free05_05_02 = '2) PURPLE 회원 대상 아래와 같은 혜택이 제공됩니다.';
+propertyData.pop.hotel_policy_free05_05_02_01 = '가. 연 1회 객실 무료 Upgrade 이용권 1매가 제공됩니다.';
+propertyData.pop.hotel_policy_free05_05_02_01_01 = '①  객실 무료 업그레이드 제외 기간: 주말(금, 토, 공휴일 전일), 극성수기(7/28~ 8/5, 12/24) 및 연말연시(12/29 ~ 31)에는 제외될 수 있습니다. <br>(해당 기간의 일자는 연도별로 변경될 수 있습니다.)';
+propertyData.pop.hotel_policy_free05_05_02_01_02 = '② 1회 이용 시 최대 1박까지 객실 무료 업그레이드가 적용됩니다.';
+propertyData.pop.hotel_policy_free05_05_02_01_03 = '③ 직접 객실을 예약했을 경우에 사용이 가능하며, 온라인 예약 업체를 통해 예약할 경우 이용이 제한됩니다.';
+propertyData.pop.hotel_policy_free05_05_02_01_04 = '④ 최대 Corner Suite 까지의 업그레이드까지 이용이 제한됩니다.';
+propertyData.pop.hotel_policy_free05_05_02_02 = '나. 식음료 영업장 및 베이커리 이용 시 5% 할인이 가능합니다.';
+propertyData.pop.hotel_policy_free05_05_02_02_01 = '①  매입 상품 및 기타 프로모션 대상 제품은 포함되지 않습니다.';
+propertyData.pop.hotel_policy_free05_05_02_03 = '다. 연간 온 더 플레이트(뷔페) 조식 2인 이용권 1매가 제공됩니다.';
+propertyData.pop.hotel_policy_free05_05_02_03_01 = '①  이용권은 주말 금액 기준입니다. ';
+propertyData.pop.hotel_policy_free05_05_02_03_02 = '②  1회권 사용 시, 최대 2인 이용 가능합니다. ';
+propertyData.pop.hotel_policy_free05_05_02_03_03 = '③  제외 기간: 극성수기(7/28~ 8/5, 12/24) 및 연말연시(12/29 ~ 31)에는 제외될 수 있습니다. (해당 기간의 일자는 연도별로 변경될 수 있습니다.)';
+propertyData.pop.hotel_policy_free05_05_02_03_04 = '④  바우처를 제외한 금액에 대해서는 할인 또는 적립율이 적용됩니다.';
+propertyData.pop.hotel_policy_free05_05_02_04 = '라. 연간 루빅 시그니쳐 칵테일 2잔 이용권 1매가 제공됩니다.';
+propertyData.pop.hotel_policy_free05_05_02_04_01 = '①  1회권 사용 시, 최대 2잔까지 이용 가능합니다.';
+propertyData.pop.hotel_policy_free05_05_02_04_02 = '②  극성수기(7/28~ 8/5, 12/24) 및 연말연시(12/29 ~ 31)에는 제외될 수 있습니다. (해당 기간의 일자는 연도별로 변경될 수 있습니다.)';
+propertyData.pop.hotel_policy_free05_05_02_05 = '마. 객실 내 무선 인터넷을 무료로 이용할 수 있습니다.';
+propertyData.pop.hotel_policy_free05_05_02_06 = '바. 바(Rubik) 이용 시, 3% 할인이 가능합니다.';
+propertyData.pop.hotel_policy_free05_05_02_07 = '사. 객실 투숙 시 플레이스테이션존 무료 이용이 가능합니다.';
+propertyData.pop.hotel_policy_free05_06 = '6. GOLD 회원 및 혜택';
+propertyData.pop.hotel_policy_free05_06_01 = '1) 회원 가입 후 150,000포인트 이상 누적 적립할 경우 포인트 등급 평가 시 GOLD 등급으로 상향 조정되며, 이후 12개월간 90,000포인트 이상 적립 시 GOLD 회원 자격이 유지됩니다.';
+propertyData.pop.hotel_policy_free05_06_02 = '2) GOLD 회원 대상 아래와 같은 혜택이 제공됩니다.';
+propertyData.pop.hotel_policy_free05_06_02_01 = '가. 연 1회 객실 무료 Upgrade 이용권 2매가 제공됩니다.';
+propertyData.pop.hotel_policy_free05_06_02_01_01 = '① 객실 무료 업그레이드 제외 기간: 주말(금, 토, 공휴일 전일), 극성수기(7/228~ 8/5, 12/24) 및 연말연시(12/29 ~ 31)에는 제외될 수 있습니다.  <br>(해당 기간의 일자는 연도별로 변경될 수 있습니다.) ';
+propertyData.pop.hotel_policy_free05_06_02_01_02 = '② 1회 이용 시 최대 1박까지 객실 무료 업그레이드가 적용됩니다.';
+propertyData.pop.hotel_policy_free05_06_02_01_03 = '③ 직접 객실을 예약했을 경우에 사용이 가능하며, 온라인 예약 업체를 통해 예약할 경우 이용이 제한됩니다. ';
+propertyData.pop.hotel_policy_free05_06_02_01_04 = '④  최대 Corner Suite 까지의 업그레이드까지 이용이 제한됩니다.';
+propertyData.pop.hotel_policy_free05_06_02_02 = '나. 식음료 영업장 및 베이커리 이용 시 10% 할인이 가능합니다.';
+propertyData.pop.hotel_policy_free05_06_02_02_01 = '① 주류 품목은 할인 대상에 포함되지 않습니다.';
+propertyData.pop.hotel_policy_free05_06_02_02_02 = '② 매입 상품 및 기타 프로모션 대상 제품은 포함되지 않습니다.';
+propertyData.pop.hotel_policy_free05_06_02_03 = '다. 연간 온 더 플레이트(뷔페) 조식 이용권 2매가 제공됩니다.';
+propertyData.pop.hotel_policy_free05_06_02_03_01 = '① 이용권은 주말 금액 기준입니다.';
+propertyData.pop.hotel_policy_free05_06_02_03_02 = '② 1회권 사용 시, 최대 2인 이용 가능합니다.';
+propertyData.pop.hotel_policy_free05_06_02_03_03 = '③  제외 기간: 극성수기(7/28~ 8/5, 12/24) 및 연말연시(12/29 ~ 31)에는 제외될 수 있습니다. (해당 기간의 일자는 연도별로 변경될 수 있습니다.)';
+propertyData.pop.hotel_policy_free05_06_02_03_04 = '④  바우처를 제외한 금액에 대해서는 할인 또는 적립율이 적용됩니다.';
+propertyData.pop.hotel_policy_free05_06_02_04 = '라. 연간 루빅 시그니쳐 칵테일 이용권 2매가 제공됩니다.';
+propertyData.pop.hotel_policy_free05_06_02_04_01 = '①  1회권 사용 시, 최대 2잔까지 이용 가능합니다.';
+propertyData.pop.hotel_policy_free05_06_02_04_02 = '②  극성수기(7/28~ 8/5, 12/24) 및 연말연시(12/29 ~ 31)에는 제외될 수 있습니다. (해당 기간의 일자는 연도별로 변경될 수 있습니다.)';
+propertyData.pop.hotel_policy_free05_06_02_05 = '마. 바(Rubik) 이용 시, 5% 할인이 가능합니다.';
+propertyData.pop.hotel_policy_free05_06_02_06 = '바. 객실 내 무선 인터넷을 무료로 이용할 수 있습니다.';
+propertyData.pop.hotel_policy_free05_06_02_07 = '사. 장기주차 1주일 이용권 2매가 제공됩니다.';
+propertyData.pop.hotel_policy_free05_06_02_07_01 = '①  무료 이용은 1주일(168시간)에 한하며, 이용 시간 초과 시 1일당 20,000원의 요금이 부과됩니다.';
+propertyData.pop.hotel_policy_free05_06_02_08 = '아. 객실 투숙 시 플레이스테이션존 무료 이용이 가능합니다.';
+propertyData.pop.hotel_policy_free05_07 = '7. 식음료 할인 제외업장';
+propertyData.pop.hotel_policy_free05_07_01 = '1) 포인트 등급에 관계 없이 아래의 경우, 식음료 영업장 할인에서 제외됩니다.';
+propertyData.pop.hotel_policy_free05_07_01_01 = '가. 연회행사, 풀 사이드바, 룸서비스, 한시적 여름행사, 특별판촉행사';
+propertyData.pop.hotel_policy_free05_07_01_02 = '나. 베이커리 ‘가든카페’ : 수입품 및 일부품목, 제과제빵행사';
+
+propertyData.pop.hotel_policy_free06 = '제6조 멤버쉽 카드의 사용 및 관리';
+propertyData.pop.hotel_policy_free06_01 = '1. 멤버쉽 카드 사용을 원할 경우 본인 명의의 멤버쉽 카드를 제시하여야 합니다.';
+propertyData.pop.hotel_policy_free06_02 = '2. 호텔은 회원의 본인 확인을 위해 신분증 제시를 요청할 수 있으며, 회원은 호텔의 요청을 준수하여야 정상적인 서비스를 제공받을 수 있습니다.';
+propertyData.pop.hotel_policy_free06_03 = '3. 멤버쉽 카드 사용은 회원 본인만이 가능하며 타인 대여, 사용 위임, 양도 또는 담보의 목적으로 제공할 수 없습니다.';
+propertyData.pop.hotel_policy_free06_04 = '4. 회원은 스스로의 책임 하에 멤버쉽 카드를 관리하여야 하며, 회원의 고의 또는 과실로 멤버쉽 카드의 훼손, 분실, 도난 등의 사고가 발생한 경우 회원은 즉시 호텔 마일리지 센터로 그 사실을 통지하여야 합니다.';
+propertyData.pop.hotel_policy_free06_05 = '5. 멤버쉽 카드 사용에 있어 약관 사항을 위반한 행위에 따르는 손해 및 배상과 관련하여 호텔에서는 어떠한 책임도 지지 않습니다.';
+propertyData.pop.hotel_policy_free06_06 = '6. 주소 및 기타 회원 사항의 변경 시 회원은 호텔에 통보할 의무가 있으며, 미통보로 인한 회원의 불이익은 호텔에 그 책임이 없습니다.';
+
+propertyData.pop.hotel_policy_free07 = '제7조 회원의 권리';
+propertyData.pop.hotel_policy_free07_01 = '1. 포인트 적립 현황은 사용 금액 결제 시 영수증 하단에 표시되며, 홈페이지 조회 및 호텔 마일리지 센터를 통한 개별 유선 조회가 가능합니다.';
+propertyData.pop.hotel_policy_free07_02 = '2. 회원은 각종 혜택 및 포인트를 호텔로 문의하여 알 권리가 있으며, 호텔은 적절한 방법을 통하여 프로그램의 변경 사항에 대한 내용과 정보 등을 회원들에게 통지할 수 있습니다. 우편에 의한 통지의 경우 분실 또는 지연 등으로 발생하는 회원의 불이익에 대하여 호텔은 책임을 지지 않습니다.';
+
+propertyData.pop.hotel_policy_free08 = '제8조 멤버쉽 서비스 약관의 개정';
+propertyData.pop.hotel_policy_free08_01 = '1. 호텔은 멤버쉽 서비스의 원활한 운영을 위하여 이용 약관을 개정할 수 있는 권리를 가지고 있으며, 그 효력은 멤버쉽의 전 회원들을 대상으로 합니다.';
+propertyData.pop.hotel_policy_free08_02 = '2. 호텔 내부적인 사정으로 인하여 멤버쉽 서비스 약관의 관련 조건 변경 및 수정 시 그 내용을 회원들에게 E-mail 또는 홈페이지를 통하여 공지하고, 15일 이후 그 효력을 발생시킬 수 있는 권리를 가집니다.';
+
+propertyData.pop.hotel_policy_free09 = '제9조 멤버쉽 서비스의 중지';
+propertyData.pop.hotel_policy_free09_01 = '1. 호텔은 원활한 운영을 위한 목적으로 멤버쉽 서비스를 중지할 수 있는 권리를 가집니다.';
+propertyData.pop.hotel_policy_free09_02 = '2. 호텔의 자유재량으로 결정하는 서비스 종료일까지 서비스를 제공하며, 호텔의 사정에 의하여 서비스를 중지할 경우 회원들에게 6개월 이전에 E-mail 또는 홈페이지로 통지하여 멤버쉽 서비스를 종료할 수 있습니다.';
+propertyData.pop.hotel_policy_free09_03 = '3. 서비스 종료일 이후에는 멤버쉽 서비스의 혜택을 받지 못하고, 호텔에서 별도로 정한 지정일까지 포인트를 사용하여야 하며, 지정일까지 사용하지 않은 포인트는 자동 소멸됩니다.';
+
+propertyData.pop.hotel_policy_free10 = '제10조 개인정보 보호';
+propertyData.pop.hotel_policy_free10_01 = '1. 호텔은 관계법령이 정하는 바에 따라 이용자 등록정보를 포함한 이용자의 개인정보를 보호하기 위해 관계법령과 호텔이 정한 개인정보 보호정책을 준수합니다.';
+propertyData.pop.hotel_policy_free10_02 = '2. 호텔은 회원들을 대상으로 보다 나은 서비스를 제공하기 위하여 회원이 동의한 개인정보 수집, 제공 및 활용 동의서에 기재된 범위 내에서 개인정보를 활용할 수 있습니다.';
+propertyData.pop.hotel_policy_free10_03 = '3. 호텔은 수집된 개인정보 취급 및 관리 등의 업무를 호텔에서 직접 수행함을 원칙으로 하지만, 필요의 경우 위 업무의 일부 또는 전부를 호텔이 선정한 회사에 위탁할 수 있습니다.';
+propertyData.pop.hotel_policy_free10_04 = '4. 호텔에 제공한 개인정보의 변경사항이 발생하여 이에 대한 변경 통보가 늦어짐에 따라 발생하는 일체의 손해에 대하여 호텔은 어떠한 책임도 지지 않습니다.';
+
+propertyData.pop.hotel_policy_free11 = '제11조 약관 등 위반 시의 책임';
+propertyData.pop.hotel_policy_free11_01 = '본 약관에서 정한 사항을 위반함으로써 발생하는 모든 책임은 위반한 자가 부담하며, 이로 인해 상대방에게 손해를 입힌 경우 배상하여야 합니다.';
+
+propertyData.pop.hotel_policy_free12 = '제12조 약관의 해석 및 관할법원';
+propertyData.pop.hotel_policy_free12_01 = '1. 멤버쉽 서비스는 호텔을 이용하는 고객들을 위한 배려 차원으로 시행되며, 포인트가 무상으로 제공되는 점 등을 고려하여 약관의 해석 및 적용에 있어 호텔의 입장이 반영되는 것에 동의해야 합니다.';
+propertyData.pop.hotel_policy_free12_02 = '2. 본 약관과 관련된 분쟁은 호텔이 정한 관할 법원에서 다루어 집니다.';
+propertyData.pop.hotel_policy_paradisecity = '파라다이스 시티';
+/*! e: 추가 20170412 호텔 멤버십 이용약관 팝업 */
+
+/*! s: 추가 20170412 호텔 멤버십 이용약관 팝업(유료) */
+propertyData.pop.hotel_policy_charge_title = 'PARADISE SIGNATURE 이용약관';
+propertyData.pop.hotel_policy_charge01 = '제1조 명 칭';
+propertyData.pop.hotel_policy_charge01_01 = '명칭은 "파라다이스 시그니처 (Paradise Signature)”라 칭합니다. (이하 “멤버쉽”이라 한다)';
+
+propertyData.pop.hotel_policy_charge02 = '제2조 목 적';
+propertyData.pop.hotel_policy_charge02_01 = '이 약관은 호텔이 제공하는 멤버쉽 서비스를 이용하는 자(이하 ‘회원’이라 한다)와 호텔 사이에 체결된 계약에 따른 권리와 의무에 관한 사항을 규정함을 목적으로 합니다.';
+
+propertyData.pop.hotel_policy_charge03 = '제3조 회원 가입 및 연회비';
+propertyData.pop.hotel_policy_charge03_01 = '1) 멤버쉽 가입을 희망하는 자는 호텔이 정하는 소정 양식의 가입신청서를 작성 후 연회비를 납부하여야 멤버쉽 카드가 발급됩니다. 멤버쉽 카드가 발급된 이후 회원자격이 부여됩니다.';
+propertyData.pop.hotel_policy_charge03_02 = '2) 회원은 시그니처 레드(Signature Red), 시그니처 퍼플(Signature Purple), 시그니처 골드(Signature Gold)  회원으로 구분합니다.';
+propertyData.pop.hotel_policy_charge03_02_01 = '가) 시그니처 레드(Signature Red) 회원 연회비는 45만원(세금 포함), 시그니처 퍼플(Signature Purple) 연회비는 45만원(세금 포함), 시그니처 골드(Signature Gold) 연회비는 120만원(세금 포함)입니다.';
+propertyData.pop.hotel_policy_charge03_02_02 = '나) 회원가입 자격은 개인에 한하며, 만 19세 이상의 성인만 가입이 가능합니다.';
+
+propertyData.pop.hotel_policy_charge04 = '제4조 멤버쉽 카드';
+propertyData.pop.hotel_policy_charge04_01 = '1) 회원은 호텔 이용 시 멤버쉽 카드를 반드시 제시하여야 하며, 제시하지 않을 경우 제5조에 정한 멤버쉽 혜택이 제한될 수 있습니다.';
+propertyData.pop.hotel_policy_charge04_02 = '2) 멤버쉽 카드에 명시된 본인에 한하여 할인 혜택이 이용 가능합니다. <br>본 규정을 위반한 경우, 이로 인해 발생하는 회원의 불이익에 대하여 호텔은 그 책임이 없으며, 호텔의 판단에 의해 회원자격 정지 등의 불이익을 받을 수 있습니다.';
+propertyData.pop.hotel_policy_charge04_03 = '3) 멤버쉽 카드의 분실 또는 훼손 등으로 멤버쉽 카드를 재발급 받고자 하는 경우에는 이 사실을 호텔에 신고하고 소정의 절차를 거쳐 멤버쉽 카드를 재발급 받아야 합니다. <br>단, 분실 기간 동안 발생된 멤버쉽 혜택 차감 등 회원의 불이익에 대하여 호텔은 그 책임이 없습니다.';
+propertyData.pop.hotel_policy_charge04_04 = '4) 회원카드는 신용카드 용도로 사용할 수 없으며, 현금과 교환할 수 없습니다.';
+propertyData.pop.hotel_policy_charge04_05 = '5) 멤버쉽 카드 및 모든 멤버쉽 혜택의 유효기간은 멤버쉽 카드발급일로부터 1년입니다.';
+propertyData.pop.hotel_policy_charge04_06 = '6) 회원은 멤버쉽 혜택 이용 시, 반드시 멤버쉽 카드를 제시하여야 합니다.';
+propertyData.pop.hotel_policy_charge04_07 = '7) 회원은 멤버쉽 카드의 분실/도난/파손 시, 파라다이스시티 멤버십 데스크(1833-8330)에 즉시 통지하여야 하며, 미통지로 인하여 발생하는 손해에 대하여 당 호텔은 보상하지 아니합니다.';
+propertyData.pop.hotel_policy_charge04_08 = '8) 회원은 멤버쉽 카드 발급일로부터 7일 이내에 환불을 요청할 수 있으며, 환불과 동시에 회원자격을 상실하게 됩니다. 환불을 위해서는 멤버쉽 혜택 이용실적이 없어야 하며, 제공해드린 멤버쉽 카드를 호텔로 반납하여야 합니다';
+propertyData.pop.hotel_policy_charge04_09 = '9) 멤버쉽 카드는 회원 만료 시에도 별도의 신청을 통하여 호텔 포인트 카드로 계속 이용 가능하며, 호텔 포인트 카드 이용을 원하지 않을 경우 회원 만료 시 멤버쉽 카드를 호텔에 반납하여야 합니다.';
+
+propertyData.pop.hotel_policy_charge05 = '제5조 멤버쉽 혜택';
+propertyData.pop.hotel_policy_charge05_01 = '1) 모든 멤버쉽 혜택은 사전예약 후 이용가능하며, 기타 혜택과 중복하여 이용할 수 없습니다.';
+propertyData.pop.hotel_policy_charge05_02 = '2) 일자 기준';
+propertyData.pop.hotel_policy_charge05_02_01 = '가) 주중 : 일 ~ 목요일';
+propertyData.pop.hotel_policy_charge05_02_02 = '나) 주말 : 금요일, 토요일, 공휴일 전일';
+propertyData.pop.hotel_policy_charge05_02_03 = '다) 여름 성수기 : 7/21 ~ 8/20';
+propertyData.pop.hotel_policy_charge05_02_04 = '라) 극성수기 : 7/28 ~ 8/5, 12/24';
+propertyData.pop.hotel_policy_charge05_02_05 = '마) 연말 연시 : 12/29 ~ 12/31';
+propertyData.pop.hotel_policy_charge05_03 = '3) 할인 및 포인트 적립 혜택';
+propertyData.pop.hotel_policy_charge05_03_01 = '가) 시그니처 레드 (Signature Red) 회원 혜택';
+propertyData.pop.hotel_policy_charge05_03_01_01 = 'A. 식음 상시 할인';
+propertyData.pop.hotel_policy_charge05_03_01_01_01 = '① 1인: 10% 할인 / 2인 : 30% 할인 / 3인 : 33% 할인 / 4인 : 25% / 5인 이상 10인 미만: 20%';
+propertyData.pop.hotel_policy_charge05_03_01_01_02 = '② 할인 적용 업장 : 라운지 파라다이스, 온 더 플레이트, 라 스칼라, 라쿠';
+propertyData.pop.hotel_policy_charge05_03_01_01_03 = '③ 루빅, 가든카페 : 10% 할인 혜택이 제공됩니다.';
+propertyData.pop.hotel_policy_charge05_03_01_01_04 = '④ 음료 및 주류 : 10% 할인 혜택이 제공됩니다.';
+propertyData.pop.hotel_policy_charge05_03_01_01_05 = '⑤ 일부 베이커리 상품, 매입 상품, 프로모션 상품, 할인 상품은 상시 할인 대상에서 제외됩니다.';
+propertyData.pop.hotel_policy_charge05_03_01_01_06 = '⑥ 법인카드로 결제 시 연간 최대 1,000만원에 한하여 할인이 적용됩니다.';
+propertyData.pop.hotel_policy_charge05_03_02 = '나) 시그니처 퍼플 (Signature Purple) 회원 혜택';
+propertyData.pop.hotel_policy_charge05_03_02_01 = 'A. 추가 포인트 적립 혜택';
+propertyData.pop.hotel_policy_charge05_03_02_01_01 = '① 무료 멤버십 등급에 따라 적립된 포인트 기준으로 추가 포인트가 적립됩니다. ';
+propertyData.pop.hotel_policy_charge05_03_02_01_02 = '② 파라다이스 리워즈 레드 회원: 적립된 포인트의 25%가 추가 적립됩니다.';
+propertyData.pop.hotel_policy_charge05_03_02_01_03 = '③ 파라다이스 리워즈 퍼플 회원: 적립된 포인트의 35%가 추가 적립됩니다.';
+propertyData.pop.hotel_policy_charge05_03_02_01_04 = '④ 파라다이스 리워즈 골드 회원: 적립된 포인트의 50%가 추가 적립됩니다.';
+propertyData.pop.hotel_policy_charge05_03_03 = '다) 시그니처 골드 (Signature Gold) 회원 혜택';
+propertyData.pop.hotel_policy_charge05_03_03_01 = 'A. 객실 상시 할인';
+propertyData.pop.hotel_policy_charge05_03_03_01_01 = '①  주중 객실(Rack rate 기준) 30%, 주말 15% 할인 혜택이 제공 됩니다.';
+propertyData.pop.hotel_policy_charge05_03_03_02 = 'B. 식음 상시 할인';
+propertyData.pop.hotel_policy_charge05_03_03_02_01 = '① 1인: 10% 할인 / 2인 : 30% 할인 / 3인 : 33% 할인 / 4인 : 25% / 5인 이상 10인 미만: 20% ';
+propertyData.pop.hotel_policy_charge05_03_03_02_02 = '②할인 적용 업장 : 라운지 파라다이스, 온 더 플레이트, 라 스칼라, 라쿠';
+propertyData.pop.hotel_policy_charge05_03_03_02_03 = '③ 루빅, 가든카페 : 10% 할인 혜택이 제공됩니다.';
+propertyData.pop.hotel_policy_charge05_03_03_02_04 = '④ 음료 및 주류 : 10% 할인 혜택이 제공됩니다.';
+propertyData.pop.hotel_policy_charge05_03_03_02_05 = '⑤ 베이커리 매입 상품, 프로모션 상품, 할인 상품은 상시 할인 대상에서 제외됩니다.';
+propertyData.pop.hotel_policy_charge05_03_03_02_06 = '⑥ 법인카드로 결제 시 연간 최대 2,000만원에 한하여 할인이 적용됩니다.';
+propertyData.pop.hotel_policy_charge05_04 = '4) 쿠폰 혜택';
+propertyData.pop.hotel_policy_charge05_04_01 = '가) 쿠폰 혜택은 전자 쿠폰 형태로 멤버쉽 카드에 내장되어 있으며, 지정된 영업장에서만 사용이 가능합니다.';
+propertyData.pop.hotel_policy_charge05_04_02 = '나) 시그니처 레드 (Signature Red) 회원 혜택';
+propertyData.pop.hotel_policy_charge05_04_02_01 = 'A. F&amp;B 자유이용 10만원 금액권 3매';
+propertyData.pop.hotel_policy_charge05_04_02_01_01 = '① 사용 제외기간 : 공휴일, 극성수기 및 연말연시';
+propertyData.pop.hotel_policy_charge05_04_02_01_02 = '② 바우처를 제외한 금액에 대해서는 할인 또는 적립률이 적용됩니다.';
+propertyData.pop.hotel_policy_charge05_04_02_01_03 = '③ 특별행사 시, 추가요금이 발생할 수 있습니다.';
+propertyData.pop.hotel_policy_charge05_04_02_01_04 = '④ 사용 가능 업장 : 라 스칼라, 온 더 플레이트, 라쿠, 루빅, 라운지 파라다이스, 가든 카페';
+propertyData.pop.hotel_policy_charge05_04_02_01_05 = '⑤ 사용 제외 업장 : 임페리얼 트레져';
+propertyData.pop.hotel_policy_charge05_04_02_02 = 'B. F&amp;B 자유이용 5만원 금액권 3매';
+propertyData.pop.hotel_policy_charge05_04_02_02_01 = '① 사용 제외기간 : 공휴일, 극성수기 및 연말연시';
+propertyData.pop.hotel_policy_charge05_04_02_02_02 = '② 바우처를 제외한 금액에 대해서는 할인 또는 적립률이 적용됩니다.';
+propertyData.pop.hotel_policy_charge05_04_02_02_03 = '③ 특별행사 시, 추가요금이 발생할 수 있습니다.';
+propertyData.pop.hotel_policy_charge05_04_02_02_04 = '④ 사용 가능 업장 : 라 스칼라, 온 더 플레이트, 라쿠, 루빅, 라운지 파라다이스, 가든 카페';
+propertyData.pop.hotel_policy_charge05_04_02_02_05 = '⑤ 제외 업장 : 임페리얼 트레져';
+propertyData.pop.hotel_policy_charge05_04_02_03 = 'C. 수영장 무료 이용권 2매';
+propertyData.pop.hotel_policy_charge05_04_02_03_01 = '① 사용 제외 기간: 주말, 극성수기 및 연말연시';
+propertyData.pop.hotel_policy_charge05_04_02_03_02 = '② 수영장 퇴장 후, 재입장은 불가능 합니다.';
+propertyData.pop.hotel_policy_charge05_04_02_03_03 = '③ 최소 3일전 멤버십 데스크를 통해 예약 시에 이용이 가능하며, 시설 상황에 따라 이용이 제한될 수 있습니다.';
+propertyData.pop.hotel_policy_charge05_04_02_04 = 'D. 플레이스테이션존 무료 이용';
+propertyData.pop.hotel_policy_charge05_04_02_04_01 = '① 객실 투숙 시에만 이용이 가능합니다.';
+propertyData.pop.hotel_policy_charge05_04_02_04_02 = '② 주말 및 공휴일 전일, 성수기, 연말연시 등의 기간에 는 이용 시간이 제한될 수 있습니다.';
+propertyData.pop.hotel_policy_charge05_04_02_05 = 'E. 장기 주차 1주일 이용권 1매';
+propertyData.pop.hotel_policy_charge05_04_02_05_01 = '① 최초 입차 후 최대 1주일(168시간) 주차가 가능합니다.';
+propertyData.pop.hotel_policy_charge05_04_02_05_02 = '② 7일 이후 1일 24,000원의 주차료가 발생합니다.';
+propertyData.pop.hotel_policy_charge05_04_03 = '다) 시그니처 퍼플 (Signature Purple) 회원 혜택';
+propertyData.pop.hotel_policy_charge05_04_03_01 = 'A. 디럭스(Deluxe) 숙박권 1매';
+propertyData.pop.hotel_policy_charge05_04_03_01_01 = '① 사용 제외 기간 : 토요일, 공휴일 전일, 극성수기 및 연말연시';
+propertyData.pop.hotel_policy_charge05_04_03_01_02 = '② 기타 : 극성수기, 연말연시의 경우 객실 가능 시 이용 요청하실 수 있으며, 이용 시 별도의 요금 (200,000원, 세금 별도)이 추가됩니다.';
+propertyData.pop.hotel_policy_charge05_04_03_02 = 'B. 객실 1단계 무료 업그레이드 이용권 1매';
+propertyData.pop.hotel_policy_charge05_04_03_02_01 = '① 객실 상황에 따라 이용이 제한될 수 있습니다.';
+propertyData.pop.hotel_policy_charge05_04_03_02_02 = '② 객실 예약실을 통하여 직접 예약했을 경우에 사용 가능합니다.';
+propertyData.pop.hotel_policy_charge05_04_03_02_03 = '③ 코너 스위트(Corner Suite)까지의 업그레이드에 한합니다.';
+propertyData.pop.hotel_policy_charge05_04_03_02_04 = '④ 사용 제외 기간 : 토요일, 공휴일 전일, 극성수기 및 연말연시';
+propertyData.pop.hotel_policy_charge05_04_03_02_05 = '⑤ 최대 1박에 한하여 적용됩니다.';
+propertyData.pop.hotel_policy_charge05_04_03_03 = 'C. 온 더 플레이트(뷔페) 조식 2인 이용권 1매';
+propertyData.pop.hotel_policy_charge05_04_03_03_01 = '①   바우처 금액을 제외한 금액에 대해서는 할인 또는 적립율이 적용됩니다.';
+propertyData.pop.hotel_policy_charge05_04_03_03_02 = '②   특별행사 시, 추가요금이 발생할 수 있습니다';
+propertyData.pop.hotel_policy_charge05_04_03_03_03 = '③   사용 제외기간 : 공휴일, 극성수기 및 연말연시';
+propertyData.pop.hotel_policy_charge05_04_03_04 = 'D. 사우나 무료 이용권 2매';
+propertyData.pop.hotel_policy_charge05_04_03_04_01 = '①  본 이용권은 1인당 1매 사용 가능합니다.';
+propertyData.pop.hotel_policy_charge05_04_03_04_02 = '②  사우나 입장은 17세 이상부터 가능합니다.';
+propertyData.pop.hotel_policy_charge05_04_03_04_03 = '③  본 이용권은 객실 투숙 시에만 이용 가능합니다.';
+propertyData.pop.hotel_policy_charge05_04_03_05 = 'E. 장기 주차 1주일 이용권 1매';
+propertyData.pop.hotel_policy_charge05_04_03_05_01 = '① 최초 입차 후, 최대 1주일(168시간) 주차가 가능합니다.';
+propertyData.pop.hotel_policy_charge05_04_03_05_02 = '② 7일 이후 1일24,000원의 주차료가 발생합니다.';
+propertyData.pop.hotel_policy_charge05_04_03_06 = 'F. 수영장 무료 이용권 2매';
+propertyData.pop.hotel_policy_charge05_04_03_06_01 = '① 사용 제외 기간: 주말, 극성수기 및 연말연시';
+propertyData.pop.hotel_policy_charge05_04_03_06_02 = '② 수영장 퇴장 후, 재입장은 불가능 합니다.';
+propertyData.pop.hotel_policy_charge05_04_03_06_03 = '③ 최소 3일전 멤버십 데스크를 통해 예약 시에 이용이 가능하며, 시설 상황에 따라 이용이 제한될 수 있습니다.';
+propertyData.pop.hotel_policy_charge05_04_03_07 = 'G. 플레이스테이션존 무료 이용';
+propertyData.pop.hotel_policy_charge05_04_03_07_01 = '① 투숙 시에만 이용이 가능합니다.';
+propertyData.pop.hotel_policy_charge05_04_03_07_02 = '② 주말 및 공휴일 전일, 성수기, 연말연시 등의 기간에 는 이용 시간이 제한될 수 있습니다.';
+propertyData.pop.hotel_policy_charge05_04_04 = '라) 시그니처 골드 (Signature Gold) 회원 혜택';
+propertyData.pop.hotel_policy_charge05_04_04_01 = 'A. 주중 1박 숙박권 1매 (그랜드 프리미어 디럭스) 및 클럽 라운지 2인 이용권 1매';
+propertyData.pop.hotel_policy_charge05_04_04_01_01 = '① 사용 제외 기간 : 토요일, 공휴일 전일, 극성수기, 연말연시';
+propertyData.pop.hotel_policy_charge05_04_04_01_02 = '② 기타 : 극성수기, 연말연시의 경우 객실 가능 시 이용 요청하실 수 있으며, 이용 시 별도의 요금 (200,000 원, 세금 별도)이 추가됩니다.';
+propertyData.pop.hotel_policy_charge05_04_04_01_03 = '③ 클럽라운지 이용권의 경우, 본 숙박권 이용시에만 사용 가능하며, 1매 사용시 최대 2인에 한해서만 입장이 가능합니다.';
+propertyData.pop.hotel_policy_charge05_04_04_02 = 'B. 객실 1단계 무료 업그레이드 이용권 1매';
+propertyData.pop.hotel_policy_charge05_04_04_02_01 = '① 본 객실 상황에 따라 이용이 제한될 수 있습니다.';
+propertyData.pop.hotel_policy_charge05_04_04_02_02 = '② 코너 스위트(Corner Suite)까지의 업그레이드에 한합니다.';
+propertyData.pop.hotel_policy_charge05_04_04_02_03 = '③ 사용 제외기간 : 토요일, 공휴일 전일, 극성수기 및 연말연시';
+propertyData.pop.hotel_policy_charge05_04_04_02_04 = '④ 최대 1박에 한하여 적용됩니다.';
+propertyData.pop.hotel_policy_charge05_04_04_03 = 'C. 객실 50% 할인권 1매 ';
+propertyData.pop.hotel_policy_charge05_04_04_03_01 = '① 본 할인권은 객실 금액 (Rack Rate) 기준으로 50% 할인 가능한 할인권 입니다';
+propertyData.pop.hotel_policy_charge05_04_04_03_02 = '② 사용 제외기간: 극성수기 및 연말 연시';
+propertyData.pop.hotel_policy_charge05_04_04_04 = 'D. 트로피컬 카바나(Tropical Cabana) 이용권 1매';
+propertyData.pop.hotel_policy_charge05_04_04_04_01 = '① 객실 투숙 시에만 이용 가능합니다.';
+propertyData.pop.hotel_policy_charge05_04_04_04_02 = '② 사용 제외기간: 5/3~7, 여름성수기 및 연말연시';
+propertyData.pop.hotel_policy_charge05_04_04_04_03 = '③ 사용 제외 기간을 제외한 여름 성수기에는 14:00 ~ 20:00 , 그 외 기간에는 14:00 ~ 18:00에 이용이 가능합니다. (단, 시설 상황에 따라 이용 시간이 변경될 수 있습니다.)';
+propertyData.pop.hotel_policy_charge05_04_04_04_04 = '④ 바우처 1매 사용시 최대 4인 입장 가능합니다. (단, 수영장 이용권 구매는 별도입니다.)';
+propertyData.pop.hotel_policy_charge05_04_04_04_05 = '⑤ 수영복 대여 서비스는 제공되지 않습니다.';
+propertyData.pop.hotel_policy_charge05_04_04_04_06 = '⑥ 호텔 멤버십 데스크를 통한 예약 시에만 이용이 가능합니다.';
+propertyData.pop.hotel_policy_charge05_04_04_05 = 'E. Welcome Amenity 무료 제공';
+propertyData.pop.hotel_policy_charge05_04_04_05_01 = '①  객실 투숙 시 호텔이 정한 Welcome Amenity가 무료 로 제공됩니다.';
+propertyData.pop.hotel_policy_charge05_04_04_06 = 'F. F&amp;B 자유이용 10만원 금액권 3매';
+propertyData.pop.hotel_policy_charge05_04_04_06_01 = '① 사용 제외기간 : 공휴일, 극성수기 및 연말연시';
+propertyData.pop.hotel_policy_charge05_04_04_06_02 = '② 바우처를 제외한 금액에 대해서는 할인 또는 적립률이 적용됩니다.';
+propertyData.pop.hotel_policy_charge05_04_04_06_03 = '③ 특별행사 시, 추가 요금이 발생할 수 있습니다.';
+propertyData.pop.hotel_policy_charge05_04_04_06_04 = '④ 사용 가능 업장 : 라 스칼라, 온 더 플레이트, 라쿠, 루 빅, 라운지 파라다이스, 가든 카페';
+propertyData.pop.hotel_policy_charge05_04_04_06_05 = '⑤ 사용 제외 업장 : 임페리얼 트레져';
+propertyData.pop.hotel_policy_charge05_04_04_07 = 'G. F&amp;B 자유이용 5만원 금액권 2매';
+propertyData.pop.hotel_policy_charge05_04_04_07_01 = '① 사용 제외기간 : 공휴일, 극성수기 및 연말연시';
+propertyData.pop.hotel_policy_charge05_04_04_07_02 = '② 바우처를 제외한 금액에 대해서는 할인 또는 적립률 이 적용됩니다.';
+propertyData.pop.hotel_policy_charge05_04_04_07_03 = '③ 특별행사 시, 추가요금이 발생할 수 있습니다.';
+propertyData.pop.hotel_policy_charge05_04_04_07_04 = '④ 사용 가능 업장 : 라 스칼라, 온 더 플레이트, 라쿠, 루빅, 라운지 파라다이스, 가든 카페';
+propertyData.pop.hotel_policy_charge05_04_04_07_05 = '⑤ 사용 제외 업장 : 임페리얼 트레져';
+propertyData.pop.hotel_policy_charge05_04_04_08 = 'H. 사우나 무료 이용권 2매';
+propertyData.pop.hotel_policy_charge05_04_04_08_01 = '① 본 이용권은 1인당 1매 사용 가능합니다.';
+propertyData.pop.hotel_policy_charge05_04_04_08_02 = '② 17세 이상 사우나 입장이 가능합니다.';
+propertyData.pop.hotel_policy_charge05_04_04_08_03 = '③ 본 이용권은 객실 투숙 시에만 이용 가능합니다.';
+propertyData.pop.hotel_policy_charge05_04_04_09 = 'I.	장기주차 1주일 이용권 2매';
+propertyData.pop.hotel_policy_charge05_04_04_09_01 = '① 최초 입차 후, 최대 1주일(168시간) 주차가 가능합니다.';
+propertyData.pop.hotel_policy_charge05_04_04_09_02 = '② 7일(168시간) 이후 1일 24,000원의 주차료가 발생 합니다.';
+propertyData.pop.hotel_policy_charge05_04_04_10 = 'J.	수영장 무료 이용권 4매';
+propertyData.pop.hotel_policy_charge05_04_04_10_01 = '① 사용 제외 기간 : 주말, 극성수기 및 연말연시';
+propertyData.pop.hotel_policy_charge05_04_04_10_02 = '② 수영장 퇴장 후, 재입장은 불가능 합니다.';
+propertyData.pop.hotel_policy_charge05_04_04_10_03 = '③ 최소 3일전 멤버십 데스크를 통해 예약 시에 이용이 가능하며, 시설 상황에 따라 이용이 제한될 수 있습니다.';
+propertyData.pop.hotel_policy_charge05_04_04_11 = 'K.	플레이스테이션존 무료 이용';
+propertyData.pop.hotel_policy_charge05_04_04_11_01 = '① 투숙 시에만 이용이 가능합니다.';
+propertyData.pop.hotel_policy_charge05_04_04_11_02 = '② 주말 및 공휴일 전일, 성수기, 연말연시 등의 기간에는 이용시간이 제한될 수 있습니다.';
+/*propertyData.pop.hotel_policy_charge05_05 = '5) 기타 제휴 혜택 (시그니처 레드/ 시그니처 퍼플/ 시그니처 골드 공통)';
+propertyData.pop.hotel_policy_charge05_05_01 = 'A. BMW 드라이빙 센터 20% 할인';
+propertyData.pop.hotel_policy_charge05_05_02 = 'B. 청라 국제성모병원 종합검진 30% 할인 (외국인 전용)';
+propertyData.pop.hotel_policy_charge05_05_03 = 'C. 리더스 피부과 전 지점 시술 10% 할인';*/
+propertyData.pop.hotel_policy_charge05_06 = '5) 포인트 적립 기준';
+propertyData.pop.hotel_policy_charge05_06_01 = '가) 멤버쉽 카드 발급 이전 결제금액에 대해서는 포인트 적립이 불가합니다.';
+propertyData.pop.hotel_policy_charge05_06_02 = '나) 포인트 적립 시 본인 명의의 멤버쉽 카드 제시를 원칙으로 합니다.';
+propertyData.pop.hotel_policy_charge05_06_03 = '다) 호텔에서 제공하는 서비스 및 상품 구입에 따라 아래와 같이 포인트를 적립할 수 있습니다.';
+propertyData.pop.hotel_policy_charge05_06_03_01 = 'A. 객실 이용 시 포인트 등급에 따라 적립률이 달라집니다. ';
+propertyData.pop.hotel_policy_charge05_06_03_01_01 = '① RED 회원: 객실료 결제금액(VAT제외) 1% 적립';
+propertyData.pop.hotel_policy_charge05_06_03_01_02 = '② PURPLE 회원: 객실료 결제금액(VAT제외) 2% 적립';
+propertyData.pop.hotel_policy_charge05_06_03_01_03 = '③ GOLD 회원: 객실료 결제금액(VAT제외) 3% 적립';
+propertyData.pop.hotel_policy_charge05_06_03_01_04 = '④ 여행사 및 단체를 통하여 객실을 이용할 경우, 포인트 적립이 불가합니다.';
+propertyData.pop.hotel_policy_charge05_06_03_01_05 = '⑤ 특별 계약 업체를 통하여 객실을 이용할 경우, 파라다이스 리워즈 등급과 무관하게 파라다이스 비즈니스 리워즈가 정한 적립률에 따라 포인트가 적립됩니다.';
+propertyData.pop.hotel_policy_charge05_06_03_02 = 'B. 식음료 및 레저 영업장 이용 시 포인트 등급에 따라 적립률이 달라집니다.';
+propertyData.pop.hotel_policy_charge05_06_03_02_01 = '① RED 회원: 식음료 및 레저 결제금액(VAT제외) 1% 적립';
+propertyData.pop.hotel_policy_charge05_06_03_02_02 = '② PURPLE 회원: 식음료 및 레저 결제금액(VAT제외) 2% 적립';
+propertyData.pop.hotel_policy_charge05_06_03_02_03 = '③ GOLD 회원: 식음료 및 레저 결제금액(VAT제외) 3% 적립';
+propertyData.pop.hotel_policy_charge05_06_03_03 = 'C. 포인트 적립 불가 항목';
+propertyData.pop.hotel_policy_charge05_06_03_03_01 = '- 임대업장 결제금액, 유료멤버쉽 연회비, 연회장 이용금액';
+propertyData.pop.hotel_policy_charge05_06_03_03_02 = '- Club Lounge 회의실 대여료, 비즈니스 센터 이용금액, 발렛파킹 이용금액';
+propertyData.pop.hotel_policy_charge05_06_03_03_03 = '- 일일 객실 5실 초과 이용금액, 객실 전화 이용금액, 기타 객실 이용 시 발생하는 부대비용';
+propertyData.pop.hotel_policy_charge05_06_03_03_04 = '- 강습료, 장비대여 이용금액';
+propertyData.pop.hotel_policy_charge05_06_04 = '라) 회원 본인이 이용하고 회원 본인이 결제한 건에 대해서만 포인트가 적립됩니다.';
+propertyData.pop.hotel_policy_charge05_06_05 = '마) 포인트는 분할 및 중복 적립이 불가합니다. (하나의 계산서에 한 명만 적립가능)';
+propertyData.pop.hotel_policy_charge05_06_06 = '바) 포인트 적립은 이용금액 결제 당일 호텔 영업 마감 후 익일 처리됩니다.';
+propertyData.pop.hotel_policy_charge05_06_07 = '사) 호텔에서 판매하는 자사 상품권 구입 시 포인트 적립은 불가하며, 자사 및 타사 상품권으로 대금 결제 시 포인트 적립이 가능합니다.';
+propertyData.pop.hotel_policy_charge05_06_08 = '아) 호텔 이용 후 발생하는 결제금액의 일부 또는 전체에 대하여 포인트를 사용할 경우 포인트 사용금액에 대해서는 포인트 적립이 불가합니다.';
+propertyData.pop.hotel_policy_charge05_06_09 = '자) 기존 회원(유료멤버쉽)이 중복 가입한 경우, 중복 할인은 불가하며 가장 높은 할인율이 적용됩니다. 할인된 금액 차감 후 포인트 적립이 가능합니다.';
+propertyData.pop.hotel_policy_charge05_06_10 = '차) 호텔에서 시행하는 캠페인 활동에 따라 추가 포인트 부여 및 적립이 가능합니다.';
+propertyData.pop.hotel_policy_charge05_06_11 = '카) 회원이 객실을 이용하는 경우, 일일 최대 5실의 결제금액에 대해서만 포인트 적립이 가능합니다. 단, 전 객실이 회원 명의로 예약되어야 하며, 회원 본인이 모든 객실 비용을 하나의 Bill로 지불해야 합니다.';
+propertyData.pop.hotel_policy_charge05_06_12 = '타) 포인트 적립은 당일 호텔 현장에서만 가능하며, 추후 소급 적립 혹은 수정 사항에 대한 정정 및 확인은 적립일로부터 1개월 이내에 호텔 마일리지 센터를 통하여 가능합니다.';
+propertyData.pop.hotel_policy_charge05_06_13 = '파) 포인트 적립은 일일 200만 포인트, 총 1,000만 포인트까지 적립이 가능합니다.';
+propertyData.pop.hotel_policy_charge05_06_14 = '하) 특별판촉행사의 경우, 포인트 적립이 제한될 수 있습니다.';
+propertyData.pop.hotel_policy_charge05_07 = '6) 포인트 사용 기준';
+propertyData.pop.hotel_policy_charge05_07_01 = '가) 포인트 사용 시, 본인 명의의 멤버쉽 카드 제시를 원칙으로 합니다.';
+propertyData.pop.hotel_policy_charge05_07_02 = '나) 포인트 사용은 호텔 내 영업장(임대업장 제외)에서만 이용 가능하며, 기타 장소에서는 포인트 사용이 불가합니다.';
+propertyData.pop.hotel_policy_charge05_07_03 = '다) 회원은 3,000 포인트 이상 적립 시 1포인트 단위로 사용할 수 있습니다.';
+propertyData.pop.hotel_policy_charge05_07_04 = '라) 포인트 사용 기준은 1포인트당 1원이며, 포인트는 2인 이상 분할 및 중복 사용이 불가합니다. (하나의 계산서에 2인 사용 불가)';
+propertyData.pop.hotel_policy_charge05_07_05 = '마) 회원은 포인트를 타인에게 양도 및 대여 또는 담보의 목적으로 이용할 수 없습니다.';
+propertyData.pop.hotel_policy_charge05_07_06 = '바) 회원이 구입하는 서비스 및 상품의 대금 결제 시 할인 및 포인트 사용이 동시에 가능하나, 호텔 내 기존 회원(유료멤버쉽)이 중복 가입한 경우 중복 할인은 불가하며 가장 높은 할인율이 적용됩니다.';
+propertyData.pop.hotel_policy_charge05_07_07 = '사) 포인트 유효 기간은 포인트 적립월로부터 만 24개월간이며, 적립월부터 24개월 후 선입선출 방식에 의해 월 단위로 포인트가 소멸됩니다.';
+propertyData.pop.hotel_policy_charge05_07_08 = '아) 회원은 포인트 사용과 관련하여 수정사항 발생 시 사용일로부터 10일 이내에 호텔 마일리지 센터를 통하여 포인트 수정 및 확인이 가능합니다.';
+propertyData.pop.hotel_policy_charge05_07_09 = '자) 누적된 포인트는 약관에 규정된 무료 숙박권, 뷔페 식사권 등으로 교환하여 사용이 가능합니다. 단, 적립된 포인트의 현금 지급은 불가합니다.';
+propertyData.pop.hotel_policy_charge05_07_10 = '차) 회원은 포인트 등급에 관계 없이 포인트를 사용하여 사우나 입장료를 결제할 경우 사우나 입장이 가능하며, 포인트 사용금액만큼 포인트가 차감됩니다.';
+propertyData.pop.hotel_policy_charge05_08 = '7) 포인트 등급별 혜택';
+propertyData.pop.hotel_policy_charge05_08_01 = '가) 포인트 등급은 회원 가입월로부터 매 3개월 단위로 평가 및 반영되며, 등급 조정에 따른 혜택은 조정일로부터 1년간 사용하실 수 있습니다.';
+propertyData.pop.hotel_policy_charge05_08_02 = '나) 포인트 등급에 따른 혜택은 기간 내 미 사용 시 자동 소멸되어 재발행 및 기간연장이 불가합니다.';
+propertyData.pop.hotel_policy_charge05_08_03 = '다) 모든 혜택은 회원 카드에 내장되어 있으며, 사용 시 회원 카드를 제시하여 주시기 바랍니다. (본인 한하여 사용 가능.)';
+propertyData.pop.hotel_policy_charge05_08_04 = '라) RED 회원 및 혜택';
+propertyData.pop.hotel_policy_charge05_08_04_01 = 'A. 최초 멤버쉽 가입이 완료되면 RED 회원으로 등록됩니다.';
+propertyData.pop.hotel_policy_charge05_08_04_02 = 'B. RED 회원은 아래와 같은 특전 사항이 제공됩니다.';
+propertyData.pop.hotel_policy_charge05_08_04_02_01 = '① 객실 내 무선 인터넷을 무료로 이용할 수 있습니다.';
+propertyData.pop.hotel_policy_charge05_08_04_02_02 = '② 식음업장 및 베이커리 이용 시 5% 할인이 가능 합니다. (중복할인 불가)';
+propertyData.pop.hotel_policy_charge05_08_04_02_03 = '③ 루빅 이용 시 2% 할인이 가능합니다. (중복할인 불가)';
+propertyData.pop.hotel_policy_charge05_08_04_02_04 = '④ 객실 투숙 시 플레이스테이션존 무료 이용이 가능합니다.';
+propertyData.pop.hotel_policy_charge05_08_05 = '마) PURPLE 회원 및 혜택';
+propertyData.pop.hotel_policy_charge05_08_05_01 = 'A. 회원 가입 후 50,000포인트 이상 누적 적립할 경우 포인트 등급 평가 시 PURPLE 등급으로 상향 조정되며, 이후 12개월간 30,000포인트 이상 누적 적립 시 Purple 회원 자격이 유지됩니다.';
+propertyData.pop.hotel_policy_charge05_08_05_02 = 'B. PURPLE 회원 대상 아래와 같은 혜택이 제공됩니다.';
+propertyData.pop.hotel_policy_charge05_08_05_02_01 = '① 연간 객실 1단계 무료 업그레이드 이용권이 제공됩니다. <br>(Corner Suite까지의 업그레이드에 한하며, 주말, 공휴일 전일, 여름성수기 및 연말연시 제외입니다.)';
+propertyData.pop.hotel_policy_charge05_08_05_02_02 = '② 객실 내 무선 인터넷을 무료로 이용할 수 있습니다.';
+propertyData.pop.hotel_policy_charge05_08_05_02_03 = '③ 온 더 플레이트(뷔페) 조식 2인 이용권 1매가 제공됩니다.';
+propertyData.pop.hotel_policy_charge05_08_05_02_04 = '④ 식음업장 및 베이커리 이용 시 5%의 할인 혜택이 제공됩니다. (중복할인 불가)';
+propertyData.pop.hotel_policy_charge05_08_05_02_05 = '⑤ 루빅 이용 시 3%의 할인 혜택이 제공됩니다. (중복할인 불가)';
+propertyData.pop.hotel_policy_charge05_08_05_02_06 = '⑥ 루빅 시그니쳐 칵테일 2잔 이용권 1매가 제공됩니다. (1매 사용시 2잔이 제공됩니다.)';
+propertyData.pop.hotel_policy_charge05_08_05_02_07 = '⑦ 객실 투숙시 무료로 플레이스테이션존 무료 이용이 가능합니다.';
+propertyData.pop.hotel_policy_charge05_08_06 = '바) GOLD 회원 및 혜택';
+propertyData.pop.hotel_policy_charge05_08_06_01 = 'A .회원 가입 후 150,000포인트 이상 누적 적립할 경우 포인트 등급 평가 시 GOLD 등급으로 상향 조정되며, 이후 12개월간 90,000포인트 이상 누적 적립 시 GOLD 회원 자격이 유지됩니다.';
+propertyData.pop.hotel_policy_charge05_08_06_02 = 'B. GOLD 회원 대상 아래와 같은 혜택이 제공됩니다.';
+propertyData.pop.hotel_policy_charge05_08_06_02_01 = '① 객실 투숙 시, 호텔이 정한 웰컴 어메니티가 제공됩니다.';
+propertyData.pop.hotel_policy_charge05_08_06_02_02 = '② 10,000포인트 이상 사용 시 결제 포인트의 5% 만큼의 추가 페이백 포인트가 적립됩니다.';
+propertyData.pop.hotel_policy_charge05_08_06_02_03 = '③ 객실 내 무선 인터넷을 무료로 이용할 수 있습니다.';
+propertyData.pop.hotel_policy_charge05_08_06_02_04 = '④ 온 더 플레이트(뷔페) 조식 2인 이용권 2매가 제공됩니다.';
+propertyData.pop.hotel_policy_charge05_08_06_02_05 = '⑤ 연간 객실 무료 업그레이드 이용권 2매가 제공됩니다. (Corner Suite까지의 업그레이드에 한하며, 주말, 공휴일 전일, 여름성수기 및 연말연시 제외입니다.)';
+propertyData.pop.hotel_policy_charge05_08_06_02_06 = '⑥ 식음업장 및 베이커리 이용 시 10% 할인이 가능합니다. (중복할인 불가)';
+propertyData.pop.hotel_policy_charge05_08_06_02_07 = '⑦ 루빅 이용 시 5% 할인이 가능합니다. (중복할인 불가)';
+propertyData.pop.hotel_policy_charge05_08_06_02_08 = '⑧ 루빅 시그니쳐 칵테일 2잔 이용권 2매가 제공됩니다. (1매 사용시 2잔이 제공됩니다.)';
+propertyData.pop.hotel_policy_charge05_08_06_02_09 = '⑨ 장기주차 이용권(1주일) 2매가 제공됩니다. (이용기간 초과 시 1일당 24,000원의 요금이 부가됩니다.)';
+propertyData.pop.hotel_policy_charge05_08_07 = '사) 식음료 할인 제외업장';
+propertyData.pop.hotel_policy_charge05_08_07_01 = 'A. 포인트 등급에 관계 없이 아래의 경우, 식음료 영업장 할인에서 제외됩니다.';
+propertyData.pop.hotel_policy_charge05_08_07_01_01 = '① 연회행사, 풀 사이드 바, 룸서비스, 한시적 여름행사, 특별판촉행사';
+propertyData.pop.hotel_policy_charge05_08_07_01_02 = '② 가든카페 : 수입품 및 일부품목, 제과제빵행사';
+propertyData.pop.hotel_policy_charge05_09 = '8) 포인트 서비스 관련 기타사항';
+propertyData.pop.hotel_policy_charge05_09_01 = '가) 호텔은 원활한 운영을 위한 목적으로 포인트 서비스를 중지할 수 있는 권리를 가집니다. 호텔의 자유재량으로 결정하는 서비스 종료일까지 서비스를 제공하며, 호텔의 사정에 의하여 서비스를 중지할 경우 회원들에게 90일 전에 E-mail 또는 홈페이지로 통지하여 멤버쉽 서비스를 종료할 수 있습니다.';
+propertyData.pop.hotel_policy_charge05_09_02 = '나) 서비스 종료일 이후에는 멤버쉽 서비스의 혜택을 받지 못하고, 호텔에서 별도로 정한 지정일까지 포인트를 사용하여야 하며, 지정일까지 사용하지 않은 포인트는 자동 소멸됩니다.';
+
+propertyData.pop.hotel_policy_charge06 = '제6조 회원 탈퇴 및 자격의 상실';
+propertyData.pop.hotel_policy_charge06_01 = '1)	다음 각 호에 해당될 경우, 회원 자격은 정지 또는 상실됩니다.';
+propertyData.pop.hotel_policy_charge06_01_01 = '가) 가입 신청 시 작성한 내용이 사실과 다를 경우';
+propertyData.pop.hotel_policy_charge06_01_02 = '나) 본 약관에 따른 포인트 적립 및 사용과 관련하여 부정한 방법으로 이용한 경우';
+propertyData.pop.hotel_policy_charge06_01_03 = '다) 본 약관에 따라 회원이 준수해야 하는 의무를 위반한 경우';
+propertyData.pop.hotel_policy_charge06_01_04 = '라) 회원이 호텔의 경영 정책에 위배되는 행위를 하거나 다른 회원의 명예를 훼손했다고 호텔이 판단 하는 경우';
+propertyData.pop.hotel_policy_charge06_01_05 = '마) 회원이 사망한 경우';
+propertyData.pop.hotel_policy_charge06_01_06 = '바) 본 약관 제6조에 정해진 방법으로 회원 자격이 상실된 경우, 기납입한 연회비는 환불되지 않습니다.';
+propertyData.pop.hotel_policy_charge06_01_07 = '사) 본 약관 제6조에 정해진 방법으로 회원 자격이 상실된 경우, 회원 자격 상실일까지의 잔여 적립 포인트는 자동으로 소멸됩니다.';
+
+propertyData.pop.hotel_policy_charge07 = '제7조 호텔의 권리 사항';
+propertyData.pop.hotel_policy_charge07_01 = '1) 타 회원에게 불쾌감을 주는 품행과 언행을 하는 회원의 경우 호텔 이용이 제한될 수 있습니다.';
+propertyData.pop.hotel_policy_charge07_02 = '2) 호텔은 시설 관리를 위한 개보수 및 행정지도 명령, 사회 제반 여건의 변화 등 부득이한 사유 발생 시, 회원에게 사전 통보로 멤버쉽의 전부 또는 일부의 사용을 제한할 수 있으며, 이 경우 연회비는 환불하지 않습니다.';
+propertyData.pop.hotel_policy_charge07_03 = '3) 호텔은 멤버쉽 운영에 있어 필요할 경우 멤버쉽 약관 및 규정을 변경할 수 있습니다. 이에 대한 내용은 E-MAIL 또는 호텔 홈페이지를 통하여 공지되며, 15일 이후 그 효력을 발생시킬 수 있습니다.';
+propertyData.pop.hotel_policy_charge07_04 = '4) 회원은 주소, 연락처 등 개인 정보의 변경에 대한 제반 사항을 호텔에 통보하여야 하며 이를 이행하지 않아 발생되는 모든 불이익에 대해 호텔은 그 책임이 업습니다.';
+
+propertyData.pop.hotel_policy_charge08 = '제8조 기타';
+propertyData.pop.hotel_policy_charge08_01 = '1) 회원과 호텔 간에 멤버쉽 이용에 관한 이견이 발생하였을 경우, 본 약관이 우선하고 약관에 명시 되지 않은 부분은 관계법령 및 상관례에 따릅니다.';
+propertyData.pop.hotel_policy_charge08_02 = '2) 본 약관과 관련한 소송의 관할법원은 호텔의 소재지 관할법원으로 합니다';
+/*! e: 추가 20170412 호텔 멤버십 이용약관 팝업(유료) */
+
+/*! 2017-04 호텔멤버십수정 - 컨텐츠 추가 */
+propertyData.global.hotel_mem_topTxt01 = '파라다이스 리워즈';
+propertyData.global.hotel_mem_topTxt02 = '차별화된 특전과 포인트 혜택을 제공하는 <br>파라다이스 호텔&amp;리조트의 무료 멤버십 입니다.';
+propertyData.global.hotel_mem_topTxt03 = '파라다이스 시그니처';
+propertyData.global.hotel_mem_topTxt04 = '고품격 서비스를 제공하는<br>파라다이스 호텔&amp;리조트만의 유료 멤버십입니다.';
+propertyData.global.hotel_mem_topTxt05 = '비즈니스 리워즈';
+propertyData.global.hotel_mem_topTxt06 = '법인 고객 및 MEETING&amp;EVENT를 위한 <br>파라다이스 호텔&amp;리조트의 비즈니스 멤버십입니다.';
+
+/*! 20170414 카지노 멤버십 추가 및 수정 */
+propertyData.global.cas_mem_benefit04 = '실적 달성 기념품';
+propertyData.global.cas_mem_benefit0401 = '총베팅액 1억 달성 시 기념품(디퓨저) 지급 ';
+propertyData.global.cas_mem_benefit05 = '카지노 <br>시설';
+propertyData.global.cas_mem_benefit0501 = '카지노 Platinum Lounge 이용<br>카지노 VIP Restaurant 이용<br>VIP Entrance 이용 가능<br>발렛 서비스 무료<br>Paradise City ↔ 공항 간 VIP Limousine 서비스<br>주차장 무료 이용 ';
+propertyData.global.cas_mem_benefit0502 = '1:1 VIP Care Service (Diamond Lounge)<br>카지노 Platinum Lounge 이용<br>카지노 VIP Restaurant 이용<br>VIP Entrance 이용 가능<br>발렛 서비스 무료<br>Paradise City ↔ 공항 간 VIP Limousine 서비스<br>주차장 무료 이용 ';
+propertyData.global.cas_mem_point0401 = '주차장 무료 이용';
+propertyData.global.cas_mem_point0402 = '발렛 서비스 무료';
