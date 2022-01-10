@@ -1,0 +1,20 @@
+.inner-box{
+    margin-left: 1em;
+    display: flex;
+    padding-top: 2em;
+    border: 1px solid #f4f2f1;
+}
+.inner-box ul{
+    display: flex;
+    align-items: center;
+}
+.inner-box li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5em 1em 0.8em;
+}
+.inner-box a{
+    font-size: 14px;
+    font-weight: 600;
+}

@@ -1,0 +1,130 @@
+.header-cate{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: var(--black_3);
+}
+.header-mn{
+    display: flex;
+    justify-content: space-between;
+    color: var(--white_3);
+}
+.header-mn li{
+    cursor: pointer;
+}
+.header-m{
+    display: flex;
+    /* color: var(--white); */
+    margin-left: 1em;
+}
+.header-m a img{
+    width: 22px;
+    height: 23px;
+}
+.header-m li{
+    align-self: center;
+    margin: 0 0.8em;
+    padding: 10px 0;
+    border-bottom: 3px solid var(--black_3);
+}
+.header-m li:hover{
+    color: var(--brown_2);
+    border-bottom: 3px solid var(--brown_2);
+}
+.header-m li:hover .main-nav{
+    display: none;
+}
+.header-m a{
+    font-size: 12px;
+    /* color: #a6a29a; */
+    font-weight: 600;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.6em 0.6em 0.6em 1em;
+}
+
+/* 왼쪽 메인 메뉴 */
+/* .main-nav{
+    display: flex;
+    height: 400px;
+    width: 100%;
+    padding: 50px 100px;
+    position: absolute;
+    z-index: 11;
+    top: 90px;
+    background-color:#21201cef;
+}
+.main-nav div{
+    margin-right: 85px;
+}
+.main-nav h2{
+    font-size: 12px;
+    font-weight: 300;
+    color: var(--brown_2);
+    margin-bottom: 17px;
+}
+.main-nav h1{
+    font-size: 15px;
+    color: var(--white);
+}
+.main-navbg{
+    height: 400px;
+    width: 100%;
+    padding: 50px 100px;
+    position: absolute;
+    z-index: 1;
+    top: 90px;
+    background-color:#21201cef;
+} */
+
+/* 오른쪽 메뉴 */
+.header-info{
+    display: flex;
+    justify-content: flex-end;
+    height: 47px;
+    font-size: 12px;
+    padding-right: 50px;
+}
+.header-info li{
+    align-self: center;
+    padding: 1em 1em;
+    margin: 0 0.3em;
+}
+#kr{  
+    position: relative;
+}
+#leng{
+    position: absolute;
+    top: 40px;
+    background-color: var(--black_3);
+    z-index: 22;
+}
+
+/* 사이드 메뉴 */
+.header-side{
+    position: fixed;
+    z-index: 1000;
+    right: 0;
+    width: 55px;
+    height: 100%;
+    background-color: var(--black_3);
+}
+.header-nm{
+    display: flex;
+    height: 286px;
+    color: var(--white);
+    background-color: var(--brown_2);
+}
+.header-nm h1{
+    font-size: 20px;
+    margin-left: 95px;
+    transform: rotate(270deg);
+}
+
+.header-sns li{
+    padding: 50px 17px;
+    border-bottom: solid 0.5px var(--black_1);
+}

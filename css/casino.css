@@ -1,0 +1,170 @@
+/* 메인 카지노 설명 */
+#container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.inner-container{
+    width: 1120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.casino-header{
+    margin: 2em 0 3em;
+}
+.casino-header h1{
+    display: block;
+    font-size: 30px;
+    font-weight: 100;
+    color: var(--black_1);
+}
+.casino-header h1 span{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 3;
+    color: var(--brown_2);
+}
+
+/* main-banner */
+.main-banner{
+    margin-bottom: 4em;
+}
+.banner-btns{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1.2em 0 1em;
+}
+.banner-point{
+    width: 40px;
+    display: flex;
+    justify-content: center;
+}
+.banner-point li{
+    width: 4px;
+    height: 5px;
+    background-color: var(--black_1);
+    border-radius: 50%;
+    margin: 0 4px;
+}
+
+/* 잭팟 */
+.jackpot{
+    position: relative;
+    width: 100%;
+    height: 367px;
+    background-size: auto;
+    background: url(../img/casino/bg_jackpot.jpg) no-repeat 0 50%;
+    box-sizing: border-box;
+    text-align: center;
+}
+.jackpot h2{
+    position: absolute;
+    top: 4em;
+    left: 42%;
+    font-size: 1em;
+    color: burlywood;
+    font-weight: 500;
+}
+.jackpot p{
+    position: absolute;
+    top: 1.6em;
+    left: 5.8em;
+    font-size: 4em;
+    color: white;
+    letter-spacing: 20px;
+}
+
+/* 엔터테인먼트 */
+.entertainment{
+    width: 100%;
+}
+.sub-text{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4em;
+}
+.sub-text h2{
+    font-size: 30px;
+    color: var(--brown_2);
+    font-weight: lighter;
+    margin-bottom: 10px;
+}
+.sub-text p{
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+    color: var(--black_1);
+}
+
+/* floor info */
+.floor-info{
+    margin-top: 3em;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.floor-info li{
+    display: block;
+    width: 48.5%;
+    text-align: center;
+}
+.left-info > img, .right-info > img{
+    width: auto;
+}
+.floor-detail{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+}
+.floor-detail h4{
+    margin: 10px 0;
+}
+.floor-detail em{
+    color: var(--brown_2);
+    font-style: normal;
+}
+.floor-detail p{
+    text-align: start;
+    font-size: 14px;
+}
+
+/* 게임 가이드 */
+.game-btns{
+    display: flex;
+    justify-content: space-between;
+    margin: 3em 0 0;
+}
+.game-btns li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+    padding: 3em 0;
+    border: 1px solid var(--black_1);
+}
+.game-btns li a{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.game-btns a img{
+    margin-bottom: 2em;
+}
+.game-btns li strong{
+    font-size: 18px;
+    line-height: 2;
+}
+.game-btns li p{
+    text-align: center;
+    font-size: 14px;
+}
+
+.small-text{
+    font-size: 12px;
+}
