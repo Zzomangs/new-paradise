@@ -27,7 +27,107 @@ body {
 .offer-box {
   width: 100%;
   height: 150px;
-  background-color: rgb(233, 233, 233);
+  margin-bottom: 45px;
+  background-color: whitesmoke;
+  border:1px solid rgb(233, 233, 233);
+}
+
+h1 {
+  font-size: 15px;
+  margin-bottom: 15px;
+}
+/* option box */
+.option-box{
+  width: 1120px;
+  height: 231px;
+  border:1px solid rgb(233, 233, 233);
+  margin-bottom: 25px;
+  display: flex;
+}
+
+.option-box img {
+  width: 350px;
+  margin-right: 35px;
+  position: relative;
+}
+.option-a{
+  position: absolute;
+  width: 350px;
+  height: 230px;
+  background-color: var(--black_3);
+  opacity: 0;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.option-a a{
+  padding: 10px 25px;
+  border:1px solid var(--white);
+  color: var(--white);
+}
+.option-a:hover{
+  transition: opacity ease-in-out 300ms;
+  opacity: 0.7;
+}
+.option-box-con{
+  display: flex;
+  padding:  15px 20px 20px 0;
+  width: 100%;
+  justify-content: space-between;
+}
+.option-box-cont{
+  height: 231px;
+}
+.option-box-cont h1{font-size: 24px; font-weight: 200; color: var(--black_1); margin-bottom: 15px;}
+.option-box-cont h2{font-size: 14px; font-weight: 300; color: var(--brown_2); margin-bottom: 15px;}
+.option-box-cont h3{font-size: 14px; font-weight: 400; color: var(--black_1);  margin-bottom: 10px;}
+.option-box-cont h4{font-size: 12px; font-weight: 400; color: #999; margin-bottom: 10px;}
+.option-box-cont p{font-size: 12px; color: #999;}
+
+.option-price{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.option-price h1{
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--black_3);
+}
+.option-price h1 b{
+  font-size: 20px;
+}
+.option-price h2{
+  font-size: 14px;
+  color: var(--brown_2);
+}
+/* cution */
+.cution{
+  margin-top: 50px;
+  width: 1120px;
+  height: 300px;
+  border:1px solid rgb(233, 233, 233);
+}
+.cution-title{
+  width: 100%;
+  height: 60px;
+  color: var(--brown_2);
+  padding: 20px;
+  background-color: whitesmoke;
+}
+.fa-exclamation-circle {margin-right: 10px;}
+.cution-cont{padding: 20px;}
+.cution-cont span{
+  display: block;
+  font-size: 14px;
+  width: 1050px;
+  margin-bottom: 17px;
+  color: var(--black_1);
+}
+.cution-cont span::before{
+  margin-right: 5px;
+  content: "·";
 }
 /* footer */
 #bottom {
