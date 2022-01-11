@@ -1,8 +1,9 @@
 .inner-box{
-    margin-left: 1em;
+    padding-left: 1em;
     display: flex;
     padding-top: 2em;
     border: 1px solid #f4f2f1;
+    height: 140px;
 }
 .inner-box ul{
     display: flex;
@@ -16,5 +17,13 @@
 }
 .inner-box a{
     font-size: 14px;
-    font-weight: 600;
+    font-weight: 500;
+}
+.inner-box-name{
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--black_2);
+}
+.act{
+    color: var(--brown_2);
 }

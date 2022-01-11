@@ -2,6 +2,7 @@
     width: 100%;
     position: fixed;
     top: 0;
+    z-index: 10;
     background-color: var(--black_3);
 }
 .header-mn{
@@ -111,6 +112,7 @@
     width: 55px;
     height: 100%;
     background-color: var(--black_3);
+    top: 0;
 }
 .header-nm{
     display: flex;
