@@ -45,9 +45,10 @@ header {
   color: var(--white);
   font-size: 14px;
 }
-
-.header-m li {
+.header-m a {
   margin-left: 50px;
+}
+.header-m li {
   align-self: center;
   padding: 10px 0;
   border-bottom: 3px solid var(--black_3);
@@ -61,23 +62,18 @@ header {
   display: none;
 }
 .main-nav {
-  display: none;
+  display: flex;
   height: 400px;
   width: 100%;
   padding: 50px 100px;
   position: absolute;
   z-index: 11;
-  top: 90px; 
+  top: 90px;
+  /* background-color:#21201cef; */
 }
-.main-nav.active {
-  display: flex;
-}
-
-
-
 
 .main-nav div {
-  /* display: none; */
+  display: none;
   margin-right: 85px;
 }
 .main-nav h2 {
@@ -89,18 +85,12 @@ header {
 .main-nav h1 {
   font-size: 15px;
   color: var(--white);
-  margin-bottom: 25px;
-}
-.main-nav h3 {
-  font-size: 12px;
-  color: var(--white_3);
-  font-weight: 200;
-  margin-bottom: 5px;
 }
 .main-navbg {
-  display: block;
+  display: none;
   height: 400px;
   width: 100%;
+  padding: 50px 100px;
   position: absolute;
   z-index: 1;
   top: 90px;
