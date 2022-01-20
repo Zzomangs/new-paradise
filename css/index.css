@@ -35,10 +35,14 @@ header {
   position: relative;
 }
 #leng {
+  display: none;
   position: absolute;
   top: 40px;
   background-color: var(--black_3);
   z-index: 22;
+}
+#leng.show{
+  display: block;
 }
 .header-m {
   display: flex;

@@ -27,6 +27,11 @@ $(document).ready(function(){
   
 
 
+ //헤더 언어 토글링
+ $("#kr").on("click",function(){
+  $("#leng").toggleClass('show')
+})
+
 
 
  

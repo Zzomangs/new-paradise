@@ -52,7 +52,14 @@ body {
 
 .room-slide li {
   width: 100%;
-  float: left;
+  display: none;
+  opacity: 0;
+}
+.room-slide li.active{
+  display: block;
+  opacity: 1;
+  transition: all ease-in-out 500ms;
+
 }
 .room-slide {
   overflow: hidden;
@@ -65,11 +72,16 @@ body {
   position: relative;
 }
 .room-info-blink {
-  display: none;
+  opacity: 0;
+  position: absolute;
+  height: 463px;
   padding: 40px;
 }
 .room-info-blink.active {
+  opacity: 1;
+  transition: all ease-in-out 500ms;
   display: block;
+
 }
 .room-info-blink h1 {
   font-weight: 100;
@@ -104,8 +116,11 @@ body {
   font-size: 13px;
   font-weight: 500;
   position: absolute;
+  left: 40px;
   bottom: 40px;
   color: var(--brown_2);
+  width: 100px;
+  height: 40px;
   padding: 10px 25px;
   border: 1px solid var(--brown_2);
 }
