@@ -11,6 +11,14 @@
     <link rel="stylesheet" href="css/offers.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/inner-header.css">
+    <link rel="stylesheet" href="css/datepicker.css">
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery_ui.js"></script>
+    <script src="js/header.js"></script>
+    <script src="js/offerbox.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"
+        integrity="sha512-uto9mlQzrs59VwILcLiRYeLKPPbS/bT71da/OEBYEwcdNUk8jYIy+D176RYoop1Da+f9mvkYrmj5MCLZWEtQuA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </head>
 
 <body>
@@ -22,8 +30,7 @@
                         <a href="#"><img src="img/index/logo.png" alt="logo"></a>
                     </div>
                     <li><a href="#">OFFERS</a></li>
-                    <!-- slide down & up
-                    <ul class="main-nav">
+                    <div class="main-nav">
                         <div>
                             <h2>SPECIAL</h2>
                             <h1>OFFERS</h1>
@@ -32,17 +39,163 @@
                             <h2>GOURMET</h2>
                             <h1>TO GO BOX</h1>
                         </div>
-                    </ul> -->
-
+                    </div>
+                    <li><a href="">EVENTS</a></li>
+                    <div class="main-nav">
+                        <div>
+                            <h2>SEASON & DINING</h2>
+                            <h1>EVENTS</h1>
+                            <H3>EVENTS</P>
+                                <H3>VIDEOS</P>
+                        </div>
+                    </div>
+                    <li><a href="">ROOMS</a></li>
+                    <div class="main-nav">
+                        <div>
+                            <h2>ROOMS</h2>
+                            <h1>ROOMS</h1>
+                            <H3>디럭스</H3>
+                            <H3>프리미엄 디럭스</H3>
+                            <H3>스위트</H3>
+                            <H3>스페셜 스위트</H3>
+                        </div>
+                        <div>
+                            <h2>ALL DAY</h2>
+                            <h1>LOUNGE</h1>
+                            <H3>이그제큐티브 라운지</H3>
+                            <H3>라운지 파라다이스</H3>
+                        </div>
+                    </div>
+                    <li><a href="">DINE&DRINK</a></li>
+                    <div class="main-nav">
+                        <div>
+                            <h2>BUFFET</h2>
+                            <h1>BUFFET</h1>
+                            <H3>온 더 플레이트</H3>
+                        </div>
+                        <div>
+                            <h2>RESTAURANTS</h2>
+                            <h1>RESTAURANTS</h1>
+                            <H3>닉스</H3>
+                            <H3>남풍</H3>
+                            <H3>사까에</H3>
+                        </div>
+                        <div>
+                            <h2>BAR</h2>
+                            <h1>LOUNGE & PUB</h1>
+                            <H3>크리스탈 가든</H3>
+                        </div>
+                        <div>
+                            <h2>PARADISE</h2>
+                            <h1>BOUTIQUE</h1>
+                            <H3>베이커리</H3>
+                            <H3>플라워</H3>
+                        </div>
+                        <div>
+                            <h2>SUMMER</h2>
+                            <h1>SPECIAL</h1>
+                            <H3>야외가든</H3>
+                        </div>
+                    </div>
+                    <li><a href="">SPA</a></li>
+                    <div class="main-nav">
+                        <div>
+                            <h2>OCEAN SPA</h2>
+                            <h1>CIMER</h1>
+                            <H3>오션스파 씨메르</H3>
+                        </div>
+                        <div>
+                            <h2>OUTDOOR OCEAN SPA</h2>
+                            <h1>POOL</h1>
+                            <H3>야외 오션스파 풀</H3>
+                        </div>
+                        <div>
+                            <h2>SAUNA</h2>
+                            <h1>SAUNA</h1>
+                            <H3>실내 사우나</H3>
+                        </div>
+                        <div>
+                            <h2>FITMESS</h2>
+                            <h1>FITMESS</h1>
+                            <H3>피트니스 클럽</H3>
+                            <H3>실내 골프</H3>
+                        </div>
+                        <div>
+                            <h2>SUNDARI</h2>
+                            <h1>RETREAT SPA</h1>
+                            <H3>순다리 리트리트 스파</H3>
+                        </div>
+                    </div>
+                    <li><a href="">ACTIVITIES</a></li>
+                    <div class="main-nav">
+                        <div>
+                            <h2>PARADISE</h2>
+                            <h1>KIDS VILLAGE</h1>
+                            <H3>BMW 키즈 드라이빙</H3>
+                            <H3>PLAY LAB</H3>
+                            <H3>하바 키즈 라운지</H3>
+                            <H3>웅진 북클럽</H3>
+                            <H3>가족형키즈카페 키즈앤 패밀리</H3>
+                        </div>
+                        <div>
+                            <h2>LEO</h2>
+                            <h1>PROGRAM</h1>
+                            <H3>LEO 체험 프로그램</H3>
+                            <H3>예약하기</H3>
+                        </div>
+                        <div>
+                            <h2>ACTIVITIES</h2>
+                            <h1>ACTIVITIES</h1>
+                            <H3>해운대 가이드</H3>
+                            <H3>일반</H3>
+                            <H3>코스</H3>
+                        </div>
+                    </div>
+                    <li><a href="">GROUPS & WEDDINGS</a></li>
+                    <div class="main-nav">
+                        <div>
+                            <h2>BALLROOMS</h2>
+                            <h1>CONVENTION</h1>
+                            <H3>대연회장</H3>
+                            <H3>중연회장</H3>
+                            <H3>소연회장</H3>
+                        </div>
+                        <div>
+                            <h2>WEDDING</h2>
+                            <h1>WEDDING</h1>
+                            <H3>웨딩</H3>
+                            <H3>그랜드볼룸</H3>
+                            <H3>카프리룸</H3>
+                            <H3>시실리룸</H3>
+                            <H3>야외가든</H3>
+                        </div>
+                        <div>
+                            <h2>FAMILY PARTY</h2>
+                            <h1>FAMILY PARTY</h1>
+                            <H3>가족연회</H3>
+                        </div>
+                    </div>
+                    <li><a href="">CASINO</a></li>
+                    <div class="main-nav">
+                        <div>
+                            <h2>CASINO</h2>
+                            <h1>PARADISE CASINO</h1>
+                            <H3>시설안내</P>
+                                <H3>이벤트</H3>
+                                <H3>멤버십 및 제휴처</H3>
+                                <H3>이용안내</H3>
+                        </div>
+                    </div>
+                    <li><a href="">ART & NATURE</a></li>
+                    <div class="main-nav">
+                        <div>
+                            <h2>ART & NATURE</h2>
+                            <h1>ART & NATURE</h1>
+                            <H3>ART</H3>
+                            <H3>NATURE</H3>
+                        </div>
+                    </div>
                     <div class="main-navbg"></div>
-                    <li><a href="#">EVENTS</a></li>
-                    <li><a href="#">ROOMS</a></li>
-                    <li><a href="#">DINE&DRINK</a></li>
-                    <li><a href="#">SPA</a></li>
-                    <li><a href="#">ACTIVITIES</a></li>
-                    <li><a href="#">GROUPS & WEDDINGS</a></li>
-                    <li><a href="#">CASINO</a></li>
-                    <li><a href="#">ART & NATURE</a></li>
                 </ul>
                 <ul class="header-info">
                     <li><a href="#">MEMBERSHIP</a></li>
@@ -87,9 +240,85 @@
     <article id="s-offers">
         <h1 class="s-n">OFFERS</h1>
         <h1 class="s-p">파라다이스호텔 부산에 오신것을 환영합니다.</h1>
+        <!-- 예약부분 -->
         <div class="offer-box">
-            api추가/
-            api추가할예정입니다/되었나요
+            <div id="offerbox-select">
+                <div id="date-select">
+                    <h2>체크인 & 체크아웃</h2>
+                    <input class="datepicker" placeholder="예약할 날짜를 고르세요">
+                    <script>
+                        $(function () {
+                            $('.datepicker').datepicker();
+                        })
+                    </script>
+                </div>
+                <div id="room-select">
+                    <h2>객실</h2>
+                    <div class="selectBox2 room">
+                        <button class="label room">선택</button><i class="fas fa-chevron-down"></i>
+                        <ul class="optionList room">
+                            <li class="optionItem">선택</li>
+                            <li class="optionItem">디럭스</li>
+                            <li class="optionItem">프리미엄 디럭스</li>
+                            <li class="optionItem">스위트</li>
+                        </ul>
+                    </div>
+                </div>
+                <div id="view-select">
+                    <h2>전망</h2>
+                    <div class="selectBox2 view">
+                        <button class="labelview">선택</button><i class="fas fa-chevron-down"></i>
+                        <ul class="optionList view">
+                            <li class="optionItem">선택</li>
+                            <li class="optionItem">디럭스</li>
+                            <li class="optionItem">프리미엄 디럭스</li>
+                            <li class="optionItem">스위트</li>
+                        </ul>
+                    </div>
+                </div>
+                <div id="tag">
+                    <span id="tagname">#Tag</span>
+                    <div class="checkbox">
+                        <input type="checkbox" id="check1">
+                        <label for="check1"><i class="fas fa-check"></i></label>
+                        <span>조식</span>
+                    </div>
+                    <div class="checkbox">
+                        <input type="checkbox" id="check2">
+                        <label for="check2"><i class="fas fa-check"></i></label>
+                        <span>라운지 서비스</span>
+                    </div>
+                    <div class="checkbox">
+                        <input type="checkbox" id="check3">
+                        <label for="check3"><i class="fas fa-check"></i></label>
+                        <span>다이닝</span>
+                    </div>
+                    <div class="checkbox">
+                        <input type="checkbox" id="check4">
+                        <label for="check4"><i class="fas fa-check"></i></label>
+                        <span>키즈 빌리지</span>
+                    </div>
+                    <div class="checkbox">
+                        <input type="checkbox" id="check5">
+                        <label for="check5"><i class="fas fa-check"></i></label>
+                        <span>가족</span>
+                    </div>
+                    <div class="checkbox">
+                        <input type="checkbox" id="check6">
+                        <label for="check6"><i class="fas fa-check"></i></label>
+                        <span>연인</span>
+                    </div>
+                    <div class="checkbox">
+                        <input type="checkbox" id="check7">
+                        <label for="check7"><i class="fas fa-check"></i></label>
+                        <span>친구</span>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <button id="search-btn"><span>검색</span></button>
+                
+            </div>
         </div>
         <h1>SPECIAL OFFERS</h1>
         <div class="option-box">
@@ -294,7 +523,7 @@
                 </div>
             </div>
         </div>
-    
+
         <div class="cution">
             <div class="cution-title">
                 <span><i class="fas fa-exclamation-circle"></i>안내사항</span>
@@ -305,7 +534,8 @@
                 <span>13세 이하 어린이의 경우 별도 요금 없이 객실당 2명까지 투숙 가능합니다. (단, 성인 3인 투숙시 어린이 1명 투숙가능)<br></span>
                 <span>추가 인원 투숙 시 72,600원 (세금 및 봉사료 포함) 이 부과되며, 디럭스 객실 한정 최대 성인 1인까지 가능합니다.<br>
                     디럭스 객실은 추가 침대 (본관:침대 / 신관:소파베드 메이킹)이용시, 오션스파 씨메르 및 야외 오션스파 풀 1회 무료, 실내 사우나 50% 할인 혜택(1회 한정) 제공.<br>
-                    디럭스 온돌 타입, 프리미엄 디럭스 및 스위트 객실의 추가 인원 예약은 객실 타입에 따라 가능 여부, 추가 요금 및 혜택이 상이할 수 있으니 객실 예약 051) 749-2111로 문의 바랍니다.<br>
+                    디럭스 온돌 타입, 프리미엄 디럭스 및 스위트 객실의 추가 인원 예약은 객실 타입에 따라 가능 여부, 추가 요금 및 혜택이 상이할 수 있으니 객실 예약 051) 749-2111로
+                    문의 바랍니다.<br>
                     단, 패키지 전용 혜택은 제외됩니다.</span>
             </div>
         </div>

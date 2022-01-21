@@ -25,8 +25,11 @@ body {
 }
 /* offer-box */
 .offer-box {
+  display: flex;
+  justify-content: space-between;
   width: 100%;
   height: 150px;
+  padding: 20px 27px;
   margin-bottom: 45px;
   background-color: whitesmoke;
   border:1px solid rgb(233, 233, 233);
@@ -36,6 +39,180 @@ h1 {
   font-size: 15px;
   margin-bottom: 15px;
 }
+h2{
+  font-size: 14px;
+  color: var(--brown_2);
+  font-weight: 400;
+  margin-bottom: 5px;
+}
+/* offerbox-select */
+#offerbox-select{
+  width: 795px;
+  display: flex;
+  flex-wrap: wrap;
+}
+#tag{
+  display: flex;
+  margin-top: 15px;
+  font-size: 14px;
+  color: #999;
+  width: 740px;
+}
+#tagname{
+  margin-right: 30px;
+}
+/* checkbox styling */
+.checkbox{
+  display: flex;
+  margin-right: 30px;
+}
+input[type="checkbox"]{
+  display: none;
+}
+input[type="checkbox"] + label i{
+  font-size: 12px;
+  padding: 4px 2px 2px 2px;
+  color: rgb(233, 233, 233);
+}
+input[type="checkbox"] + label{
+  margin-right: 5px;
+  display: flex;
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  border:1px solid rgb(233, 233, 233);
+  position: relative;
+}
+input[id="check1"]:checked + label::after,
+input[id="check2"]:checked + label::after,
+input[id="check3"]:checked + label::after,
+input[id="check4"]:checked + label::after,
+input[id="check5"]:checked + label::after,
+input[id="check6"]:checked + label::after,
+input[id="check7"]:checked + label::after
+{
+  content:'';
+  background-image: url();
+  /* font-size: 25px; */
+  width: 18px;
+  height: 18px;
+  border:1px solid var(--brown_2);
+  text-align: center;
+  position: absolute;
+  left: -1px;
+  top:-1px;
+}
+input[id="check1"]:checked + label i,
+input[id="check2"]:checked + label i,
+input[id="check3"]:checked + label i,
+input[id="check4"]:checked + label i,
+input[id="check5"]:checked + label i,
+input[id="check6"]:checked + label i,
+input[id="check7"]:checked + label i{
+  color: var(--brown_2);
+}
+/* search-btn */
+#search-btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 50px;
+}
+/* datepicker */
+.datepicker{
+  width: 255px;
+  height: 50px;
+  font-size: 14px;
+  margin-right: 10px;
+  border: 1px solid rgb(233, 233, 233);
+  padding: 15px;
+}
+.datepicker::placeholder{
+  content: "";
+  color: #999;
+}
+/* selection box */
+
+.selectBox2 * { box-sizing: border-box; }
+.selectBox2 {
+  position: relative;
+  width: 255px;
+  height: 50px;
+  margin-right: 10px;
+  border: 1px solid rgb(233, 233, 233);
+  background-color: var(--white);
+  background-size: 20px;
+  cursor: pointer;
+}
+
+
+
+.selectBox2 .label,
+.selectBox2 .labelview {
+  display: flex;
+  align-items: center;
+  width: inherit;
+  height: inherit;
+  border: 0 none;
+  outline: 0 none;
+  padding-left: 15px;
+  background: transparent;
+  cursor: pointer;
+  color: #999;
+  font-size: 14px;
+}
+.fa-chevron-down,
+.labelview i{
+  position: absolute;
+  top: 17px;
+  right: 20px;
+  color: var(--brown_2);
+  font-size: 14px;
+}
+
+.selectBox2 .optionList {
+  position: absolute; 
+  top: 50px;
+  width: 100%;
+  background: var(--white);
+  font-weight: 300;
+  color: var(--black_1);
+  list-style-type: none;
+  padding: 0;
+  overflow: hidden;
+  max-height: 0;
+  transition: .3s ease-in;
+  z-index: 1;
+}
+
+.selectBox2.active .optionList {
+  max-height: 500px;   
+}
+
+.selectBox2 .optionItem {
+  width: 255px;
+  height: 50px;
+  border-bottom: 1px solid rgb(233, 233, 233);
+  background-color: none;
+  padding: 15px;
+  transition: .1s;
+}
+
+.selectBox2 .optionItem:hover {
+  background: whitesmoke;
+}
+
+.selectBox2 .optionItem:last-child {
+  border-bottom: 0 none;
+}
+
+/* // 스크롤 커스텀
+.selectBox2 .optionList::-webkit-scrollbar {width: 6px;}
+.selectBox2 .optionList::-webkit-scrollbar-track {background: transparent; }
+.selectBox2 .optionList::-webkit-scrollbar-thumb {background: #303030; border-radius: 45px;}
+.selectBox2 .optionList::-webkit-scrollbar-thumb:hover {background: #303030;} */
+
 /* option box */
 .option-box{
   width: 1120px;
@@ -56,7 +233,7 @@ h1 {
   height: 230px;
   background-color: var(--black_3);
   opacity: 0;
-  z-index: 10;
+  z-index: 1;
   display: flex;
   justify-content: center;
   align-items: center;

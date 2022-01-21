@@ -116,7 +116,7 @@
   }
   .main-navbg {
     display: block;
-    height: 400px;
+    height: 0px;
     width: 100%;
     position: absolute;
     z-index: 1;
