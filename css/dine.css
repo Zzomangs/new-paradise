@@ -254,6 +254,21 @@ body {
 .hot-deal span{
   margin-right: 25px;
 }
+.hot-deal span:first-child{
+  background: url(/img/dine/otp_hot.png) no-repeat;
+  background-position-y: 7px;
+  text-indent: 40px;
+}
+.hot-deal span:nth-child(2){
+  background: url(/img/dine/otp_dinner_new.png) no-repeat;
+  background-position-y: 7px;
+  text-indent: 18px;
+}
+.hot-deal span:nth-child(3){
+  background: url(/img/dine/otp_lunch_new.png) no-repeat;
+  background-position-y: 7px;
+  text-indent: 18px;
+}
 #lunch .fa-utensils{
   color: var(--brown_2);
 }
@@ -300,11 +315,17 @@ th span{
   width: 160px;
   height: 110px;
 }
-.price-day .yet{
+.price-day .yet-l{
+  background: url(/img/dine/otp_lunch_new.png) no-repeat;
+  background-position-y: 3px;
   color:  rgb(206, 8, 8);
+  text-indent: 18px;
 }
-.price-day .yet i{
-  color: var(--black_3);
+.price-day .yet-d{
+  background: url(/img/dine/otp_dinner_new.png) no-repeat;
+  background-position-y: 3px;
+  color:  rgb(206, 8, 8);
+  text-indent: 18px;
 }
 .price-day .yet i.dinner{
   color:var(--brown_2);
@@ -312,6 +333,7 @@ th span{
 .price-day th{
   width: 160px;
   height: 110px;
+  padding: 10px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -330,8 +352,17 @@ th span{
   font-weight: 300;
   font-size: 13px;
 }
-.price-day p.done{
+.price-day p.done-l{
+  background: url(/img/dine/otp_lunch_non.png) no-repeat;
+  background-position-y: 3px;
   color: rgb(196, 196, 196);
+  text-indent: 18px;
+}
+.price-day p.done-d{
+  background: url(/img/dine/otp_dinner_non.png) no-repeat;
+  background-position-y: 3px;
+  color: rgb(196, 196, 196);
+  text-indent: 18px;
 }
 .no-plan{
   opacity: 0;
@@ -481,8 +512,8 @@ th span{
 #under-nav {
   display: flex;
   align-items: center;
-  justify-content: center;
-  width: 100%;
+  width: 1120px;
+  margin: 0 auto;
   height: 100px;
 }
 #under-nav li {

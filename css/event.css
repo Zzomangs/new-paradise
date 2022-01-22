@@ -26,9 +26,10 @@ body {
 .sub-event {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   width: 100%;
   margin-bottom: 30px;
-  font-weight: 600;
+  font-weight: 400;
   color: #888;
 }
 
@@ -42,6 +43,90 @@ body {
 .sub-event a.active {
   color: var(--brown_2);
 }
+
+#select{
+  display: flex;
+  align-items: center;
+}
+#select span{
+  margin-right: 10px;
+}
+#select span b{
+  font-weight: 300;
+  color: var(--brown_2);
+}
+/* selectbox */
+.selectBox2 * { box-sizing: border-box; }
+.selectBox2 {
+  position: relative;
+  width: 150px;
+  height: 40px;
+  margin-right: 10px;
+  border: 1px solid rgb(233, 233, 233);
+  background-color: var(--white);
+  background-size: 20px;
+  cursor: pointer;
+}
+
+.selectBox2 .label,
+.selectBox2 .labelview {
+  display: flex;
+  align-items: center;
+  width: inherit;
+  height: inherit;
+  border: 0 none;
+  outline: 0 none;
+  padding-left: 15px;
+  background: transparent;
+  cursor: pointer;
+  color: #999;
+  font-size: 14px;
+}
+.fa-chevron-down,
+.labelview i{
+  position: absolute;
+  top: 17px;
+  right: 20px;
+  color: var(--brown_2);
+  font-size: 14px;
+}
+
+.selectBox2 .optionList {
+  position: absolute; 
+  top: 50px;
+  width: 100%;
+  background: var(--white);
+  font-weight: 300;
+  color: var(--black_1);
+  list-style-type: none;
+  padding: 0;
+  overflow: hidden;
+  max-height: 0;
+  transition: .3s ease-in;
+  z-index: 1;
+}
+
+.selectBox2.active .optionList {
+  max-height: 500px;   
+}
+
+.selectBox2 .optionItem {
+  width: 255px;
+  height: 50px;
+  border-bottom: 1px solid rgb(233, 233, 233);
+  background-color: none;
+  padding: 15px;
+  transition: .1s;
+}
+
+.selectBox2 .optionItem:hover {
+  background: whitesmoke;
+}
+
+.selectBox2 .optionItem:last-child {
+  border-bottom: 0 none;
+}
+
 
 /* contents boxes */
 .mn-boxs2 {
@@ -127,8 +212,8 @@ body {
 #under-nav {
   display: flex;
   align-items: center;
-  justify-content: center;
-  width: 100%;
+  width: 1120px;
+  margin: 0 auto;
   height: 100px;
 }
 #under-nav li {
