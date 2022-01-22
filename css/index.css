@@ -173,36 +173,70 @@ header {
   font-size: 18px;
   color: var(--brown_2);
 }
+
 .slide-cont h1{
   position: absolute;
   top: 25px;
   font-size: 45px;
   line-height: 1.2em;
 }
+.slide-cont h2.white,
 .slide-cont h1.white,
 .slide-cont p.white{
   color: var(--white);
 }
 .slide-cont p{
   position: absolute;
-  top: 160px;
+  line-height: 1.8em;
+  top: 150px;
   font-size: 16px;
   color: var(--black_2);
 }
+.slide-cont p.gourmet{
+  top: 100px;
+}
 .slide-cont a{
+  position: absolute;
+}
+.slide-cont .a-1,.a-2{
   padding: 13px 30px;
-  top: 250px;
+  top: 260px;
   background-color: var(--brown_2);
   color: var(--white);
   border-radius: 50px;
   font-size: 14px;
 }
-.slide-cont .a-1{
-  position: absolute;
-}
 .slide-cont .a-2{
-  position: absolute;
   left: 240px;
+}
+.more{
+  background-color: var(--brown_2);
+  color: var(--white);
+  border-radius: 50px;
+  font-size: 14px;
+ top: 220px;
+ width: 150px;
+ height: 40px;
+ padding: 10px 40px;
+}
+
+.slide-cont a.bug{
+  width: 150px;
+  height: 40px;
+  padding: 10px 40px;
+  left: 0px;
+  top: 200px;
+  background-color: var(--brown_2);
+  color: var(--white);
+  border-radius: 50px;
+  font-size: 14px;
+}
+.special-offer{
+  top: 210px;
+  left: 200px;
+  padding-bottom: 5px;
+  border-bottom: solid var(--white)2px;
+  color: var(--white);
 }
 /* offers */
 #offers {
