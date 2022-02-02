@@ -6,6 +6,8 @@
     height: 140px;
 }
 .inner-box ul{
+    margin-left: 1em;
+    width: 100%;
     display: flex;
     align-items: center;
 }
