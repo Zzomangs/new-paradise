@@ -1,10 +1,12 @@
 .inner-box{
-    margin-left: 1em;
+    width: 100%;
     display: flex;
     padding-top: 2em;
     border: 1px solid #f4f2f1;
 }
 .inner-box ul{
+    margin-left: 1em;
+    width: 100%;
     display: flex;
     align-items: center;
 }
