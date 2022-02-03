@@ -132,7 +132,7 @@ body {
 /* room btns */
 .banner-btns {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   margin: 1em 0 4em;
 }
@@ -141,11 +141,15 @@ body {
   justify-content: center;
 }
 .banner-point li {
-  width: 8px;
-  height: 8px;
-  background-color: thistle;
+  width: 10px;
+  height: 10px;
+  background-color: var(--brown_0);
   border-radius: 50%;
   margin: 0 4px;
+}
+.banner-point li.active{
+  background-color: var(--brown_1);
+
 }
 /* footer */
 #bottom {

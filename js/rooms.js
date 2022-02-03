@@ -12,6 +12,9 @@ $(function () {
           $(this).addClass("active");
         }
       });
+      //아래버튼 색상변경
+      $(".banner-point.first > li").removeClass("active");
+      $(this).addClass("active");
       //이미지 변경
       $(".room-slide.first > li").each(function (k) {
         if (indexNum == k){
@@ -20,6 +23,7 @@ $(function () {
         }
       });
     });
+
   });
 });
 
@@ -37,6 +41,9 @@ $(function () {
           $(this).addClass("active");
         }
       });
+      //아래버튼 색상변경
+      $(".banner-point.second > li").removeClass("active");
+      $(this).addClass("active");
       //이미지 변경
       $(".room-slide.second > li").each(function (k) {
         if (indexNum == k){
@@ -62,6 +69,9 @@ $(function () {
           $(this).addClass("active");
         }
       });
+      //아래버튼 색상변경
+      $(".banner-point.third > li").removeClass("active");
+      $(this).addClass("active");
       //이미지 변경
       $(".room-slide.third > li").each(function (k) {
         if (indexNum == k){
@@ -74,8 +84,6 @@ $(function () {
 });
 
 $(function () {
-  const nextBtn = document.querySelector('.btn-next');
-  const prevBtn = document.querySelector('.btn-prev');
   //1. 버튼의 각각의 인덱스 받아오기
   $(".banner-point.fourth > li").each(function (i) {
     let indexNum = i;
@@ -89,6 +97,9 @@ $(function () {
           $(this).addClass("active");
         }
       });
+      //아래버튼 색상변경
+      $(".banner-point.fourth > li").removeClass("active");
+      $(this).addClass("active");
       //이미지 변경
       $(".room-slide.fourth > li").each(function (k) {
         if (indexNum == k){

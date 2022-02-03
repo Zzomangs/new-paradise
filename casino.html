@@ -10,69 +10,207 @@
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/inner-header.css">
     <link rel="stylesheet" href="css/casino.css">
+    <link rel="stylesheet" href="css/casino_subslide.css">
+    <script src="js/jquery.js"></script>
+    <script src="js/header.js"></script>
 </head>
 
 <body>
     <header>
         <article class="header-cate">
-            <div class="header-mn">
-                <ul class="header-m">
-                    <div class="logo">
-                        <a href="#"><img src="img/index/logo.png" alt="logo"></a>
-                    </div>
-                    <li><a href="#">OFFERS</a></li>
-                    <!-- slide down & up
-                    <ul class="main-nav">
-                        <div>
-                            <h2>SPECIAL</h2>
-                            <h1>OFFERS</h1>
-                        </div>
-                        <div>
-                            <h2>GOURMET</h2>
-                            <h1>TO GO BOX</h1>
-                        </div>
-                    </ul> -->
-
-                    <div class="main-navbg"></div>
-                    <li><a href="#">EVENTS</a></li>
-                    <li><a href="#">ROOMS</a></li>
-                    <li><a href="#">DINE&DRINK</a></li>
-                    <li><a href="#">SPA</a></li>
-                    <li><a href="#">ACTIVITIES</a></li>
-                    <li><a href="#">GROUPS & WEDDINGS</a></li>
-                    <li><a href="#">CASINO</a></li>
-                    <li><a href="#">ART & NATURE</a></li>
-                </ul>
-                <ul class="header-info">
-                    <li><a href="#">MEMBERSHIP</a></li>
-                    <li><a href="#">고객지원</a></li>
-                    <li><a href="#">ABOUT US</a></li>
-                    <li><a href="#">로그인</a></li>
-                    <li><a href="#">회원가입</a></li>
-                    <li><a href="#">할인•쿠폰</a></li>
-                    <li><a href="#">예약확인/취소</a></li>
-                    <li id="kr"><a href="#">KR</a></li>
-                    <ul id="leng">
-                        <li><a href="#"></a>KR</li>
-                        <li><a href="#"></a>EN</li>
-                        <li><a href="#"></a>JP</li>
-                        <li><a href="#"></a>CN</li>
-                    </ul>
-                </ul>
-
-            </div>
-        </article>
-        <div class="header-side">
-            <div class="header-nm">
-                <h1>RESERVATION</h1>
-            </div>
-            <ul class="header-sns">
-                <li><img src="img/index/sns_insta.png" alt="instagram"></li>
-                <li><img src="img/index/sns_facebook.png" alt="facebook"></li>
-                <li><img src="img/index/sns_youtube.png" alt="youtube"></li>
+          <div class="header-mn">
+            <ul class="header-m">
+              <div class="logo">
+                  <a href="index.html"><img src="img/index/logo.png" alt="logo"></a>
+              </div>
+              <li><a href="offers.html">OFFERS</a></li>
+              <div class="main-nav">
+                  <div>
+                      <h2>SPECIAL</h2>
+                      <h1>OFFERS</h1>
+                  </div>
+                  <div>
+                      <h2>GOURMET</h2>
+                      <h1>TO GO BOX</h1>
+                  </div>
+              </div>
+              <li><a href="event.html">EVENTS</a></li>
+              <div class="main-nav">
+                  <div>
+                      <h2>SEASON & DINING</h2>
+                      <h1>EVENTS</h1>
+                      <H3>EVENTS</P>
+                          <H3>VIDEOS</P>
+                  </div>
+              </div>
+              <li><a href="rooms.html">ROOMS</a></li>
+              <div class="main-nav">
+                  <div>
+                      <h2>ROOMS</h2>
+                      <h1>ROOMS</h1>
+                      <H3>디럭스</H3>
+                      <H3>프리미엄 디럭스</H3>
+                      <H3>스위트</H3>
+                      <H3>스페셜 스위트</H3>
+                  </div>
+                  <div>
+                      <h2>ALL DAY</h2>
+                      <h1>LOUNGE</h1>
+                      <H3>이그제큐티브 라운지</H3>
+                      <H3>라운지 파라다이스</H3>
+                  </div>
+              </div>
+              <li><a href="dine.html">DINE&DRINK</a></li>
+              <div class="main-nav">
+                  <div>
+                      <h2>BUFFET</h2>
+                      <h1>BUFFET</h1>
+                      <H3>온 더 플레이트</H3>
+                  </div>
+                  <div>
+                      <h2>RESTAURANTS</h2>
+                      <h1>RESTAURANTS</h1>
+                      <H3>닉스</H3>
+                      <H3>남풍</H3>
+                      <H3>사까에</H3>
+                  </div>
+                  <div>
+                      <h2>BAR</h2>
+                      <h1>LOUNGE & PUB</h1>
+                      <H3>크리스탈 가든</H3>
+                  </div>
+                  <div>
+                      <h2>PARADISE</h2>
+                      <h1>BOUTIQUE</h1>
+                      <H3>베이커리</H3>
+                      <H3>플라워</H3>
+                  </div>
+                  <div>
+                      <h2>SUMMER</h2>
+                      <h1>SPECIAL</h1>
+                      <H3>야외가든</H3>
+                  </div>
+              </div>
+              <li><a href="">SPA</a></li>
+              <div class="main-nav">
+                  <div>
+                      <h2>OCEAN SPA</h2>
+                      <h1>CIMER</h1>
+                      <H3>오션스파 씨메르</H3>
+                  </div>
+                  <div>
+                      <h2>OUTDOOR OCEAN SPA</h2>
+                      <h1>POOL</h1>
+                      <H3>야외 오션스파 풀</H3>
+                  </div>
+                  <div>
+                      <h2>SAUNA</h2>
+                      <h1>SAUNA</h1>
+                      <H3>실내 사우나</H3>
+                  </div>
+                  <div>
+                      <h2>FITMESS</h2>
+                      <h1>FITMESS</h1>
+                      <H3>피트니스 클럽</H3>
+                      <H3>실내 골프</H3>
+                  </div>
+                  <div>
+                      <h2>SUNDARI</h2>
+                      <h1>RETREAT SPA</h1>
+                      <H3>순다리 리트리트 스파</H3>
+                  </div>
+              </div>
+              <li><a href="">ACTIVITIES</a></li>
+              <div class="main-nav">
+                  <div>
+                      <h2>PARADISE</h2>
+                      <h1>KIDS VILLAGE</h1>
+                      <H3>BMW 키즈 드라이빙</H3>
+                      <H3>PLAY LAB</H3>
+                      <H3>하바 키즈 라운지</H3>
+                      <H3>웅진 북클럽</H3>
+                      <H3>가족형키즈카페 키즈앤 패밀리</H3>
+                  </div>
+                  <div>
+                      <h2>LEO</h2>
+                      <h1>PROGRAM</h1>
+                      <H3>LEO 체험 프로그램</H3>
+                      <H3>예약하기</H3>
+                  </div>
+                  <div>
+                      <h2>ACTIVITIES</h2>
+                      <h1>ACTIVITIES</h1>
+                      <H3>해운대 가이드</H3>
+                      <H3>일반</H3>
+                      <H3>코스</H3>
+                  </div>
+              </div>
+              <li><a href="">GROUPS & WEDDINGS</a></li>
+              <div class="main-nav">
+                  <div>
+                      <h2>BALLROOMS</h2>
+                      <h1>CONVENTION</h1>
+                      <H3>대연회장</H3>
+                      <H3>중연회장</H3>
+                      <H3>소연회장</H3>
+                  </div>
+                  <div>
+                      <h2>WEDDING</h2>
+                      <h1>WEDDING</h1>
+                      <H3>웨딩</H3>
+                      <H3>그랜드볼룸</H3>
+                      <H3>카프리룸</H3>
+                      <H3>시실리룸</H3>
+                      <H3>야외가든</H3>
+                  </div>
+                  <div>
+                      <h2>FAMILY PARTY</h2>
+                      <h1>FAMILY PARTY</h1>
+                      <H3>가족연회</H3>
+                  </div>
+              </div>
+              <li><a href="casino.html">CASINO</a></li>
+              <div class="main-nav">
+                  <div>
+                      <h2>CASINO</h2>
+                      <h1>PARADISE CASINO</h1>
+                      <H3>시설안내</P>
+                          <H3>이벤트</H3>
+                          <H3>멤버십 및 제휴처</H3>
+                          <H3>이용안내</H3>
+                  </div>
+              </div>
+              <li><a href="">ART & NATURE</a></li>
+              <div class="main-nav">
+                  <div>
+                      <h2>ART & NATURE</h2>
+                      <h1>ART & NATURE</h1>
+                      <H3>ART</H3>
+                      <H3>NATURE</H3>
+                  </div>
+              </div>
+              <div class="main-navbg"></div>
+          </ul>
+            <ul class="header-info">
+              <li><a href="#">MEMBERSHIP</a></li>
+              <li><a href="#">고객지원</a></li>
+              <li><a href="#">ABOUT US</a></li>
+              <li><a href="#">로그인</a></li>
+              <li><a href="#">회원가입</a></li>
+              <li><a href="#">할인•쿠폰</a></li>
+              <li><a href="#">예약확인/취소</a></li>
+              <li id="kr"><a href="#">KR</a></li>
+              <ul id="leng">
+                <li><a href="#"></a>KR</li>
+                <li><a href="#"></a>EN</li>
+                <li><a href="#"></a>JP</li>
+                <li><a href="#"></a>CN</li>
+              </ul>
             </ul>
-        </div>
-    </header>
+    
+          </div>
+        </article>
+      </header>
 
     <div class="inner-box">
         <ul>
@@ -99,21 +237,37 @@
             <!-- 카지노  -->
             <section>
                 <!-- 배너 -->
-                <div class="main-banner">
-                    <section class="main-in">
-                        <img src="img/casino/img_casino1.jpg" alt="">
-                        <div class="banner-btns">
-                            <img src="img/casino/btn_slide_arrow_left.png" alt="">
-                            <ul class="banner-point">
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                            </ul>
-                            <img src="img/casino/btn_slide_arrow_right.png" alt="">
+                <!-- 슬라이드 -->
+                <div class="carousel">
+                    <div class="viewbox">
+                    <div class="track">
+                        <div class="slide active">
+                        <img class="images" src="img/casino/img_casino1.jpg">
                         </div>
-                    </section>
+                        <div class="slide">
+                        <img class="images" src="img/casino/img_casino2.jpg">
+                        </div>
+                        <div class="slide">
+                        <img class="images" src="img/casino/img_casino3.jpg">
+                        </div>
+                    </div>
+                    </div>
+                    <div class="btns">
+                    <div class="nav-indicator">
+                        <div class="dot active"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                    </div>
+                    <div class="btn">
+                        <div>
+                        <img src="img/casino/btn_slide_arrow_left.png" alt="" class="btn-back">
+                        </div>
+                        <div>
+                        <img src="img/casino/btn_slide_arrow_right.png" alt="" class="btn-next">
+                        </div>
+                    </div>
+                    </div>
                 </div>
-
                 <!-- 잭팟 -->
                 <div class="jackpot">
                     <h2>REALTIME MEGA JACKPOT</h2>
@@ -130,8 +284,162 @@
                         </p>
                     </div>
 
+                    <div class="sub-slide">
+                        <div class="slidebox">
+                            <input type="radio" name="slide" id="slide01" checked>
+                            <input type="radio" name="slide" id="slide02">
+                            <input type="radio" name="slide" id="slide03">
+                            <ul class="slidelist">
+                              <li class="slideitem">
+                                <a>
+                                  <div>
+                                    <img src="img/dine/1553661230472.jpg">
+                                    <h2>Western Grill</h2>
+                                    <p>이국적인 해변에서 즐기는 하와이안 스타일의 Seafood & Barbecue Grill</p>
+                                  </div>
+                                  <div>
+                                    <img src="img/dine/1553661230581.jpg">
+                                  <h2>Ocean Island</h2>
+                                  <p>건강하고 신선한 지중해식 샐러드와 푸짐하고 정갈한 제철 Seafood의 향연</p>
+                                 </div>
+                                </a>
+                              </li>
+                              <li class="slideitem">
+                                <a>
+                                  <div>
+                                    <img src="img/dine/1553661230675.jpg">
+                                    <h2>Dimsum & Noodles</h2>
+                                    <p>23년간 딤섬 장인의 길을 걸어온 레이센 셰프가 펼치는 중국 정통의 맛을 살린 딤섬 & 누들
+                                    </p>
+                                  </div>
+                                  <div>
+                                    <img src="img/dine/1553661230815.jpg">
+                                    <h2>Nobilty Chinese</h2>
+                                    <p>중국 4대륙(북경,사천,상해,광동)의 본토의 맛을 자아낸 시그니처 차이니즈 푸드
+                                    </p>
+                                 </div>
+                                </a>
+                              </li>
+                              <li class="slideitem">
+                                <a>
+                                  <div>
+                                    <img src="img/dine/1553661230893.jpg">
+                                    <h2>Dessert & Coffee</h2>
+                                    <p>전문 파티쉐가 추천하는 프리미엄 홈메이드 디저트, 그리고 달콤함을 감싸주는 당일 로스팅한<br>
+                                      파라다이스만의 시그니처 커피
+                                    </p>
+                                  </div>
+                                </a>
+                              </li>
+                              
+                            </ul>
+                            <div class="slide-control">
+                              <div class="control01">
+                                <label for="" class="prev">
+                                  <img src="img/casino/btn_slide_arrow_left.png" alt="" class="btn-back2">
+                                </label>
+                                <label for="slide02" class="next">
+                                  <img src="img/casino/btn_slide_arrow_right.png" alt="" class="btn-next">
+                                </label>
+                              </div>
+                              <div class="control02">
+                                <label for="slide01" class="prev">
+                                  <img src="img/casino/btn_slide_arrow_left.png" alt="" class="btn-back2">
+                                </label>
+                                <label for="slide03" class="next">
+                                  <img src="img/casino/btn_slide_arrow_right.png" alt="" class="btn-next">
+                                </label>
+                              </div>
+                              <div class="control03">
+                                <label for="slide02" class="prev">
+                                  <img src="img/casino/btn_slide_arrow_left.png" alt="" class="btn-back2">
+                                </label>
+                                <label for="" class="next">
+                                  <img src="img/casino/btn_slide_arrow_right.png" alt="" class="btn-next">
+                                </label>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="slidebox">
+                            <input type="radio" name="slide" id="slide01" checked>
+                            <input type="radio" name="slide" id="slide02">
+                            <input type="radio" name="slide" id="slide03">
+                            <ul class="slidelist">
+                              <li class="slideitem">
+                                <a>
+                                  <div>
+                                    <img src="img/dine/1553661230472.jpg">
+                                    <h2>Western Grill</h2>
+                                    <p>이국적인 해변에서 즐기는 하와이안 스타일의 Seafood & Barbecue Grill</p>
+                                  </div>
+                                  <div>
+                                    <img src="img/dine/1553661230581.jpg">
+                                  <h2>Ocean Island</h2>
+                                  <p>건강하고 신선한 지중해식 샐러드와 푸짐하고 정갈한 제철 Seafood의 향연</p>
+                                 </div>
+                                </a>
+                              </li>
+                              <li class="slideitem">
+                                <a>
+                                  <div>
+                                    <img src="img/dine/1553661230675.jpg">
+                                    <h2>Dimsum & Noodles</h2>
+                                    <p>23년간 딤섬 장인의 길을 걸어온 레이센 셰프가 펼치는 중국 정통의 맛을 살린 딤섬 & 누들
+                                    </p>
+                                  </div>
+                                  <div>
+                                    <img src="img/dine/1553661230815.jpg">
+                                    <h2>Nobilty Chinese</h2>
+                                    <p>중국 4대륙(북경,사천,상해,광동)의 본토의 맛을 자아낸 시그니처 차이니즈 푸드
+                                    </p>
+                                 </div>
+                                </a>
+                              </li>
+                              <li class="slideitem">
+                                <a>
+                                  <div>
+                                    <img src="img/dine/1553661230893.jpg">
+                                    <h2>Dessert & Coffee</h2>
+                                    <p>전문 파티쉐가 추천하는 프리미엄 홈메이드 디저트, 그리고 달콤함을 감싸주는 당일 로스팅한<br>
+                                      파라다이스만의 시그니처 커피
+                                    </p>
+                                  </div>
+                                </a>
+                              </li>
+                              
+                            </ul>
+                            <div class="slide-control">
+                              <div class="control01">
+                                <label for="" class="prev">
+                                  <img src="img/casino/btn_slide_arrow_left.png" alt="" class="btn-back2">
+                                </label>
+                                <label for="slide02" class="next">
+                                  <img src="img/casino/btn_slide_arrow_right.png" alt="" class="btn-next">
+                                </label>
+                              </div>
+                              <div class="control02">
+                                <label for="slide01" class="prev">
+                                  <img src="img/casino/btn_slide_arrow_left.png" alt="" class="btn-back2">
+                                </label>
+                                <label for="slide03" class="next">
+                                  <img src="img/casino/btn_slide_arrow_right.png" alt="" class="btn-next">
+                                </label>
+                              </div>
+                              <div class="control03">
+                                <label for="slide02" class="prev">
+                                  <img src="img/casino/btn_slide_arrow_left.png" alt="" class="btn-back2">
+                                </label>
+                                <label for="" class="next">
+                                  <img src="img/casino/btn_slide_arrow_right.png" alt="" class="btn-next">
+                                </label>
+                              </div>
+                            </div>
+                          </div>
+                    </div>
+
                     <ul class="floor-info">
                         <!-- 왼쪽 그림 및 설명 -->
+
                         <li class="left-info">
                             <img src="img/casino/img_casino1_1.jpg" alt="">
                             <div class="banner-btns">
@@ -418,8 +726,27 @@
     </div>
 
     <footer>
-
+        <article id="bottom">
+            <ul id="under-nav">
+              <li><a href=""> ABOUT US</a></li>
+              <li><a href="">CUSTOMER SERVICE</a></li>
+              <li><a href="">오시는 길</a></li>
+              <li><a href="">사이트 맵</a></li>
+              <li><a href="">개인정보 처리 방침</a></li>
+              <li><a href="">ABOUT US</a></li>
+              <li><a href="">영상정보처리기기 운영,관리방침</a></li>
+              <li><a href="">사업자 정보확인</a></li>
+              <li><a href="">이용약관</a></li>
+              <li><a href="">채용안내</a></li>
+            </ul>
+            <address>(주) 파라다이스호텔 부산 | 부산광역시 해운대구 해운대 해변로 296(중동) Tel 051-742-2121 fax 051-742-2100<br>
+              사업자등록번호 618-81-00741 통신판매번호 제 2009-부산해운-147호 대표이사 최종환<br>
+              COPYRIGHT © 2019 PARADISE HOTEL BUSAN. ALL RIGHTS RESERVED.</address>
+          </article>
     </footer>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TimelineMax.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js'></script>
+  <script src="js/dine-slide.js"></script>
 </body>
 
 </html>
