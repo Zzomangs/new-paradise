@@ -45,7 +45,12 @@ header {
 #leng.show{
   display: block;
 }
+#mainlogo{
+  position: absolute;
+  padding-left: 10px;
+}
 .header-m {
+  padding-left: 150px;
   display: flex;
   color: var(--white);
   font-size: 14px;
@@ -59,35 +64,30 @@ header {
   align-self: center;
   padding: 10px 0;
   border-bottom: 3px solid var(--black_3);
+  position: relative;
 }
 .header-m li:hover {
   color: var(--brown_2);
   border-bottom: 3px solid var(--brown_2);
 }
 
-.header-m li:hover .main-nav {
-  display: none;
-}
 .main-nav {
-  display: none;
-  height: 400px;
+  display: flex;
+  height: 0px;
   width: 100%;
-  padding: 50px 100px;
   position: absolute;
+  overflow: hidden;
   z-index: 11;
   top: 90px; 
+  background-color: #21201cef;
 }
-.main-nav.active {
-  display: flex;
+.main-nav div:first-child{
+  margin: 50px 50px 50px 100px;
+}
+.main-nav div{
+  margin: 50px;
 }
 
-
-
-
-.main-nav div {
-  /* display: none; */
-  margin-right: 85px;
-}
 .main-nav h2 {
   font-size: 12px;
   font-weight: 300;
@@ -105,18 +105,9 @@ header {
   font-weight: 200;
   margin-bottom: 5px;
 }
-.main-navbg {
-  display: block;
-  height: 0px;
-  width: 100%;
-  position: absolute;
-  z-index: 1;
-  top: 90px;
-  background-color: #21201cef;
-}
-#main-banner {
-  width: 100%;
-}
+
+
+/* 사이드 메뉴 */
 .header-side {
   position: fixed;
   z-index: 1000;
@@ -143,6 +134,9 @@ header {
 }
 
 /* slide */
+#main-banner {
+  width: 100%;
+}
 .main-banner{
   position: relative;
   height: 780px;

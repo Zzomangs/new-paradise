@@ -40,6 +40,10 @@
     /* color: #a6a29a; */
     font-weight: 600;
 }
+.header-left{
+    display: flex;
+    justify-content: space-between;
+}
 .logo{
     display: flex;
     justify-content: center;
@@ -50,16 +54,20 @@
 /* 왼쪽 메인 메뉴 */
 
 .main-nav {
-    display: none;
-    height: 400px;
-    width: 100%;
-    padding: 50px 100px;
-    position: absolute;
-    z-index: 11;
-    top: 90px; 
-  }
-  .main-nav.active {
     display: flex;
+    height: 0px;
+    width: 100%;
+    position: absolute;
+    overflow: hidden;
+    z-index: 11;
+    top: 47px; 
+    background-color: #21201cef;
+  }
+  .main-nav div:first-child{
+    margin: 50px 50px 50px 100px;
+  }
+  .main-nav div{
+    margin: 50px;
   }
 
   .main-nav div {
@@ -82,16 +90,6 @@
     color: var(--white_3);
     font-weight: 200;
     margin-bottom: 5px;
-  }
-  .main-navbg {
-    display: block;
-    height: 0px;
-    width: 100%;
-    position: absolute;
-    z-index: 1;
-    top: 47px;
-    left: -45px;
-    background-color: #21201cef;
   }
 
 /* 오른쪽 메뉴 */
