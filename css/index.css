@@ -79,13 +79,14 @@ header {
   overflow: hidden;
   z-index: 11;
   top: 90px; 
-  background-color: #21201cef;
+  /* background-color: #21201cef; */
 }
+
 .main-nav div:first-child{
-  margin: 50px 50px 50px 100px;
+  padding: 50px 50px 50px 100px;
 }
 .main-nav div{
-  margin: 50px;
+  padding: 50px;
 }
 
 .main-nav h2 {
@@ -106,6 +107,15 @@ header {
   margin-bottom: 5px;
 }
 
+.main-navbg {
+  display: block;
+  height: 0px;
+  width: 100%;
+  position: absolute;
+  z-index: 1;
+  top: 90px;
+  background-color: #21201cef;
+}
 
 /* 사이드 메뉴 */
 .header-side {
