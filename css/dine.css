@@ -316,13 +316,13 @@ th span{
   height: 110px;
 }
 .price-day .yet-l{
-  background: url(img/dine/otp_lunch_new.png) no-repeat;
+  background: url(/img/dine/otp_lunch_new.png) no-repeat;
   background-position-y: 3px;
   color:  rgb(206, 8, 8);
   text-indent: 18px;
 }
 .price-day .yet-d{
-  background: url(img/dine/otp_dinner_new.png) no-repeat;
+  background: url(/img/dine/otp_dinner_new.png) no-repeat;
   background-position-y: 3px;
   color:  rgb(206, 8, 8);
   text-indent: 18px;
@@ -353,13 +353,13 @@ th span{
   font-size: 13px;
 }
 .price-day p.done-l{
-  background: url(img/dine/otp_lunch_non.png) no-repeat;
+  background: url(/img/dine/otp_lunch_non.png) no-repeat;
   background-position-y: 3px;
   color: rgb(196, 196, 196);
   text-indent: 18px;
 }
 .price-day p.done-d{
-  background: url(img/dine/otp_lunch_new.png) no-repeat;
+  background: url(/img/dine/otp_lunch_new.png) no-repeat;
   background-position-y: 3px;
   color: rgb(196, 196, 196);
   text-indent: 18px;
